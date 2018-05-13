@@ -15,12 +15,10 @@ author_profile: true
    * [Web Page](http://guilan.ac.ir/en/)
 
  * <b>BS in Computer Engineering, Software Engineering</b><br>
-   * The University of Payam-E-Noor, Rasht, Iran (2011-2015)<br>
+   * [The University of Payam-E-Noor](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)<br>
    * Thesis: The Practical DataMining in RapidMiner, Case Study: Salamat Insurance Org.<br>
    * Supervisor: Dr. Fatemeh Ahmadi Abkenari
-   * [Web Page](http://en.pnu.ac.ir/Portal/Home/)
 
  * <b>Diploma in Mathematics and Physics</b><br>
-   * The Hadaf Educational Complex, Rasht, Guilan, Iran<br>
-   * [Web Page](http://hadafec.sams.ir)
+   * [The Hadaf Educational Complex](http://hadafec.sams.ir), Rasht, Guilan, Iran<br>
 
