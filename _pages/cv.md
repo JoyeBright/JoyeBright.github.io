@@ -16,7 +16,7 @@ author_profile: true
 </li>
 <li>
  <b>BS in Computer Engineering, Software Eng.</b><br>
- The University of Payam-E-Noor, Iran (2011-2015)<br>
+ The University of Payam-E-Noor, Rasht, Iran (2011-2015)<br>
  Thesis: The Practical DataMining in RapidMiner, Case Study: Salamat Insurance Org.<br>
  Supervisors: Dr. Fatemeh Ahmadi Abkenari
 </li>
