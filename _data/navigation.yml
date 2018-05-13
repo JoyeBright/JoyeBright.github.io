@@ -12,7 +12,10 @@ main:
     - title: "Teaching"
       url: #
     - title: "Publications"
-      url : #
+      url: #
+    - title: "Services"
+      url: "http://gilro.net"
+      description: "The comprehensive list of products and services"
     - title: "Photos"
       url: #
   # - title: "Sample Collections"
