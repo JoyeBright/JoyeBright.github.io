@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 {% include base_path %}
-
+{% include toc %}
 # Education
 <ul>
 <li>
@@ -15,4 +15,3 @@ author_profile: true
  Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
 </li>
 </ul>
-{% include toc %}
