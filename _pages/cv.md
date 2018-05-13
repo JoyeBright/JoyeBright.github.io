@@ -11,6 +11,7 @@ author_profile: true
    * [Department of Computer Eng.](http://ce.guilan.ac.ir/), The University of Guilan, Rasht, Iran (2016-Present)<br>
    * Thesis: A Novel Framework in Sentiment Analysis Using Deep Learning<br>
    * Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
+   * GPA: 18.41/20
    * [Web Page](http://guilan.ac.ir/en/)
 
  * <b>BS in Computer Engineering, Software Engineering</b><br>
