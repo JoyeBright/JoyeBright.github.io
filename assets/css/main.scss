@@ -9,6 +9,9 @@
 //Override css
 html{
   font-size: 20px;
+  @include breakpoint ($small){
+    font-size: 16px;
+  }
   @include breakpoint ($medium){
     font-size: 18px;
   }
