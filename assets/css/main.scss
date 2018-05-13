@@ -8,7 +8,7 @@
 @import "minimal-mistakes"; // main partials
 //Override css
 html{
-  font-size: 18px;
+  font-size: 14px;
   @include breakpoint ($small){
     font-size: 15px;
   }
