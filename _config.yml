@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The official website of Javad PourMostafa"
+title                    : "The official website of Javad PourMostafa!"
 title_separator          : "-"
 name                     : "Javad PourMostafa"
 description              : "The official website of Javad PourMostafa!"
@@ -93,7 +93,7 @@ analytics:
 author:
   name             : "Javad PourMostafa"
   avatar           : "assets/images/bio-photo.jpg"
-  bio              : "Software Engineer<br>NLPer<br>Machine Learning Scientist"
+  bio              : "Software Engineer"
   location         : "University of Guilan"
   email            : "Javad.PourMostafa@Gmail.com"
   uri              :
@@ -113,7 +113,7 @@ author:
   linkedin         : "javadpourmostafa"
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : 
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "JPourMostafa"
