@@ -14,7 +14,7 @@ author_profile: true
    * GPA: 18.41/20
 
  * <b>BS in Computer Engineering, Software Engineering</b><br>
-   * [The University of Payam-E-Noor](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)<br>
+   * [The Payam-E-Noor University](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)<br>
    * Thesis: The Practical DataMining in RapidMiner, Case Study: Salamat Insurance Org.<br>
    * Supervisor: Dr. Fatemeh Ahmadi Abkenari
 
