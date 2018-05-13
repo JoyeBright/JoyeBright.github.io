@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 permalink: /
 redirect_from:
          - /about/
