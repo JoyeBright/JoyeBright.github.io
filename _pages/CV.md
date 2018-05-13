@@ -3,6 +3,7 @@ layout: archives
 permalink: /cv/
 author_profile: true
 ---
+{% include base_path %}
 <h1>Education</h1>
 <ul>
 <li>
