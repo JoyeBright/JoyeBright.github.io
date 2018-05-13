@@ -3,9 +3,9 @@ layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
-toc: true
 ---
 {% include base_path %}
+{% include toc %}
 <h1>Education</h1>
 <ul>
 <li>
