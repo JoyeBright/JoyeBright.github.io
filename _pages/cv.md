@@ -1,6 +1,5 @@
 ---
 layout: archive
-classes: wide
 toc: true
 permalink: /cv/
 author_profile: true
