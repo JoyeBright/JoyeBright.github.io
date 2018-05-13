@@ -6,7 +6,7 @@ main:
       url: https://mmistakes.github.io/minimal-mistakes/about/
       description: "It's all about me!"
     - title: "CV"
-      url: "/CV/"
+      url: "/cv/"
   # - title: "Sample Posts"
   #   url: /year-archive/
     - title: "Teaching"
