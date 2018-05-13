@@ -1,6 +1,6 @@
 ---
 classes: wide
-permalink: /about/
+permalink: /
 author_profile: true
 ---
 {% include base_path %}
