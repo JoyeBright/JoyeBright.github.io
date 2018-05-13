@@ -1,6 +1,8 @@
 ---
 layout: archive
-permalink: /about/
+permalink: /
+redirect_from:
+         - /about/
 author_profile: true
 ---
 {% include base_path %}
