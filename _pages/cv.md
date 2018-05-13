@@ -23,6 +23,3 @@ author_profile: true
    * The Hadaf Educational Complex, Rasht, Guilan, Iran<br>
    * [Web Page](http://hadafec.sams.ir)
 
-# Work Experience
-
-
