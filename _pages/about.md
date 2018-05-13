@@ -1,8 +1,6 @@
 ---
 layout: single
-permalink: /
-redirect_from:
-         - /about/
+permalink: /about/
 author_profile: true
 ---
 {% include base_path %}
