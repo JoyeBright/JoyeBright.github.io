@@ -27,7 +27,7 @@ author_profile: true
 </ul>
 <br>
 <!----------------------------------------->
-<h1>Work Experience</h1>
+# Work Experience
 <ul>
 <li><b>Machine Learning Scientist</b>, University of Oxford, Oxford, UK (April 2017 - Now)<br>
 Developing machine learning and deep learning algorithms to find patterns and trends in large biomedical datasets.</li>
