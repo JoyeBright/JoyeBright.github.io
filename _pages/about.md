@@ -9,8 +9,8 @@ author_profile: true
 > I pursue to get the upper educational degrees in my major as well.
 
 My research interests include:
-  - [x] Natural Language Processing (NLP)
-  - [x] Sentiment Analysis
-  - [x] Deep Learning
-  - [x] Machine Learning
-  - [x] Data Mining
+- [x] Natural Language Processing (NLP)
+- [x] Sentiment Analysis
+- [x] Deep Learning
+- [x] Machine Learning
+- [x] Data Mining
