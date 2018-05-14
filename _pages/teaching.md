@@ -18,6 +18,7 @@ author_profile: true
     *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
 
 ## Non Academic Teaching Experiences
+### English Courses
 *   IELTS Comprehensive Courses
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   American English File (AEF) Series
@@ -26,3 +27,11 @@ author_profile: true
     *   Dr. Armin and Alborz foreign language institute, Rasht, Iran, 2011-2017
 *   English High Schools Books
     *   [Manesh Educational Complex](http://maneshsch.com), Golsar, Rasht, Iran, 2018
+
+### Computer Courses
+*   The Fundamental of Computer Science
+    *   Fanikaran, Rasht, Iran, 2013
+*   Web-Development Courses
+    *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
+*   PHP Programming Courses
+    *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
