@@ -13,10 +13,6 @@ author_profile: true
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017 1st semester
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017 2nd semester
 
-## Teacher Assistant Experiences
-*   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
-    *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
-
 ## Non Academic Teaching Experiences
 ### English Courses
 *   IELTS Comprehensive Courses
@@ -35,3 +31,7 @@ author_profile: true
     *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
 *   PHP Programming Courses
     *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
+
+## Teacher Assistant Experiences
+*   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
+    *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
