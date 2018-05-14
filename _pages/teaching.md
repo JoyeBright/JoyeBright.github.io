@@ -15,13 +15,13 @@ author_profile: true
 
 ## Non Academic Teaching Experiences
 ### English Courses
-*   IELTS Comprehensive Courses
+*   International English Language Testing System (IELTS)
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   American English File (AEF) Series
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   Preparing of University Entrance Exam
     *   Dr. Armin and Alborz foreign Language Institute, Rasht, Iran, 2011-2017
-*   Daily Conversation Courses
+*   Daily Conversation
     *   [Manesh Educational Complex](http://maneshsch.com), Golsar, Rasht, Iran, 2018
 
 ### Computer Courses
