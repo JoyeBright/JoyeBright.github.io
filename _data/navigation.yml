@@ -9,7 +9,7 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
     - title: "Teaching"
-      url: #
+      url: "/teaching/"
     - title: "Publications"
       url: #
     - title: "Services"
