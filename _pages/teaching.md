@@ -14,10 +14,10 @@ author_profile: true
     *   <i class="fab fa-google"></i>[OSLab962](https://groups.google.com/forum/#!forum/oslab962)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 1st semester
     *   <i class="far fa-file-archive"></i> [Clab961](#)
-    *   <i class="fab fa-google"></i>[CLab961](https://groups.google.com/forum/#!forum/clab961)
+    *   <i class="fab fa-google"></i> [CLab961](https://groups.google.com/forum/#!forum/clab961)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
     *   <i class="far fa-file-archive"></i> [CLab952](#)
-    *   <i class="fab fa-google"></i>[CLab952](https://groups.google.com/forum/#!forum/clab952)
+    *   <i class="fab fa-google"></i> [CLab952](https://groups.google.com/forum/#!forum/clab952)
 
 ## Non Academic Teaching Experiences
 ### English Courses
