@@ -5,6 +5,7 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include sidebar %}
 {% include toc %}
 
 # Academic Teaching Experiences
