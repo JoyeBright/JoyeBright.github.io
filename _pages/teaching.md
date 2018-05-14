@@ -12,9 +12,9 @@ author_profile: true
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
     *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab962) <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/oslab962)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 1st semester
-    *   <i class="far fa-file-archive"></i> [Clab961](#) <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961)
+    *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
-    *   <i class="far fa-file-archive"></i> [CLab952](#) <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952)
+    *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952)
 
 ## Non Academic Teaching Experiences
 ### English Courses
