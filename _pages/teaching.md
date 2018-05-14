@@ -12,9 +12,9 @@ author_profile: true
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
     *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab962)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 1st semester
-    *   [Notes and Slides](#)
+    *   [Notes/Slides](#)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
-    *   [Notes and Slides](#)
+    *   [Notes/Slides](#)
 
 ## Non Academic Teaching Experiences
 ### English Courses
