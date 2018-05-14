@@ -14,11 +14,9 @@ author_profile: true
 
 # Teacher Assistance
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
-    * *    Courses Leader: Dr. Fatemeh Ahmadi Abkenari
+    *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
 # Non Academic Teaching Experiences
- ## Computer Courses
- ## English Courses
-*   The Fundamental of IELTS, Dr. Armin and Alborz foreign language institute, Rasht, Iran, 2011-2017
-*   American English File (AEF) Series, Fundamental to advanced levels, Dr. Armin and Alborz foreign language institute, Rasht, Iran, 2011-2017
+*   IELTS, Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
+*   American English File (AEF) Series, Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   Preparing of Entrance Exam, Dr. Armin and Alborz foreign language institute, Rasht, Iran, 2011-2017
-*  
+*   English Books, [Manesh High School](http://maneshsch.com), Golsar, Rasht, Iran , 2018
