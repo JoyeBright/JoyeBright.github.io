@@ -25,12 +25,9 @@ author_profile: true
     *   [Manesh Educational Complex](http://maneshsch.com), Golsar, Rasht, Iran, 2018
 
 ### Computer Courses
-*   The Fundamental of Computer Science
-    *   Fanikaran, Rasht, Iran, 2013
-*   Web-Development Courses
-    *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
-*   PHP Programming Courses
-    *   [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
+*   The Fundamental of Computer Science, Fanikaran, Rasht, Iran, 2013
+*   Web-Development Courses, [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
+*   PHP Programming Courses, [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
 
 ## Teacher Assistant Experiences
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
