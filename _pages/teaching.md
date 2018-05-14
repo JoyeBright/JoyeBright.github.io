@@ -14,12 +14,11 @@ author_profile: true
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017 2nd semester
 
 ## Teacher Assistant Experiences
-*   Principals of Object-Oriented Design
+*   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
     *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
-    *   PNU, Rasht, Iran, 2014
 
 ## Non Academic Teaching Experiences
-*   IELTS, Primary-Advanced
+*   IELTS Comprehensive Courses
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   American English File (AEF) Series
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
