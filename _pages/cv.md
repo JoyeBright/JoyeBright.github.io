@@ -3,6 +3,7 @@ layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
+breadcrumbs: true 
 ---
 {% include base_path %}
 {% include toc %}
