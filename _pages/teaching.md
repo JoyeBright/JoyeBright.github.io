@@ -16,7 +16,7 @@ author_profile: true
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952)
 
-## Non Academic Teaching Experiences
+## Non-Academic Teaching Experiences
 ### English Courses
 *   International English Language Testing System (IELTS)
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
