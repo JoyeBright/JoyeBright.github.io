@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 {% include toc %}
 ## Education
- *   MS in Computer Engineering, Software Engineering<br>
+ * <b>MS in Computer Engineering, Software Engineering</b><br>
    * [Department of CE](http://ce.guilan.ac.ir/), [The University of Guilan](http://guilan.ac.ir/en/), Rasht, Iran (2016-Present)<br>
    * Thesis: A Novel Framework in Sentiment Analysis Using Deep Learning<br>
    * Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
