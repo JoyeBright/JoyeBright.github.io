@@ -48,17 +48,20 @@ author_profile: true
 ## Teacher Assistant Experiences
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
     *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
-    
+
 ## Skills
 ### Programming Languages
 *   PHP
+    *   Web Frameworks:
+        *   Codeigniter
 *   Python
 *   C
 
 ### Database Design
 *   Relational
-    *   MySQL   *   MariaDB
-*   NoSQL
-    *   Neo4j
-    *   MongoDB
-
+    *   MySQL   
+    *   MariaDB
+*   NoSQL
+    *   Neo4j
+    *   MongoDB
+    
