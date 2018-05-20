@@ -48,3 +48,5 @@ author_profile: true
 ## Teacher Assistant Experiences
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
     *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
+    
+## Skills
