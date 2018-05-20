@@ -50,3 +50,11 @@ author_profile: true
     *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
     
 ## Skills
+### Programming Languages
+*   PHP
+*   Python
+*   C
+### Database Design
+*   Relational
+*   NoSQL
+
