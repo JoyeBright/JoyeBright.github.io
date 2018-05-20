@@ -57,7 +57,9 @@ author_profile: true
 
 ### Database Design
 *   Relational
-    *   MySQL, MariaDB
+    *   MySQL
+    *   MariaDB
 *   NoSQL
-    *   Neo4j, MongoDB
+    *   Neo4j
+    *   MongoDB
 
