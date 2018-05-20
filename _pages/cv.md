@@ -59,7 +59,6 @@ author_profile: true
 *   Relational
     *   MySQL
     *   MariaDB
-    
 *   NoSQL
     *   Neo4j
     *   MongoDB
