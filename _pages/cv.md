@@ -62,6 +62,6 @@ author_profile: true
     *   MySQL   
     *   MariaDB
 *   NoSQL
-    *   Neo4j
-    *   MongoDB
+    *   Neo4j
+    *   MongoDB
     
