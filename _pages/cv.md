@@ -51,12 +51,12 @@ author_profile: true
 
 ## Skills
 ### Programming Languages
-PHP
+*   PHP
 <div class="container">
   <div class="skills php">90%</div>
 </div>
- *   Web Frameworks:
-        Codeigniter
+    *   Web Frameworks:
+        *   Codeigniter
         <div class="container">
            <div class="skills codeigniter">80%</div>
         </div>
