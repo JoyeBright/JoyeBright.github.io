@@ -53,8 +53,9 @@ author_profile: true
 ### Programming Languages
 *   PHP
 <div class="container">
-  <div class="skills css">80%</div>
+  <div class="skills php">80%</div>
 </div>
+
     *   Web Frameworks:
         *   Codeigniter
 *   Python
