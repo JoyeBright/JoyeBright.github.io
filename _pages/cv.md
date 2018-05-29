@@ -28,6 +28,8 @@ author_profile: true
         *   Type: Academic
         *   Took
         *   L:7 R:7 W:7 S:7 O:7
+    *   GRE
+        *   Have Not Been Participated Yet
      
 ## Academic Teaching Experiences
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
