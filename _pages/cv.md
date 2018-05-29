@@ -21,6 +21,14 @@ author_profile: true
 *   <b>Diploma in Mathematics and Physics</b>
     *   [The Hadaf Educational Complex](http://hadafec.sams.ir), Rasht, Guilan, Iran
 
+## Languages Knowledge
+*   Mother tongue: Persian
+*   English
+    *   IELTS
+        *   Type: Academic
+        *   Took
+        *   L:7 R:7 W:7 S:7 O:7
+     
 ## Academic Teaching Experiences
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
     *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab962)
@@ -71,4 +79,3 @@ author_profile: true
 ### Network Simulation Tools
 *   Packet Tracer
 *   NS2
-
