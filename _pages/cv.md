@@ -67,3 +67,8 @@ author_profile: true
 
 ### Software Eng. Tools
 *   IBM Rational Rose XDE
+
+### Network Simulation Tools
+*   Packet Tracer
+*   NS2
+
