@@ -1,5 +1,5 @@
 ---
-title: "IELTSTeh.com"
+title: "IELTSTeh"
 excerpt: "The online IELTS mock exam"
 collection: portfolio
 header:
