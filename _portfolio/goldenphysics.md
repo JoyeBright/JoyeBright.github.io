@@ -1,5 +1,5 @@
 ---
-title: "GoldenPhysics.ir"
+title: "GoldenPhysics"
 excerpt: "All subjects related to Physics"
 collection: portfolio
 header:
