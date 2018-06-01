@@ -3,7 +3,8 @@ title: Portfolio
 layout: collection
 permalink: /portfolio/
 collection: portfolio
-
+entries_layout: grid
+classes: wide
 ---
 
-#### I have listed the incomplete series of portfolio led or developed by me.
+#### I have listed a series of portfolio led, developed or programmed by me.
