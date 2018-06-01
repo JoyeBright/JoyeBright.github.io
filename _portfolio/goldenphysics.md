@@ -1,6 +1,6 @@
 ---
-title: "IELTSTeh.com"
-excerpt: "The online IELTS mock exam"
+title: "GoldenPhysics.ir"
+excerpt: "All subjects related to Physics"
 collection: portfolio
 header:
   teaser:  /assets/images/ieltsteh.jpg
@@ -9,7 +9,7 @@ sidebar:
     image: /assets/images/ieltsteh.jpg
     text:  "Back-End Developer"
   - title: "Deployment"
-    text:  "http://ielsteh.com"
+    text:  "http://goldenphysics.ir"
   - title: "Programming Language"
     text:  "PHP"
   - title: "Database"
