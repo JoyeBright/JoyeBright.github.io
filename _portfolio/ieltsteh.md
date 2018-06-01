@@ -6,6 +6,6 @@ sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
     image_alt: "logo"
-    text: "Back-End"
+    text: "Back-End Developer"
 
 ---
