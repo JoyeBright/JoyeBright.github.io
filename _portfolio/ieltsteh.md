@@ -1,5 +1,5 @@
 ---
-title: "IELTSTEH"
+title: "IELTSTEH.COM"
 excerpt: "The online IELTS mock exam"
 collection: portfolio
 sidebar:
