@@ -3,12 +3,15 @@ title: "IELTSTEH.COM"
 excerpt: "The online IELTS mock exam"
 collection: portfolio
 header:
-  image: /assets/images/ieltsteh.jpg
-  teaser: assets/images/ieltsteh.jpg
+  image:  /assets/images/ieltsteh.jpg
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Back-End Developer"
-
+    image: /assets/images/ieltsteh.jpg
+    text:  "Back-End Developer"
+  - title: "Deployment"
+    text:  "http://ielsteh.com"
+  - title: "Programming Language"
+    text:  "PHP"
+  - title: "Database"
+    text:  "MySQL"
 ---
