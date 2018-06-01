@@ -5,4 +5,4 @@ permalink: /portfolio/
 collection: portfolio
 ---
 
-I have listed a not-complete series of products led or developed by me.Â
+### I have listed the incomplete series of portfolio led or developed by me.
