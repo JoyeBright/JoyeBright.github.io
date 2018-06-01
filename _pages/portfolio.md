@@ -3,8 +3,6 @@ title: Portfolio
 layout: collection
 permalink: /portfolio/
 collection: portfolio
-entries_layout: grid
-classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
+I have listed a not-complete series of products led or developed by me.Â
