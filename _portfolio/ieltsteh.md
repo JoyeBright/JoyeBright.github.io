@@ -3,7 +3,7 @@ title: "IELTSTEH.COM"
 excerpt: "The online IELTS mock exam"
 collection: portfolio
 header:
-  image: /assets/images/ieltsteh.jpg
+  image: /assets/images/ielstteh.jpg
   teaser: assets/images/ielstteh.jpg
 sidebar:
   - title: "Role"
