@@ -7,3 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 I have listed a series of portfolio led, developed or programmed by me.
+NB: The following Projects will be updated gradually.
