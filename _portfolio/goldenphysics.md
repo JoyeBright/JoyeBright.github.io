@@ -7,7 +7,6 @@ header:
   teaser:  /assets/images/GoldenPhysics/GoldenPhysics1.png
 sidebar:
   - title: "Role"
-    image: /assets/images/GoldenPhysics/GoldenPhysics1.png
     text:  "Back-End Developer"
   - title: "Status"
     text:  "UP"
