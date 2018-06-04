@@ -3,7 +3,6 @@ title: "GoldenPhysics"
 excerpt: "All subjects related to Physics"
 collection: portfolio
 header:
-  image:   /assets/images/GoldenPhysics/GoldenPhysics1.png
   teaser:  /assets/images/GoldenPhysics/GoldenPhysics1.png
 sidebar:
   - title: "Role"
