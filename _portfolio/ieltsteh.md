@@ -8,7 +8,9 @@ sidebar:
   - title: "Role"
     image: /assets/images/ieltsteh.jpg
     text:  "Back-End Developer"
-  - title: "Deployment"
+  - title: "Status"
+    text:  "UP"
+  - title: "URL"
     text:  "http://ielsteh.com"
   - title: "Programming Language"
     text:  "PHP"
