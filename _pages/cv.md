@@ -65,7 +65,10 @@ author_profile: true
 ### Programming Languages
 *   PHP
     *   Frameworks:
-        *   Codeigniter      
+        *   Codeigniter 
+    *   Content Management Systems (CMS)
+        *   Wordpress
+        *   Joomla
 *   Python
 *   C
 
