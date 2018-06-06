@@ -1,6 +1,6 @@
 ---
 title: "Gilro.Co"
-excerpt: "All available services related to computer"
+excerpt: "The official website of Gilro Fardaad Rayaneh."
 collection: portfolio
 header:
   teaser:  /assets/images/GoldenPhysics/GoldenPhysics1.png
@@ -39,4 +39,4 @@ gallery:
   - url: /assets/images/GoldenPhysics/GoldenPhysics10.png
     image_path: assets/images/GoldenPhysics/GoldenPhysics10.png
 ---
-{% include gallery caption="GoldenPhysics gallery" %}
+{% include gallery caption="Gilro.co gallery" %}
