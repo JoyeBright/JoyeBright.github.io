@@ -3,7 +3,7 @@ title: "Gilro.Co"
 excerpt: "The official website of Gilro Fardaad Rayaneh."
 collection: portfolio
 header:
-  teaser:  /assets/images/GoldenPhysics/GoldenPhysics1.png
+  teaser:  /assets/images/Gilro/Gilro1.png
 sidebar:
   - title: "Role"
     text:  "Back-End Developer"
@@ -18,25 +18,25 @@ sidebar:
   - title: "Database"
     text:  "MySQL"
 gallery:
-  - url: /assets/images/GoldenPhysics/GoldenPhysics1.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics1.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics2.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics2.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics3.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics3.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics4.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics4.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics5.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics5.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics6.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics6.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics7.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics7.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics8.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics8.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics9.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics9.png
-  - url: /assets/images/GoldenPhysics/GoldenPhysics10.png
-    image_path: assets/images/GoldenPhysics/GoldenPhysics10.png
+  - url: /assets/images/Gilro/Gilro1.png
+    image_path: assets/images/Gilro/Gilro1.png
+  - url: /assets/images/Gilro/Gilro2.png
+    image_path: assets/images/Gilro/Gilro2.png
+  - url: /assets/images/Gilro/Gilro3.png
+    image_path: assets/images/Gilro/Gilro3.png
+  - url: /assets/images/Gilro/Gilro4.png
+    image_path: assets/images/Gilro/Gilro4.png
+  - url: /assets/images/Gilro/Gilro5.png
+    image_path: assets/images/Gilro/Gilro5.png
+  - url: /assets/images/Gilro/Gilro6.png
+    image_path: assets/images/Gilro/Gilro6.png
+  - url: /assets/images/Gilro/Gilro7.png
+    image_path: assets/images/Gilro/Gilro7.png
+  - url: /assets/images/Gilro/Gilro8.png
+    image_path: assets/images/Gilro/Gilro8.png
+  - url: /assets/images/Gilro/Gilro9.png
+    image_path: assets/images/Gilro/Gilro9.png
+  - url: /assets/images/Gilro/Gilro10.png
+    image_path: assets/images/Gilro/Gilro10.png
 ---
 {% include gallery caption="Gilro.co gallery" %}
