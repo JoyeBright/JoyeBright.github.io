@@ -65,7 +65,10 @@ author_profile: true
 ### Programming Languages
 *   PHP
     *   Frameworks:
-        *   Codeigniter      
+        *   Codeigniter 
+    *   Content Management Systems (CMS)
+        *   Wordpress
+        *   Joomla
 *   Python
 *   C
 
@@ -83,7 +86,3 @@ author_profile: true
 ### Network Simulation Tools
 *   Packet Tracer
 *   NS2
-
-### Content Management Systems (CMS)
-*   Wordpress
-*   Joomla
