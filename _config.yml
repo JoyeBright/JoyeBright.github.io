@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Javad PourMostafa"
 description              : "The Official Website Of Javad PourMostafa Roshan Sharami"
 url                      : "https://javad.pourmostafa.com"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : # 
 repository               : "joyebright/JoyeBright.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -83,9 +83,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-120814892-1
     anonymize_ip         : # true, false (default)
 
 
