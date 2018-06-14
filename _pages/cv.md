@@ -3,6 +3,7 @@ layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
+excerpt: This page shows a brief form of Javad PourMostafa's CV and Resume
 ---
 {% include base_path %}
 {% include toc %}
