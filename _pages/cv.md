@@ -64,12 +64,17 @@ author_profile: true
 ## Skills
 ### Programming Languages
 *   PHP
-    *   Frameworks:
+    *   Frameworks
         *   Codeigniter 
     *   Content Management Systems (CMS)
         *   Wordpress
         *   Joomla
 *   Python
+    *   GUI
+        *   PyQt
+        *   WXPython
+    *   Machine Learning Applications
+        *   Keras (Tensorflow/Theano) 
 *   C
 
 ### Database Design
