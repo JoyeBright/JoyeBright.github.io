@@ -4,7 +4,6 @@ layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
-author: Javad Pourmostafa
 excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also find some relevant information like involving projects, teaching experiences, education, language knowledge, programming skills and so on.
 ---
 {% include base_path %}
