@@ -1,5 +1,5 @@
 ---
-title: Javad PourMostafa Roshan Sharami/CV-Resume
+title: Curriculum Vitae
 layout: archive
 classes: wide
 permalink: /cv/
