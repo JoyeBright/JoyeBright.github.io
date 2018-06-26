@@ -13,4 +13,4 @@ My academic research interests include:
 -   Sentiment Analysis
 -   Deep Learning
 -   Machine Learning
--   Information Retrieval
+-   Data Mining
