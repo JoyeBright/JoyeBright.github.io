@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Javad PourMostafa"
 description              : "The Official Website Of Javad PourMostafa Roshan Sharami"
 url                      : "https://javad.pourmostafa.com"
-baseurl                  : # 
+baseurl                  : #
 repository               : "joyebright/JoyeBright.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -122,6 +122,7 @@ author:
   xing             :
   youtube          : "http://www.youtube.com/c/JavadPourMostafa"
   researchgate     : "Javad_Pourmostafa_Roshan_Sharami"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=xqccd64AAAAJ"
   #googlescholar    : ""
 
 
