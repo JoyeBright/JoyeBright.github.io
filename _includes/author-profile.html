@@ -256,6 +256,22 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.researchgate %}
+        <li>
+          <a href="https://www.researchgate.net/profile/{{ author.researchgate }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-vine" aria-hidden="true"></i> ResearchGate
+          </a>
+        </li>
+      {% endif %}
+      
+       {% if author.googlescholar %}
+        <li>
+          <a href="{{ author.googlescholar }}">
+            <i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar
+          </a>
+        </li>
+      {% endif %}
 
       {% include author-profile-custom-links.html %}
     </ul>

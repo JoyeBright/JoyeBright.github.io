@@ -2,22 +2,22 @@
 main:
     - title: "Home"
       url: "/"
-      
+
     - title: "CV"
       url: "/cv/"
-    
+
     - title: "Blog"
       url: #
-      
+
     - title: "Services"
       url: "http://gilro.net"
-      
+
     - title: "Portfolio"
-      url: #
+      url: "/portfolio/"
       description: "The comprehensive list of products"
-      
+
     - title: "Photos"
       url: #
-      
+
     - title: "Contact"
       url: #

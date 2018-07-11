@@ -1,8 +1,10 @@
 ---
+title: Curriculum Vitae
 layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
+excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also find some relevant information like involving projects, teaching experiences, education, language knowledge, programming skills and so on.
 ---
 {% include base_path %}
 {% include toc %}
@@ -20,6 +22,16 @@ author_profile: true
 
 *   <b>Diploma in Mathematics and Physics</b>
     *   [The Hadaf Educational Complex](http://hadafec.sams.ir), Rasht, Guilan, Iran
+
+## Languages Knowledge
+*   Mother tongue: Persian
+*   English
+    *   IELTS
+        *   Type: Academic
+        *   Took
+        *   L:7 R:7 W:7 S:7 O:7
+    *   GRE
+        *   Have Not Been Participated Yet
 
 ## Academic Teaching Experiences
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
@@ -47,14 +59,24 @@ author_profile: true
 
 ## Teacher Assistant Experiences
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
-    *   Courses Leader: Dr. Fatemeh Ahmadi Abkenari
+    *   Course Leader: Dr. Fatemeh Ahmadi Abkenari
+*   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018
+    *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
 
 ## Skills
 ### Programming Languages
 *   PHP
-    *   Frameworks:
-        *   Codeigniter      
+    *   Frameworks
+        *   Codeigniter 
+    *   Content Management Systems (CMS)
+        *   Wordpress
+        *   Joomla
 *   Python
+    *   GUI
+        *   PyQt
+        *   WXPython
+    *   Machine Learning Applications
+        *   Keras (Tensorflow/Theano) 
 *   C
 
 ### Database Design
@@ -67,3 +89,7 @@ author_profile: true
 
 ### Software Eng. Tools
 *   IBM Rational Rose XDE
+
+### Network Simulation Tools
+*   Packet Tracer
+*   NS2
