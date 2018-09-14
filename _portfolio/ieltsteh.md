@@ -10,7 +10,7 @@ sidebar:
   - title: "Status"
     text:  "UP"
   - title: "URL"
-    text:  "http://ielsteh.com"
+    text:  "http://ieltsteh.com"
   - title: "Programming Language"
     text:  "PHP"
   - title: "Database"
