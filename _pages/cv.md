@@ -68,6 +68,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 ### Programming Languages
 *   Javascript
     *   Frameworks
+        *   jQuery
         *   Reactjs
 *   PHP
     *   Frameworks
