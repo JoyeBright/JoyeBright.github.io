@@ -63,6 +63,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 *   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018
     *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
     *   Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
+    *   Further Information ...
 
 ## Skills
 ### Programming Languages
