@@ -1,8 +1,10 @@
 ---
+title: Curriculum Vitae
 layout: archive
 classes: wide
 permalink: /cv/
 author_profile: true
+excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also find some relevant information like involving projects, teaching experiences, education, language knowledge, programming skills and so on.
 ---
 {% include base_path %}
 {% include toc %}
@@ -33,7 +35,8 @@ author_profile: true
 
 ## Academic Teaching Experiences
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
-    *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab962)
+    *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab)
+    *   :octocat: [OSLab971](https://github.com/JoyeBright/OSLab)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 1st semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
@@ -60,16 +63,27 @@ author_profile: true
     *   Course Leader: Dr. Fatemeh Ahmadi Abkenari
 *   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018
     *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
+    *   Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
+    *   Further Information ...
 
 ## Skills
 ### Programming Languages
+*   Javascript
+    *   Frameworks
+        *   jQuery
+        *   Reactjs
 *   PHP
-    *   Frameworks:
+    *   Frameworks
         *   Codeigniter 
     *   Content Management Systems (CMS)
         *   Wordpress
         *   Joomla
 *   Python
+    *   GUI
+        *   PyQt
+        *   WXPython
+    *   Machine Learning Applications
+        *   Keras (Tensorflow/Theano) 
 *   C
 
 ### Database Design
