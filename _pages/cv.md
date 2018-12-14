@@ -34,9 +34,10 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
         *   Have Not Been Participated Yet
 
 ## Academic Teaching Experiences
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 1st semester
+    *   :octocat: [OSLab971](https://github.com/JoyeBright/OSLab)
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 2nd semester
     *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab)
-    *   :octocat: [OSLab971](https://github.com/JoyeBright/OSLab)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 1st semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961)
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2017, 2nd semester
