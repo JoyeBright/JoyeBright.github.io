@@ -66,7 +66,10 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
     *   Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
     *   Further Information ...
-
+## Certificate
+* Deep Learning in Python Course
+    * Awarded by DataCamp
+    * Certificate # 5615777
 ## Skills
 ### Programming Languages
 *   Javascript
