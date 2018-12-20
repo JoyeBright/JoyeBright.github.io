@@ -62,9 +62,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Further Information ...
     
 ## Certificate
-* Deep Learning in Python
-    * Awarded by DataCamp
-    * Certificate # 5615777
+* Deep Learning in Python Awarded by DataCamp-#5615777
     
 ## Skills
 ### Programming Languages
