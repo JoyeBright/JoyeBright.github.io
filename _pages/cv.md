@@ -67,7 +67,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
     *   Further Information ...
 ## Certificate
-* Deep Learning in Python Course
+* Deep Learning in Python
     * Awarded by DataCamp
     * Certificate # 5615777
 ## Skills
