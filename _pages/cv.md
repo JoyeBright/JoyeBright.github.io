@@ -24,14 +24,8 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   [The Hadaf Educational Complex](http://hadafec.sams.ir), Rasht, Guilan, Iran
 
 ## Languages Knowledge
-*   Mother tongue: Persian
-*   English
-    *   IELTS
-        *   Type: Academic
-        *   Took
-        *   L:7 R:7 W:7 S:7 O:7
-    *   GRE
-        *   Have Not Been Participated Yet
+*   Persian - Native
+*   English - Fluent
 
 ## Academic Teaching Experiences
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 1st semester
