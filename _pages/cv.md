@@ -58,8 +58,9 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Course Leader: Dr. Fatemeh Ahmadi Abkenari
 *   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018
     *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
-    *   Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
-    *   Further Information ...
+    *   1st Topic: Creating a High Perrformance Computing (HPC) cluster in order to provide the parallel computing services
+    *   2nd Topic: Implementing a distributed system using MPI
+    *   Reports of two students have been added and are ready to download in Persian.[1](), [2]()
     
 ## Certificate
 * Deep Learning in Python Awarded by DataCamp-#5615777
