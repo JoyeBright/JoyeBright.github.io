@@ -59,7 +59,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 *   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018
     *   Course Leader: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/)
     *   Topic: Implementing a distributed system using MPI
-    *   Reports of two students have been added and are ready to download in Persian.[1](), [2]()
+    *   Reports of two students have been added and are ready to download in Persian.[1]() and [2]()
     
 ## Certificate
 * Deep Learning in Python Awarded by DataCamp-#5615777
