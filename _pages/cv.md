@@ -17,7 +17,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
 *   <b>BS in Computer Engineering, Software Engineering</b>
     *   [The Payam-E-Noor University](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)
-    *   Thesis: The Practical DataMining in RapidMiner, Case Study: Salamat Insurance Org.
+    *   Thesis: The Practical Data Mining in RapidMiner, Case Study: Salamat Insurance Org.
     *   Supervisor: Dr. Fatemeh Ahmadi Abkenari
 
 *   <b>Diploma in Mathematics and Physics</b>
@@ -29,6 +29,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
 ## Academic Teaching Experiences
 *   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019, 2nd semester
+    *   :octocat: [DBLab972](#)
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019, 2nd semester
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab)
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2018, 1st semester
