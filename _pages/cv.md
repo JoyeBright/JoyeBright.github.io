@@ -67,6 +67,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     
 ## Certificate
 * Deep Learning in Python Awarded by DataCamp, #5615777
+* Intro To SQL for Data Science by DataCamp, #8548737
     
 ## Skills
 ### Programming Languages
