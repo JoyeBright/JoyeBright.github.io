@@ -28,6 +28,8 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 *   English - Fluent
 
 ## Academic Teaching Experiences
+*   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019, 1st semester
+    *   Soon
 *   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019, 2nd semester
     *   :octocat: [DBLab972](#)
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019, 2nd semester
