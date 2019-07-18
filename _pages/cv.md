@@ -11,7 +11,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 ## Education
 *   <b>MS in Computer Engineering, Software Engineering</b>
     *   [Department of CE](http://ce.guilan.ac.ir/), [The University of Guilan](http://guilan.ac.ir/en/), Rasht, Iran (2016-Present)
-    *   Thesis: A Novel Framework in Sentiment Analysis Using Deep Learning
+    *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning in Persian Corpus
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
     *   GPA: 18.41/20
 
