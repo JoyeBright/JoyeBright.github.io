@@ -6,16 +6,19 @@ main:
     - title: "CV"
       url: "/cv/"
 
+    - title: "Publications"
+      url: #
+      description: "The List of Academic Publications"
+      
+    - title: "Projects"
+      url: #
+      
     - title: "Blog"
       url: #
 
-    - title: "Publication"
-      url: #
-      description: "The List of Academic Publications"
-
-    - title: "Portfolio"
-      url: "/portfolio/"
-      description: "The comprehensive list of products"
+    #- title: "Portfolio"
+    #  url: "/portfolio/"
+    #  description: "The comprehensive list of products"
 
     - title: "Photos"
       url: #
