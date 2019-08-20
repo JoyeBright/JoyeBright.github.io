@@ -1,4 +1,3 @@
-
 ---
 title: Contact
 layout: collection
