@@ -9,8 +9,9 @@ main:
     - title: "Blog"
       url: #
 
-    - title: "Services"
-      url: "http://gilro.net"
+    - title: "Publication"
+      url: #
+      description: "The List of Academic Publications"
 
     - title: "Portfolio"
       url: "/portfolio/"
