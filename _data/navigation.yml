@@ -7,7 +7,7 @@ main:
       url: "/cv/"
 
     - title: "Publications"
-      url: #
+      url: "/publication/"
       description: "The List of Academic Publications"
       
     - title: "Projects"
