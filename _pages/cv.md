@@ -88,6 +88,8 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
         *   PyQt
         *   WXPython
     *   Data Science
+        *   Vowpal Wabbit
+        *   Scikit-learn
         *   Keras (Tensorflow/Theano) 
         *   PyTorch
 *   C
