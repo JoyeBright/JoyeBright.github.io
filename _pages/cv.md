@@ -87,14 +87,16 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   GUI
         *   PyQt
         *   WXPython
-    *   Machine Learning Applications
+    *   Data Science
         *   Keras (Tensorflow/Theano) 
+        *   PyTorch
 *   C
 
 ### Database Design
 *   Relational
     *   MySQL   
     *   MariaDB
+    *   PostgreSQL
 *   NoSQL
     *   Neo4j
     *   MongoDB
