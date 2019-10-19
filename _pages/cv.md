@@ -14,6 +14,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning on Persian Texts
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
     *   GPA: 18.41/20
+    *   Thesis: 19.5/20
 
 *   <b>BS in Computer Engineering, Software Engineering</b>
     *   [The Payam-E-Noor University](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)
