@@ -11,3 +11,9 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   5th National Conference on Computational Linguistic 
     *   At: Sharif University of Technology, Tehran, Iran
     *   Sep, 2019
+
+## Presentation
+*   Design Patterns in Cloud Computing
+    *   Dec, 2016
+    *   DOI: 10.13140/RG.2.2.24112.76805
+    *   At: University of Guilan, Rasht, Iran
