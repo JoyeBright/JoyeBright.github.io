@@ -12,7 +12,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   At: Sharif University of Technology, Tehran, Iran
     *   Sep, 2019
 
-## Presentation
+## Presentations
 *   Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning
     *   Dec, 2018
     *   DOI: 10.13140/RG.2.2.21506.94405
