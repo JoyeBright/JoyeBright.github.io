@@ -8,9 +8,10 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 ## Conference Papers
 *   Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian)
-    *   5th National Conference on Computational Linguistic 
+    *   The 5th National Conference on Computational Linguistic of Iran
+    *   Hosted by Linguistics Society of Iran (LSI)[https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran]
     *   At: Sharif University of Technology, Tehran, Iran
-    *   Sep, 2019
+    *   Nov, 2019
 
 ## Presentations
 *   Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning
@@ -26,6 +27,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     
 *   Video Transmission Over A Simulated Network By EvalVid
     *   Jun, 2017
+    *   
     *   DOI: 10.13140/RG.2.2.30171.77604
     *   At: University of Guilan, Rasht, Iran
 
