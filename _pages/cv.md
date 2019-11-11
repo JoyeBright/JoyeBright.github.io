@@ -69,8 +69,8 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf)
     
 ## Certificate
-* Deep Learning in Python Awarded by DataCamp, #5615777
-* Intro To SQL for Data Science by DataCamp, #8548737
+* Intro To SQL for Data Science Awarded by DataCamp, Apr 2019, [#8548737](/assets/files/8548737.pdf)
+* Deep Learning in Python Awarded by DataCamp, May 2018, [#5615777](/assets/files/5615777.pdf)
     
 ## Skills
 ### Programming Languages
