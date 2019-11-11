@@ -9,14 +9,14 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 {% include base_path %}
 {% include toc %}
 ## Education
-*   <b>MS in Computer Engineering, Software Engineering</b>
+*   <b>M.Sc. in Computer Engineering, Major in Software Engineering</b>
     *   [Department of CE](http://ce.guilan.ac.ir/), [The University of Guilan](http://guilan.ac.ir/en/), Rasht, Iran (2016-Present)
     *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning on Persian Texts
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
     *   GPA: 18.41/20
     *   Thesis: 19.5/20
 
-*   <b>BS in Computer Engineering, Software Engineering</b>
+*   <b>B.Sc. in Computer Engineering, Major in Software Engineering</b>
     *   [The Payam-E-Noor University](http://en.pnu.ac.ir/Portal/Home/), Rasht, Iran (2011-2015)
     *   Thesis: The Practical Data Mining in RapidMiner, Case Study: Salamat Insurance Org.
     *   Supervisor: Dr. Fatemeh Ahmadi Abkenari
@@ -68,7 +68,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Topic: Implementing a distributed system using MPI
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf)
     
-## Certificate
+## Certificates
 * Intro To SQL for Data Science Awarded by DataCamp, Apr 2019, [#8548737](/assets/files/8548737.pdf)
 * Deep Learning in Python Awarded by DataCamp, May 2018, [#5615777](/assets/files/5615777.pdf)
     
