@@ -69,7 +69,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf)
     
 ## Certificates
-* Participate and speech in the fifth national conference on CL of Iran, Nov 2019, [proof](#)     
+* Participate and speech in the fifth national conference on CL of Iran, Nov 2019, [English Proof](/assets/CLConference-English.pdf)     
 * Intro To SQL for Data Science Awarded by DataCamp, Apr 2019, [#8548737](/assets/files/8548737.pdf)
 * Deep Learning in Python Awarded by DataCamp, May 2018, [#5615777](/assets/files/5615777.pdf)
     
