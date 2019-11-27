@@ -13,6 +13,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   Hosted by Linguistics Society of Iran [(LSI)](https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran)
     *   At: Institute for Humanities and Cultural Studies, Tehran, Iran
     *   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3551273.svg)](https://doi.org/10.5281/zenodo.3551273)
+    *   [Certificate of appreciation issued by LSI](/assets/files/CLConference-English.pdf)
     *   Nov, 2019
 
 ## Presentations
