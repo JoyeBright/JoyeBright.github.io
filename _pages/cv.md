@@ -10,7 +10,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 {% include toc %}
 ## Education
 *   <b>M.Sc. in Computer Engineering, Major in Software Engineering</b>
-    *   [Department of CE](http://ce.guilan.ac.ir/), [The University of Guilan](http://guilan.ac.ir/en/), Rasht, Iran (2016-Present)
+    *   [Department of CE](http://ce.guilan.ac.ir/), [The University of Guilan](http://guilan.ac.ir/en/), Rasht, Iran (2016-2019)
     *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning on Persian Texts
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
     *   GPA: 18.41/20
