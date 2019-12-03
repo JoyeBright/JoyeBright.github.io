@@ -56,9 +56,9 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   [Manesh Educational Complex](http://maneshsch.com), Golsar, Rasht, Iran, 2018
 
 ### Computer Courses
-*   The Fundamental of Computer Science, Fanikaran, Rasht, Iran, 2013
 *   Web-Development Courses, [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
 *   PHP Programming Courses, [Gilro.co](http://gilro.net), Rasht, Iran, 2016-17
+*   The Fundamental of Computer Science, Fanikaran, Rasht, Iran, 2013
 
 ## Teacher Assistant Experiences
 *   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir), Rasht, Iran, 2019
@@ -69,7 +69,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Topic: Implementing a distributed system using MPI
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf)
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
-    *   Course Instructor: Dr. Fatemeh Ahmadi Abkenari
+    *   Course Instructor: [Dr. Fatemeh Ahmadi Abkenari](https://www.researchgate.net/profile/Fatemeh_Ahmadi-Abkenari2)
 
     
 ## Certificates
