@@ -70,7 +70,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf)
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
     *   Course Instructor: [Dr. Fatemeh Ahmadi Abkenari](https://www.researchgate.net/profile/Fatemeh_Ahmadi-Abkenari2)
-    *   I was responsibe for assessing students' UML diagrams.
+    *   I was responsible for assessing students' UML diagrams.
 
     
 ## Certificates
