@@ -119,3 +119,17 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
 ### Typesetting Systems
 *   Latex
+
+## References
+*   <b>[Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel)</b>
+    *   Associate Professor in CE
+    *   University of Guilan
+    *   E-mail: mirroshandel@guilan.ac.ir
+*   <b>[Dr. H. Ahmadifar](https://staff.guilan.ac.ir/ahmadifar/)</b>
+    *   Assitant Professor in CE
+    *   University of Guilan
+    *   E-mail: ahmadifar@guilan.ac.ir
+*   <b>[Dr. F. Ahmadi Abkenari](https://www.researchgate.net/profile/Fatemeh_Ahmadi-Abkenari2)</b>
+    *   Assitant Professor in CE
+    *   Payam-E-Noor Univeristy
+    *   E-mail: fateme.abkenari@gilan.ac.ir
