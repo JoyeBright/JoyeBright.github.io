@@ -9,10 +9,12 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 {% include base_path %}
 {% include toc %}
 ## Current Status
-*   <b>Lecturer at Guilan Computer Engineering Department. 
-    *   (Sep 2017-Now)
-*   <b>Researcher at [Guilan NLP Group](https://nlp.guilan.ac.ir/people)</b>
-    *   (Sep 2016-Now)
+*   <b>Lecturer at Guilan Computer Engineering Department.
+    *   https://ce.guilan.ac.ir
+    *   Sep 2017-Now
+*   <b>Researcher at Guilan NLP Group
+    *   https://nlp.guilan.ac.ir/people
+    *   Sep 2016-Now
 
 ## Education
 *   <b>M.Sc. in Computer Engineering, Major in Software Engineering</b>
