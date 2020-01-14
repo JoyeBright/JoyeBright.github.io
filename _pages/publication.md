@@ -17,7 +17,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   Nov, 2019
 
 ## Presentations
-*   A Deep Persian Sentiment Anlaysis Framework
+*   A Deep Persian Sentiment Analysis Framework
     *   Nov, 2019
     *   Presented at the 5th National Conference of Computational Linguistics
     *   DOI: 10.13140/RG.2.2.34981.04322
