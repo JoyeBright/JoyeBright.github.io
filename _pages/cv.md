@@ -68,7 +68,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 ### Computer Courses
 *   Web-Development Courses, [Gilro.co](http://gilro.net){:target="new"}, Rasht, Iran, 2016-17
 *   PHP Programming Courses, [Gilro.co](http://gilro.net){:target="new"}, Rasht, Iran, 2016-17
-*   The Fundamental of Computer Science, Fanikaran, Rasht, Iran, 2013
+*   The Fundamental of Computer Science, Fanikaran (Iran TVTO), Rasht, Iran, 2013
 
 ## Teaching Assistant Experiences
 *   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019
