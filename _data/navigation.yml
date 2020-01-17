@@ -14,7 +14,8 @@ main:
       url: #
       
     - title: "Blog"
-      url: #
+      url: "/blog/"
+      description: "The List of posts"
 
     #- title: "Portfolio"
     #  url: "/portfolio/"
