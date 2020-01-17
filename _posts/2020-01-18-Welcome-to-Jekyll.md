@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I am going to create my own static website"
+title:  "Welcome to Jekyll!"
 ---
 
 # Welcome
