@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-layout: posts
-classes: wide
 author_profile: true
 ---
 
