@@ -2,6 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 author_profile: true
+categories: [start, init]
+tags: [hi, hello]
 ---
 
 
