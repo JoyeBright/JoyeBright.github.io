@@ -11,6 +11,7 @@ excerpt: This page indicates all posts concerning with computer science and with
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
