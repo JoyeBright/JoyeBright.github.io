@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: posts
+layout: single
 permalink: /blog/
 entries_layout: grid
 classes: wide
