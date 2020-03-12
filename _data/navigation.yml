@@ -21,8 +21,8 @@ main:
     #  url: "/portfolio/"
     #  description: "The comprehensive list of products"
 
-    - title: "Photos"
-      url: #
+    # - title: "Photos"
+    #  url: #
 
     - title: "Contact"
       url: "/contact/"
