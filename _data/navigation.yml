@@ -10,12 +10,12 @@ main:
       url: "/publication/"
       description: "The List of Academic Publications"
       
-    - title: "Projects"
-      url: #
+    # - title: "Projects"
+    #  url: #
       
-    - title: "Blog"
-      url: "/blog/"
-      description: "The List of posts"
+    # - title: "Blog"
+    #  url: "/blog/"
+    #  description: "The List of posts"
 
     #- title: "Portfolio"
     #  url: "/portfolio/"
