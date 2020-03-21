@@ -83,10 +83,11 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   I was responsible for assessing students' UML diagrams.
 
     
-## Certificates
+## Honors and Awards
+* Natural Language Processing certificate awarded by Coursera on behalf of HSE University, Jan 2020
 * Participate and speech in the fifth national conference on CL of Iran, Nov 2019, [English Proof](/assets/files/CLConference-English.pdf){:target="new"}     
-* Intro To SQL for Data Science Awarded by DataCamp, Apr 2019, [#8548737](/assets/files/8548737.pdf){:target="new"}
-* Deep Learning in Python Awarded by DataCamp, May 2018, [#5615777](/assets/files/5615777.pdf){:target="new"}
+* Intro To SQL for Data Science certificate awarded by DataCamp, Apr 2019, [#8548737](/assets/files/8548737.pdf){:target="new"}
+* Deep Learning in Python certificate awarded by DataCamp, May 2018, [#5615777](/assets/files/5615777.pdf){:target="new"}
     
 ## Skills
 ### Programming Languages
