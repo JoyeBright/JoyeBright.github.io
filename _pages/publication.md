@@ -21,7 +21,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   [Certificate of appreciation issued by LSI](/assets/files/CLConference-English.pdf)
     *   November, 2019
 
-## Presentations
+## Talks
 *   A Deep Persian Sentiment Analysis Framework
     *   Nov, 2019
     *   Presented at the 5th National Conference of Computational Linguistics
