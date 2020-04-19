@@ -7,7 +7,7 @@ author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 ## Papers
-**   DeepSentiPers: Novel Deep Learning Models Trained Over Proposed Augmented Persian Sentiment Corpus
+>   DeepSentiPers: Novel Deep Learning Models Trained Over Proposed Augmented Persian Sentiment Corpus
     *   NB: DeepSentiPers is a modified version of following paper presented in the fifth conference of CL of Iran
     *   [arXiv (https://arxiv.org/abs/2004.05328)](arXiv:2004.05328)
     *   [Codes](https://github.com/JoyeBright/DeepSentiPers)
