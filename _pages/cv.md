@@ -38,7 +38,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
 ## Academic Teaching Experiences
 *   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2020, 2nd semester
-    *   This semester, classes are held online due to pandamic of COVID19.
+    *   Note that, this semester classes are held online due to pandamic of COVID19.
     *   :octocat: [DM982](#){:target="new"}
 *   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 1st semester
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
