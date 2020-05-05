@@ -2,7 +2,7 @@
 title: Talks
 layout: archive
 classes: wide
-permalink: /talks/
+permalink: /talk/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
 ---
