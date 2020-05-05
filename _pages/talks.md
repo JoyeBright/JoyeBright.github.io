@@ -6,7 +6,7 @@ permalink: /talk/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
 header:
-  image: /assets/images/talk.jpg
+  image: /assets/images/talks.jpg
   image_description: "Talks"
 ---
 *   A Deep Persian Sentiment Analysis Framework
