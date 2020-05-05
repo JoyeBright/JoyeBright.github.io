@@ -10,8 +10,8 @@ main:
       url: "/publication/"
       description: "The List of Academic Publications"
       
-    # - title: "Projects"
-    #  url: #
+    - title: "Talks"
+      url: "/talk/
       
     # - title: "Blog"
     #  url: "/blog/"
