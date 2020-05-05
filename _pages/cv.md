@@ -32,7 +32,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 *   <b>Diploma in Mathematics and Physics</b>
     *   [The Hadaf Educational Complex](http://hadafec.sams.ir){:target="new"}, Rasht, Guilan, Iran
 
-## Languages Knowledge
+## Natural Language Knowledge
 *   Persian - Native
 *   English - Fluent
 
