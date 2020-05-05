@@ -11,7 +11,7 @@ main:
       description: "The List of Academic Publications"
       
     - title: "Talks"
-      url: "/talk/
+      url: "/talk/"
       
     # - title: "Blog"
     #  url: "/blog/"
