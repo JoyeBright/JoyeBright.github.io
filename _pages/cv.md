@@ -85,7 +85,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
     
 ## Honors and Awards
-* NLP certificate awarded by Coursera on behalf of HSE University, May 2020, [Credential](assets/files/NLP%20Coursera.pdf.pdf){:target="new"}
+* NLP certificate awarded by Coursera on behalf of HSE University, May 2020, [Credential](assets/files/NLP%20Coursera.pdf){:target="new"}
 * Participate and speech in the fifth national conference on CL of Iran, Nov 2019, [Credential](/assets/files/CLConference-English.pdf){:target="new"}     
 * Intro To SQL for Data Science certificate awarded by DataCamp, Apr 2019, [Credential](/assets/files/8548737.pdf){:target="new"}
 * Deep Learning in Python certificate awarded by DataCamp, May 2018, [Credential](/assets/files/5615777.pdf){:target="new"}
