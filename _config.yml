@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Javad PourMostafa Roshan Sharami"
+title                    : "Javad PourMostafa (Roshan Sharami)"
 title_separator          : "-"
 name                     : "Javad PourMostafa"
 description              : "The Official Website Of Javad PourMostafa Roshan Sharami"
@@ -93,10 +93,10 @@ analytics:
 author:
   name             : "Javad PourMostafa"
   avatar           : "assets/images/bio-photo2.jpeg"
-  bio              : "Software Engineer, NLP Specialist"
+  bio              : "An NLP Researcher"
   location         : "University of Guilan"
   email            : "Javad.PourMostafa@Gmail.com"
-  uri              :
+  uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
