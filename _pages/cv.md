@@ -17,14 +17,14 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   Sep 2016-Now
 
 ## Education
-*   <b>M.Sc. in Computer Engineering, Major in Software Engineering</b>
+*   <b>MSc in Computer Engineering, Major in Software Engineering</b>
     *   [Department of CE](http://ce.guilan.ac.ir/){:target="new"}, [The University of Guilan](http://guilan.ac.ir/en/){:target="new"}, Rasht, Iran (2016-2019)
     *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning on Persian Texts
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
     *   GPA: 18.41/20
     *   Thesis: 19.5/20
 
-*   <b>B.Sc. in Computer Engineering, Major in Software Engineering</b>
+*   <b>BSc in Computer Engineering, Major in Software Engineering</b>
     *   [The Payam-E-Noor University](http://en.pnu.ac.ir/Portal/Home/){:target="new"}, Rasht, Iran (2011-2015)
     *   Thesis: The Practical Data Mining in RapidMiner, Case Study: Salamat Insurance Org.
     *   Supervisor: Dr. Fatemeh Ahmadi Abkenari
