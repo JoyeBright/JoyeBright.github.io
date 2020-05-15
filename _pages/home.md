@@ -5,8 +5,7 @@ author_profile: true
 ---
 {% include base_path %}
 
-> I'm enthusiastically interested in Computer Science which its succinct definition is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. For me, It can be divided into two different aspects. In the first, working on academic scopes listed below and in the second one, server configuration and full-stack web development are my preferences.
-> Furthermore, I graduated with a Master's degree in Computer Engineering from University of Guilan in Sep 2019. My thesis was about "Presenting a Sentiment Analysis System Using Deep Learning on Persian Texts". Since entering the university, I've worked as a researcher at Guilan NLP Group, and meanwhile, I'm teaching related courses.
+> My full name is Javad PourMostafa (Pronunciation). I'm currently a graduate member at Guilan NLP Group and a part-time lecturer at the Computer Engineering Department of the University of Guilan. I graduated with an MS degree in Software Engineering from the same university in 2019. During the master thesis, I worked on designing sentiment analysis models using deep learning architectures for low-resources corpora. My academic research interests mainly centralize on NLP and Deep Learning. However, as non-academic affairs, I spend my time on Unix-based servers maintenance.
 
 My academic research interests include:
 -   Natural Language Processing (NLP)
