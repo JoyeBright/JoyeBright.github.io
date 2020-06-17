@@ -92,6 +92,8 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     
 ## Skills
 ### Programming Languages
+*   GNU Octave
+    * I usually use Octave to prototype the ML models or to do numerical experiments.
 *   Javascript
     *   Frameworks
         *   jQuery
