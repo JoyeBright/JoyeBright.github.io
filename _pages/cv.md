@@ -21,7 +21,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
     *   [Department of CE](http://ce.guilan.ac.ir/){:target="new"}, [The University of Guilan](http://guilan.ac.ir/en/){:target="new"}, Rasht, Iran (2016-2019)
     *   Thesis: Presenting of a Sentiment Analysis System Using Deep Learning on Persian Texts
     *   Supervisors: Dr. Seyed Abolghasem MirRoshandel, Dr. HamidReza AhmadiFar
-    *   Cumulative GPA (without thesis): 18.41/20 or 3.88/4.0
+    *   GPA: 18.41/20
     *   Thesis: 19.5/20
 
 *   <b>BSc in Computer Engineering, Major in Software Engineering</b>
