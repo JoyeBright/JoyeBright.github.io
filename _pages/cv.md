@@ -85,6 +85,7 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 
     
 ## Honors and Awards
+* ~2000$ AUD annually, a financial award from Iran Health Insurance Organization (2010-2018)
 * NLP certificate awarded by Coursera on behalf of HSE University, May 2020, [Credential](/assets/files/NLP%20Coursera.pdf){:target="new"}
 * Participate and speech in the fifth national conference on CL of Iran, Nov 2019, [Credential](/assets/files/CLConference-English.pdf){:target="new"}     
 * Intro To SQL for Data Science certificate awarded by DataCamp, Apr 2019, [Credential](/assets/files/8548737.pdf){:target="new"}
