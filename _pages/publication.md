@@ -16,6 +16,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   Also published as a chapter of a book (ISBN: 978-622-6649-34-6)
     *   Hosted by Linguistics Society of Iran [(LSI)](https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran)
     *   At: Institute for Humanities and Cultural Studies, Tehran, Iran
+    *   [Download directly](/assets/files/Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian).pdf)
     *   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3551273.svg)](https://doi.org/10.5281/zenodo.3551273)
     *   [Certificate of appreciation issued by LSI](/assets/files/CLConference-English.pdf)
     *   November, 2019
