@@ -136,11 +136,4 @@ excerpt: This page shows a brief form of Javad PourMostafa's CV. You can also fi
 *   Latex
 
 ## References
-*   <b>[Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel){:target="new"}</b>
-    *   Associate Professor in Computer Engineering
-    *   University of Guilan
-    *   E-mail: mirroshandel@guilan.ac.ir
-*   <b>[Dr. H. Ahmadifar](https://staff.guilan.ac.ir/ahmadifar/index.php?a=0&lg=1){:target="new"}</b>
-    *   Assistant Professor in Computer Engineering
-    *   University of Guilan
-    *   E-mail: ahmadifar@guilan.ac.ir
+Available upon request
