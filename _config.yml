@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Javad PourMostafa Roshan Sharami"
+title                    : "Javad Pourmostafa Roshan Sharami"
 title_separator          : "-"
-name                     : "Javad PourMostafa"
-description              : "The Official Website of Javad PourMostafa Roshan Sharami"
+name                     : "Javad Pourmostafa"
+description              : "The official website of Javad Pourmostafa Roshan Sharami; interested in NLP and deep learning, more broadly AI."
 url                      : "https://javad.pourmostafa.com"
 baseurl                  : #
 repository               : "joyebright/JoyeBright.github.io"
