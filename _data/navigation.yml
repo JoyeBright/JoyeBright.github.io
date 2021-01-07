@@ -6,9 +6,9 @@ main:
     - title: "CV"
       url: "/cv/"
 
-    - title: "Publications"
-      url: "/publication/"
-      description: "The List of Academic Publications"
+    # - title: "Publications"
+    #   url: "/publication/"
+    #   description: "The List of Academic Publications"
       
     - title: "Talks"
       url: "/talk/"
