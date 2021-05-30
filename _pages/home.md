@@ -7,7 +7,7 @@ author_profile: true
 
 Hi, my full name is Javad PourMostafa (pronounced /'dʒævɒd puːr'moʊs'tae'fɑː/)! I go by joeybright or joyebright wherever I can get the username. 
 
-I am currently a first-year PhD candidate at the Department of Cognitive Science and Artificial Intelligence of Tilburg University.
+I am currently a first-year PhD candidate at the [Department of Cognitive Science and Artificial Intelligence](https://csai.in) of [Tilburg University](https://www.tilburguniversity.edu/).
 
 Before joining Tilburg University, I was a postgraduate member at [Guilan NLP Group](https://nlp.guilan.ac.ir){:target="new"} and a part-time lecturer at the Computer Engineering Department of the [University of Guilan](https://guilan.ac.ir/en/home){:target="new"}. I graduated with an MS degree in Software Engineering from the same university in 2019. During the master thesis, I worked on designing sentiment analysis models using deep learning architectures for low-resources corpora (case-study: Persian).
 
