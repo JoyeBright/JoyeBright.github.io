@@ -11,7 +11,7 @@ I am currently a first-year PhD candidate at the [Department of Cognitive Scienc
 
 Before joining Tilburg University, I was a postgraduate member at [Guilan NLP Group](https://nlp.guilan.ac.ir){:target="new"} and a part-time lecturer at the Computer Engineering Department of the [University of Guilan](https://guilan.ac.ir/en/home){:target="new"}. I graduated with an MS degree in Software Engineering from the same university in 2019. During the master thesis, I worked on designing sentiment analysis models using deep learning architectures for low-resources corpora (case-study: Persian). I was fortunate to work under supervision of [Dr. Seyed Abolghasem Mirroshandel](https://guilan.ac.ir/en/~mirroshandel){:target="new"}.
 
-My research mainly centralizes on natural language processing and deep learning. I'm also interested in AI more broadly; as to non-academic affairs, I spend my time on Unix-like server maintenance. 
+My research mainly centralizes on natural language processing and deep learning. I'm also interested in AI more broadly.
 
 Some topics of interest to me are:
 
