@@ -15,8 +15,8 @@ My research mainly centralizes on natural language processing and deep learning.
 
 Some topics of interest to me are:
 
--   Sentiment analysis
 -   Machine translation
 -   Multilingual and multi-domain domain adaptation for NMT
+-   Sentiment analysis
 -   Unsupervised language acquisition
 -   Efficient algorithms for NLP
