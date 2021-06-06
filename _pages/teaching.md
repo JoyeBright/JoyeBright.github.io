@@ -13,12 +13,8 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
 *   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester, 2018, 1st and 2nd semester
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018, 1st semester
-    *   :octocat: [OSLab971](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018, 2nd semester
-    *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab){:target="new"}
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017, 1st semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961){:target="new"}
 *   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017, 2nd semester
