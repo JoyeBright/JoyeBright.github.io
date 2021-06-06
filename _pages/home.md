@@ -5,7 +5,7 @@ author_profile: true
 ---
 {% include base_path %}
 
-Hi, my full name is Javad PourMostafa (pronounced /'dʒævɒd puːr'moʊs'tae'fɑː/)! I go by joeybright or joyebright wherever I can get the username. 
+Hi, my full name is Javad Pourmostafa (pronounced /'dʒævɒd puːr'moʊs'tae'fɑː/)! I go by joeybright or joyebright wherever I can get the username. 
 
 I am currently a first-year PhD candidate at the [Department of Cognitive Science and Artificial Intelligence](https://csai.nl){:target="new"} of [Tilburg University](https://www.tilburguniversity.edu/){:target="new"}. My PhD thesis, entitled "An NMT Framework based on Language Understanding". It is divided into two main parts: i) will investigate neural machine translation for low-resource language, e.g. Persian, through cross-lingual knowledge transfer, and (ii) aims to delve into multilingual and multi-domain adaptation. My PhD supervisors are [Dr. Dimitar Shterionov](https://ilk.uvt.nl/~shterion/){:target="new"} and [Dr. Pieter Spronck](https://www.spronck.net/){:target="new"}.
 
