@@ -15,7 +15,7 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
 *   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: 2nd semester, 2018: 1st and 2nd semester
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017: 1st semester, 2017: 2nd semester
+*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017: 1st and 2nd semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961){:target="new"}, <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952){:target="new"}
 
 
