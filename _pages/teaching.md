@@ -27,13 +27,13 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ## Teaching Assistant Experiences
 *   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019
     *   Course Instructor: [Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel){:target="new"}
-    *   I was in charge of checking the output of SA systems that programmed by students.
+    *   I was responsible for checking the output of SA systems that programmed by students.
 *   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018
-    *   Course Instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="new"}
-    *   Topic: Implementing a distributed system using MPI
+    *   Course instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="new"}
+    *   Topic: implementing a distributed system using MPI
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf){:target="new"}
 *   Principals of Object-Oriented Design, PNU, Rasht, Iran, 2014
-    *   Course Instructor: [Dr. Fatemeh Ahmadi Abkenari](https://www.researchgate.net/profile/Fatemeh_Ahmadi-Abkenari2){:target="new"}
+    *   Course instructor: [Dr. Fatemeh Ahmadi Abkenari](https://www.researchgate.net/profile/Fatemeh_Ahmadi-Abkenari2){:target="new"}
     *   I was responsible for assessing students' UML diagrams.
 
 ## Non-Academic Teaching Experiences
