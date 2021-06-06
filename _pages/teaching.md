@@ -8,8 +8,6 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
 *   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2020, 2nd semester
-    *   Note that, this semester classes are held online due to pandemic of COVID19.
-    *   :octocat: [DM982](#){:target="new"}
 *   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 1st semester
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
 *   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 2nd semester
