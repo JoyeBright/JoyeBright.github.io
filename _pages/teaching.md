@@ -7,27 +7,27 @@ author_profile: true
 excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
-*   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2020, 2nd semester
-*   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 1st semester
+*   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020, 2nd semester
+*   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 1st semester
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
-*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 2nd semester
+*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019, 2nd semester
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2018, 1st semester
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018, 1st semester
     *   :octocat: [OSLab971](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2018, 2nd semester
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018, 2nd semester
     *   :octocat: [OSLab962](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2017, 1st semester
+*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017, 1st semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961){:target="new"}
-*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2017, 2nd semester
+*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017, 2nd semester
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952){:target="new"}
 
 ## Teaching Assistant Experiences
-*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2019
+*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019
     *   Course Instructor: [Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel){:target="new"}
     *   I was in charge of checking the output of SA systems that programmed by students.
-*   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, Rasht, Iran, 2018
+*   Leading Apprenticeship programmes, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018
     *   Course Instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="new"}
     *   Topic: Implementing a distributed system using MPI
     *   Reports of two students have been added and are ready to download in Persian. [1](/assets/files/apprenticeship-1.pdf) and [2](/assets/files/apprenticeship-2.pdf){:target="new"}
