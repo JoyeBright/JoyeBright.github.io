@@ -8,7 +8,8 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
 *   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020, 2nd semester
-*   Natural Language Processing [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 1st semester
+    *   :octocat: [NLP981](*){:target="new"}
+*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 1st semester
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
 *   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019, 2nd semester
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
