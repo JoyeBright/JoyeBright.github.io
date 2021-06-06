@@ -5,6 +5,10 @@ main:
 
     #- title: "CV"
     #  url: "/cv/"
+    
+    - title: "Teaching"
+      url: "/teaching/"
+      description: "Teaching experiences"
 
     - title: "Publications"
       url: "/publication/"
