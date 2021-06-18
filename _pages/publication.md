@@ -1,5 +1,5 @@
 ---
-title: Publication
+title: Publications
 layout: archive
 classes: wide
 permalink: /publication/
