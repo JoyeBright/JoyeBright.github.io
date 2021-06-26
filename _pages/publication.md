@@ -12,7 +12,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   [doi](https://doi.org/10.6084/m9.figshare.14829030)
     *   July 9, 2021
 *   DeepSentiPers: Novel DL Models Trained Over Proposed Augmented Persian Sentiment Corpus
-    *   NB: DeepSentiPers is a modified version of our Persian paper presented in the fifth conference of CL in Iran
+    *   Note: DeepSentiPers is an improved version of our paper presented in the fifth conference of CL in Iran
     *   [arXiv:2004.05328](https://arxiv.org/abs/2004.05328)
     *   [Codes](https://github.com/JoyeBright/DeepSentiPers), [Talk](https://www.researchgate.net/publication/338570412_A_Deep_Persian_Sentiment_Analysis_Framework)
     *   April, 2020
