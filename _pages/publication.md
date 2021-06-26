@@ -19,7 +19,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   April, 2020
 *   Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian)
     *   The 5th National Conference on Computational Linguistics of Iran
-    *   Also published as a chapter of a book (ISBN: 978-622-6649-34-6)
+    *   Also published as a chapter (ISBN: 978-622-6649-34-6)
     *   Organized by Linguistics Society of Iran [(LSI)](https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran)
     *   At: Institute for Humanities and Cultural Studies, Tehran, Iran
     *   [Direct download link](/assets/files/Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian).pdf)
