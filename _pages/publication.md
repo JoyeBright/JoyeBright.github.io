@@ -8,7 +8,8 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 *   A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems
     *   Presented in the 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31)
-    *   [Accepted ref](https://www.clin31.ugent.be/programme/)
+    *   Organized by the [LT3 team](https://lt3.ugent.be/) at Ghent University's Department of Translation, Interpreting and Communication.
+    *   [Accepted ref.](https://www.clin31.ugent.be/programme/)
     *   [doi](https://doi.org/10.6084/m9.figshare.14829030)
     *   July 9, 2021
 *   DeepSentiPers: Novel DL Models Trained Over Proposed Augmented Persian Sentiment Corpus
@@ -19,7 +20,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 *   Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian)
     *   The 5th National Conference on Computational Linguistics of Iran
     *   Also published as a chapter of a book (ISBN: 978-622-6649-34-6)
-    *   Hosted by Linguistics Society of Iran [(LSI)](https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran)
+    *   Organized by Linguistics Society of Iran [(LSI)](https://en.wikipedia.org/wiki/Linguistics_Society_of_Iran)
     *   At: Institute for Humanities and Cultural Studies, Tehran, Iran
     *   [Direct download link](/assets/files/Presenting A Sentiment Analysis System Using Deep Learning Models On Persian Texts (In Persian).pdf)
     *   [ResearchGate](https://www.researchgate.net/publication/335612122_Presenting_A_Sentiment_Analysis_System_Using_Deep_Learning_Models_On_Persian_Texts_In_Persian)
