@@ -9,7 +9,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 *   A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems
     *   Presented in the 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31)
     *   Organized by the [LT3 team](https://lt3.ugent.be/)
-    *   [Accepted ref.](https://www.clin31.ugent.be/programme/)
+    *   [Acceptance ref.](https://www.clin31.ugent.be/programme/)
     *   [doi](https://doi.org/10.6084/m9.figshare.14829030)
     *   July 9, 2021
 *   DeepSentiPers: Novel DL Models Trained Over Proposed Augmented Persian Sentiment Corpus
