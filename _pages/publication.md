@@ -6,6 +6,11 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+*   A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems
+    *   Presented in the 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31)
+    *   [Accepted ref](https://www.clin31.ugent.be/programme/)
+    *   [doi](https://doi.org/10.6084/m9.figshare.14829030)
+    *   July 9, 2021
 *   DeepSentiPers: Novel DL Models Trained Over Proposed Augmented Persian Sentiment Corpus
     *   NB: DeepSentiPers is a modified version of our Persian paper presented in the fifth conference of CL in Iran
     *   [arXiv:2004.05328](https://arxiv.org/abs/2004.05328)
