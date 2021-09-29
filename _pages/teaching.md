@@ -7,9 +7,9 @@ author_profile: true
 excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
-*   Programming with C/C++ (only lab sessions) [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2021/22: Semester 1
+*   Programming with C/C++ (only lab sessions), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2021/22: Semester 1
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/8665) (login required)
-*   Principles of Data Mining [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020: 2nd semester
+*   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020: 2nd semester
     *   :octocat: [800879-B-6](*){:target="new"}
 *   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: 1st semester
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
