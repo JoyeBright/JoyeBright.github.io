@@ -42,7 +42,7 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 *   Preparing of University Entrance Exam
     *   Dr. Armin and Alborz foreign Language Institute, Rasht, Iran, 2011-2017
 *   Daily Conversation
-    *   [Manesh Educational Complex](http://maneshsch.com){:target="new"}, Golsar, Rasht, Iran, 2018
+    *   Manesh Educational Complex, Golsar, Rasht, Iran, 2018
 
 ### Computer Courses
 *   Web-Development Courses, [Gilro.co](http://gilro.net){:target="new"}, Rasht, Iran, 2016-17
