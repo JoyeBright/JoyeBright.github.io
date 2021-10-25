@@ -21,4 +21,4 @@ Some topics of interest to me are:
 -   Unsupervised language acquisition
 -   Efficient algorithms for NLP
 
-<a class="twitter-timeline" data-lang="en" data-theme="light" href="https://twitter.com/JPourmostafa?ref_src=twsrc%5Etfw">Tweets by JPourmostafa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-lang="en" data-width="700" data-theme="light" href="https://twitter.com/JPourmostafa?ref_src=twsrc%5Etfw">Tweets by JPourmostafa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
