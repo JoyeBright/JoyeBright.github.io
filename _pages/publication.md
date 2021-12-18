@@ -10,7 +10,8 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   Accepted to the [Computational Linguistics in the Netherlands (CLIN) Journal](https://www.clinjournal.org/)
     *   The paper got accepted on Dec 6, 2021! I will share the link with you as soon as it got published.
     *   Submitted Oct 13, Accepted Dec 6, 2021 (with two strong accepts), Not published yet (~Jan, 2022)
-    *   [ArXiv](http://arxiv.org/abs/2112.06096) or [ResearchGate](https://www.researchgate.net/publication/357013946_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_Using_Monolingual_Texts). [Codes](https://github.com/JoyeBright/DataSelection-NMT)
+    *   [ArXiv](http://arxiv.org/abs/2112.06096) or [ResearchGate](https://www.researchgate.net/publication/357013946_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_Using_Monolingual_Texts)
+    *   [Codes](https://github.com/JoyeBright/DataSelection-NMT)
 *   A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems
     *   Presented in the 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31)
     *   Organized by the [LT3 team](https://lt3.ugent.be/)
