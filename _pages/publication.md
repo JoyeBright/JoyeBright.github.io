@@ -6,7 +6,7 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
-*   [Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts](/assets/files/pubs/CLINJournal2021.pdf)
+*   Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts
     *   Accepted to the [Computational Linguistics in the Netherlands (CLIN) Journal](https://www.clinjournal.org/)
     *   Submitted Oct 13, Accepted Dec 6, 2021 (with two strong accepts), Not published yet (~Jan, 2022)
     *   [ArXiv](http://arxiv.org/abs/2112.06096) or [ResearchGate](https://www.researchgate.net/publication/357013946_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_Using_Monolingual_Texts)
