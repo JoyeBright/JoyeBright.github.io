@@ -272,6 +272,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.semanticscholar %}
+        <li>
+          <a href="{{ author.semanticscholar }}">
+            <i class="ai ai-semantic-scholar-square ai-fw"></i> Semantic Scholar
+          </a>
+        </li>
+      {% endif %}
 
       {% include author-profile-custom-links.html %}
     </ul>
