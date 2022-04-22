@@ -10,7 +10,7 @@ excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
     for Neural Machine Translation Using Monolingual Texts
     *   Apr, 2022
     *   At [TAISIG Talks #13](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
-    *   [Link to the slides](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
+    *   [Slides](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
     *   Deprez building, Tilburg University, Tilburg, the NL
 
 
