@@ -9,7 +9,7 @@ excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
 *   Selecting Parallel In-domain Sentences <br> 
     for Neural Machine Translation Using Monolingual Texts
     *   Apr, 2022
-    *   [TAISIG Talks](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
+    *   At [TAISIG Talks](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
     *   The 13th meeting
     *   Deprez building, Tilburg University, Tilburg, the NL
 
