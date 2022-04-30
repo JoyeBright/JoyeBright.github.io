@@ -6,8 +6,7 @@ permalink: /talk/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
 ---
-*   Selecting Parallel In-domain Sentences <br> 
-    for Neural Machine Translation Using Monolingual Texts
+*   Selecting Parallel In-domain Sentences for <br> Neural Machine Translation Using Monolingual Texts
     *   Apr, 2022
     *   At [TAISIG Talks #13](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
     *   [Slides](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
