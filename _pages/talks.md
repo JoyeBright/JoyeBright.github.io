@@ -12,7 +12,7 @@ excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
     *   At [TAISIG Talks #13](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
     *   [Slides](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
     *   Deprez building, Tilburg University, Tilburg, the NL
-    *   <iframe width="400" height="300" src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    *   <iframe width="380" height="280" src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 *   A Deep Persian Sentiment Analysis Framework
