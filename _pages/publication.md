@@ -6,6 +6,12 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+*   A Quality Estimation and Quality Evaluation Tool for the Translation Industry  
+    *   Proceedings of the 23rd Annual Conference of the European Association for Machine Translation
+    *   Published Jun, 2022
+    *   Ghent, Belgium
+    *   European Association for Machine Translation
+    *   [Link](https://aclanthology.org/2022.eamt-1.43/)   
 *   Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts
     *   Accepted to the [Computational Linguistics in the Netherlands (CLIN) Journal](https://www.clinjournal.org/)
     *   Submitted Oct 13, Accepted Dec 6, 2021 (with two strong accepts), Published (Feb, 2022)
