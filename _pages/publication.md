@@ -6,6 +6,12 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+*   Quality Estimation for the Translation Industry – Data Challenges
+*   *   Presented in the 32nd Meeting of Computational Linguistics in The Netherlands (CLIN 32)
+    *   Tilburg, the Netherlands
+    *   [Acceptance ref.](https://clin2022.uvt.nl/clin32/programme/)
+    *   [Link](https://www.researchgate.net/publication/361389091_Quality_Estimation_for_the_Translation_Industry_-_Data_Challenges)
+    *   June 17, 2022
 *   A Quality Estimation and Quality Evaluation Tool for the Translation Industry  
     *   Proceedings of the 23rd Annual Conference of the European Association for Machine Translation
     *   Published Jun, 2022
@@ -18,6 +24,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
     *   [Codes](https://github.com/JoyeBright/DataSelection-NMT), [Slides](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
 *   A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems
     *   Presented in the 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31)
+    *   Ghent, Belgium
     *   Organized by the [LT3 team](https://lt3.ugent.be/)
     *   [Acceptance ref.](https://www.clin31.ugent.be/programme/)
     *   [DOI](https://doi.org/10.6084/m9.figshare.14829030)
