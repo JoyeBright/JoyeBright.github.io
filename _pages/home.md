@@ -17,9 +17,9 @@ Some topics of interest to me are:
 
 -   Machine translation
 -   Multilingual and multi-domain domain adaptation for NMT
+-   Quality Estimation
+-   Data Selection
 -   Sentiment analysis
--   Unsupervised language acquisition
--   Efficient algorithms for NLP
 
 
 <a class="twitter-timeline" data-lang="en" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/JPourmostafa?ref_src=twsrc%5Etfw">Tweets by JPourmostafa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
