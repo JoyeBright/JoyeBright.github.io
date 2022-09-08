@@ -7,20 +7,20 @@ author_profile: true
 excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
-*   MSc thesis supervision – DSS program, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2022/23: SM1
+*   MSc thesis supervision – DSS program, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, SM1 2022/23
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12763) (login required)
 *   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
-    *   2021/22: SM1, 2022/23: SM1
+    *   SM1 2021/22, SM1 2022/23
     *   Canvas page for [2021/22](https://tilburguniversity.instructure.com/courses/8665), [2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
-*   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020: SM2
+*   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM2 2020
     *   :octocat: [800879-B-6](*){:target="new"}
-*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: SM1
+*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM1 2019
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
-*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: SM2
+*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM2 2019
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018: SM1 and SM2, 2019: SM2
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM1&SM2 2018, SM2 2019
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017: SM1 and SM2
+*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM1&SM2 2017
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961){:target="new"}, <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952){:target="new"}
 
 
