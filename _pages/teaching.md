@@ -11,7 +11,7 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12763) (login required)
 *   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
     *   SM1 2021/22, SM1 2022/23
-    *   Canvas page for [2021/22](https://tilburguniversity.instructure.com/courses/8665), [2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
+    *   Canvas page for [SM1 2021/22](https://tilburguniversity.instructure.com/courses/8665), [SM1 2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
 *   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM2 2020
     *   :octocat: [800879-B-6](*){:target="new"}
 *   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, SM1 2019
