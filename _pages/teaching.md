@@ -9,17 +9,17 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ## Academic Teaching Experiences
 *   MSc thesis supervision – DSS program, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2022/23: Semester 1
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12763) (login required)
-*   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2021/22: Semester 1, 2022/23: Semester 1
-    *   [Canvas page](https://tilburguniversity.instructure.com/courses/8665) (login required)
-*   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020: 2nd semester
+*   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}, 2021/22: semester 1
+    *   [Canvas page for 2021/22](https://tilburguniversity.instructure.com/courses/8665), [Canvas page for 2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
+*   Principles of Data Mining, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2020: semester 2
     *   :octocat: [800879-B-6](*){:target="new"}
-*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: 1st semester
+*   Natural Language Processing, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: semester 1
     *   :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="new"}
-*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: 2nd semester
+*   Database Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: semester 2
     *   :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="new"}
-*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2019: 2nd semester, 2018: 1st and 2nd semester
+*   Operating System Lab, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2018: semester 1 and 2, 2019: semester 2
     *   :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="new"}
-*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017: 1st and 2nd semester
+*   Computer Workshop, [The University of Guilan](http://ce.guilan.ac.ir){:target="new"}, 2017: semester 1 and 2
     *   <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab961){:target="new"}, <i class="fab fa-google"></i> [Google Group](https://groups.google.com/forum/#!forum/clab952){:target="new"}
 
 
