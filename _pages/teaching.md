@@ -8,8 +8,9 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Academic Teaching Experiences
 *   MSc thesis supervision – DSS program, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
-    *   SM1 2022/23, SM2 2023 
-    *   [Canvas page](https://tilburguniversity.instructure.com/courses/12763) (login required)
+    *   SM1 2022/23, SM2 2023
+    *   [Supervised topics]()
+    *   [Canvas page](https://tilburguniversity.instructure.com/courses/12764) (login required)
 *   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
     *   SM1 2021/22, SM1 2022/23
     *   Canvas page for [SM1 2021/22](https://tilburguniversity.instructure.com/courses/8665), [SM1 2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
