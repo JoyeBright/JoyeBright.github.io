@@ -10,6 +10,7 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 *   MSc thesis supervision – DSS program, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
     *   SM1 2022/23, SM2 2023
     *   [Supervised topics](/master_topics)
+    *   So far in my journey, I've had the privilege to supervise `3` theses and serve as a second reader for `6` others. 
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12764) (login required)
 *   Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
     *   SM1 2021/22, SM1 2022/23
