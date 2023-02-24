@@ -6,8 +6,12 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+*   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
+    *   Accepted to the [Intelligent Systems Conference (IntelliSys)](https://saiconference.com/IntelliSys) 2023 
+    *   7-8 September 2023 | Amsterdam, The Netherlands
+    *   [arXiv](https://arxiv.org/abs/2302.10199) (ahead of publication)
 *   Quality Estimation for the Translation Industry – Data Challenges
-*   *   Presented in the 32nd Meeting of Computational Linguistics in The Netherlands (CLIN 32)
+    *   Presented in the 32nd Meeting of Computational Linguistics in The Netherlands (CLIN 32)
     *   Tilburg, the Netherlands
     *   [Acceptance ref.](https://clin2022.uvt.nl/clin32/programme/)
     *   [Link](https://www.researchgate.net/publication/361389091_Quality_Estimation_for_the_Translation_Industry_-_Data_Challenges)
