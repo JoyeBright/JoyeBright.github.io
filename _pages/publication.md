@@ -7,23 +7,18 @@ author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 *   Tailoring Domain Adaptation for Machine Translation Quality Estimation
-    *   Accepted to Proceedings of the 24th Annual Conference of the European Association for Machine Translation
-    *   Tampere, Finland, 2023
-    *   [Link](https://events.tuni.fi/eamt23/)
+    *   The 24th Annual Conference of the European Association for Machine Translation ([EAMT 2023](https://events.tuni.fi/eamt23/))
 *   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
-    *   Accepted to the [Intelligent Systems Conference (IntelliSys)](https://saiconference.com/IntelliSys) 2023 
-    *   7-8 September, Amsterdam, The Netherlands
+    *   The Intelligent Systems Conference (IntelliSys)](https://saiconference.com/IntelliSys) 2023 
     *   [arXiv](https://arxiv.org/abs/2302.10199) (ahead of publication)
 *   Quality Estimation for the Translation Industry – Data Challenges
-    *   Presented in the 32nd Meeting of Computational Linguistics in The Netherlands (CLIN 32)
+    *   The 32nd Meeting of Computational Linguistics in The Netherlands (CLIN 32)
     *   Tilburg, the Netherlands
     *   [Acceptance ref.](https://clin2022.uvt.nl/clin32/programme/)
     *   [Link](https://www.researchgate.net/publication/361389091_Quality_Estimation_for_the_Translation_Industry_-_Data_Challenges)
     *   June 17, 2022
 *   A Quality Estimation and Quality Evaluation Tool for the Translation Industry  
-    *   Proceedings of the 23rd Annual Conference of the European Association for Machine Translation
-    *   Published Jun, 2022
-    *   Ghent, Belgium
+    *   The 23rd Annual Conference of the European Association for Machine Translation ([EAMT 2023](https://events.tuni.fi/eamt23/))
     *   [Link](https://aclanthology.org/2022.eamt-1.43/)   
 *   Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts
     *   Accepted to the [Computational Linguistics in the Netherlands (CLIN) Journal](https://www.clinjournal.org/)
