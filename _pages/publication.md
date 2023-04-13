@@ -6,6 +6,10 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+*   Tailoring Domain Adaptation for Machine Translation Quality Estimation
+    *   Accepted to Proceedings of the 24th Annual Conference of the European Association for Machine Translation
+    *   Tampere, Finland, 2023
+    *   [Link](https://events.tuni.fi/eamt23/)
 *   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
     *   Accepted to the [Intelligent Systems Conference (IntelliSys)](https://saiconference.com/IntelliSys) 2023 
     *   7-8 September, Amsterdam, The Netherlands
