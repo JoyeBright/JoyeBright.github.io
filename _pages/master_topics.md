@@ -15,4 +15,4 @@ excerpt: Discover the compilation of themes I've guided as a supervisor for the 
 * Investigating the impact of music on mental health using machine learning
 * Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews
 * Improving sentimental analysis of Hindi-English code-mixed texts through ensemble learning
-* Thrieving in the music: Machine learning models for entering the billboard hot100 using Spotify data and lyrics
+* Thrieving in the music: machine learning models for entering the billboard hot100 using Spotify data and lyrics
