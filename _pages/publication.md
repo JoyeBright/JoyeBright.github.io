@@ -8,6 +8,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 *   A Python Tool for Selecting Domain-Specific Data in Machine Translation
     *   The 1st edition of the Workshop on Open Community-Driven Machine Translation ([CrowdMT 2023](https://macocu.eu/workshop))
+    *   June 15, 2023, co-located with EAMT 2023
     *   [Direct download link](/assets/files/pubs/A Python Tool for Selecting Domain-Specific Data in Machine Translation.pdf)
 *   Tailoring Domain Adaptation for Machine Translation Quality Estimation
     *   The 24th Annual Conference of the European Association for Machine Translation ([EAMT 2023](https://events.tuni.fi/eamt23/){:target="new"})
