@@ -6,10 +6,10 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
-*   [Tailoring Domain Adaptation for Machine Translation Quality Estimation](
+*   Tailoring Domain Adaptation for Machine Translation Quality Estimation
     *   The 24th Annual Conference of the European Association for Machine Translation ([EAMT 2023](https://events.tuni.fi/eamt23/){:target="new"})
     *   [arXiv](https://arxiv.org/abs/2304.08891){:target="new"} (ahead of publication)
-    *   [PDF](/assets/files/)
+    *   [Direct download link](/assets/files/pubs/)
 *   A Systematic Analysis of Vocabulary and BPE Settings for Optimal Fine-tuning of NMT: A Case Study of In-domain Translation 
     *   pre-print
     *   [arXiv](https://arxiv.org/abs/2303.00722){:target="new"}
