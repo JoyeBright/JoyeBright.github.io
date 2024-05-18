@@ -5,7 +5,7 @@ author_profile: true
 ---
 {% include base_path %}
 
-Hi there! I'm Javad Pourmostafa /'dʒævɒd puːr'moʊs'tae'fɑː/! I use the usernames 'joeybright' or 'joyebright' whenever available. I have published under the name 'Javad Pourmostafa Roshan Sharami,' where 'Roshan Sharami' is a suffix added to my last name.
+Hi there! I'm Javad Pourmostafa /'dʒævɒd puːr'moʊs'tae'fɑː/! I use the usernames "joeybright" or "joyebright" whenever available.
 
 I'm a [Ph.D. candidate and lecturer](https://www.tilburguniversity.edu/staff/j-pourmostafa){:target="new"} at the [Department of Cognitive Science and Artificial Intelligence (CSAI)](https://csai.nl){:target="new"} at [Tilburg University](https://www.tilburguniversity.edu/){:target="new"}. My Ph.D. project focuses on domain-specific machine translation and quality estimation systems. I work with [Dr. Dimitar Shterionov](https://ilk.uvt.nl/~shterion/){:target="new"} and [Prof. Dr. Ir. Pieter Spronck](https://www.spronck.net/){:target="new"}.
 
