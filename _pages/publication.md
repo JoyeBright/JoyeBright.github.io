@@ -6,6 +6,8 @@ permalink: /publication/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
+I have published under the name 'Javad Pourmostafa Roshan Sharami,' where 'Roshan Sharami' is a suffix added to my last name.
+
 *   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
     *   IntelliSys 2023: Intelligent Systems and Applications pp 15–35
     *   First online: February 14, 2024
