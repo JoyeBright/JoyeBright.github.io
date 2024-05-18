@@ -9,7 +9,7 @@ excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 *   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
     *   IntelliSys 2023: Intelligent Systems and Applications pp 15–35
     *   First online: February 14, 2024
-    *   Part of the Lecture Notes in Networks and Systems book series (LNNS,volume 825)
+    *   [Part of the Lecture Notes in Networks and Systems book series](https://link.springer.com/chapter/10.1007/978-3-031-47718-8_2) (LNNS,volume 825)
 *   A Python Tool for Selecting Domain-Specific Data in Machine Translation
     *   The 1st edition of the Workshop on Open Community-Driven Machine Translation ([CrowdMT 2023](https://macocu.eu/workshop))
     *   June 15, 2023, co-located with EAMT 2023
