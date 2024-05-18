@@ -25,5 +25,4 @@ Some topics of interest to me are:
 
 Feel free to drop me a line if you'd like to collaborate with me on the topics that intersect with NLP and DL.
 
-
 <a class="twitter-timeline" data-lang="en" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/JPourmostafa?ref_src=twsrc%5Etfw">Tweets by JPourmostafa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
