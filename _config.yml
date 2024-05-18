@@ -10,10 +10,10 @@ minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "da
 # Site Settings
 locale                   : "en-US"
 title                    : "Javad Pourmostafa Roshan Sharami"
-titleinPersian           : "جواد پورمصطفی"
+titleinPersian           : ""
 title_separator          : "-"
 name                     : "Javad Pourmostafa"
-description              : "Homepage of Javad Pourmostafa Roshan Sharami, a PhD candidate at the Department of Cognitive Science and Artificial Intelligence of Tilburg University."
+description              : "Homepage of Javad Pourmostafa Roshan Sharami, a PhD candidate and lecturer at the Department of Cognitive Science and Artificial Intelligence of Tilburg University."
 url                      : "https://javad.pourmostafa.com"
 baseurl                  : #
 repository               : "joyebright/JoyeBright.github.io"
