@@ -9,7 +9,7 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ## Supervision
 *   MSc thesis Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
     *   SM1 2022/23, SM2 2023/24
-    *   So far, I've had the privilege to supervise `30` theses and serve as a second reader for `22` others.
+    *   So far, I've supervised `30` theses and served as a second reader for `22` others.
     *   [Supervised topics](/master_topics) 
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12764) (login required)
 
@@ -44,8 +44,8 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   American English File (AEF) Series
     *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
-*   Preparing of University Entrance Exam
-    *   Dr. Armin and Alborz foreign Language Institute, Rasht, Iran, 2011-2017
+*   Preparing for the University Entrance Exam
+    *   Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017
 *   Daily Conversation
     *   Manesh Educational Complex, Golsar, Rasht, Iran, 2018
 
