@@ -8,8 +8,8 @@ excerpt: You can find Javad Pourmostafa's teaching experiences on this webpage.
 ---
 ## Supervision
 *   MSc thesis Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="new"}
-    *   SM1 2022/23, SM2 2023
-    *   So far, I've had the privilege to supervise `20` theses and serve as a second reader for `16` others.
+    *   SM1 2022/23, SM2 2023/24
+    *   So far, I've had the privilege to supervise `30` theses and serve as a second reader for `22` others.
     *   [Supervised topics](/master_topics) 
     *   [Canvas page](https://tilburguniversity.instructure.com/courses/12764) (login required)
 
