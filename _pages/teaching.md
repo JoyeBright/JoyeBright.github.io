@@ -9,45 +9,45 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 ## Supervision
 
-- **MSc Thesis, Data Science & Society (DSS)**, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
+- MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
   *SM1 & SM2 2022/23, SM1 & SM2 2023/24, SM1 2024/25*  
-  - Supervised over **30 theses** and served as a second reader for **22 others**.  
+  - Supervised over 30 theses and served as a second reader for 22 others.  
   - [View a subset of thesis topics](/master_topics)
 
 ## Academic Teaching Experience
 
-- **Programming with C/C++,** [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
+- Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
   *SM1 2021/22, SM1 2022/23, SM1 2023/24*
 
-- **Principles of Data Mining,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Principles of Data Mining, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*  
   - Course Code: [800879-B-6](#){:target="_blank"}
 
-- **Natural Language Processing,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Natural Language Processing, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 2019*  
   - [NLP981](https://github.com/JoyeBright/NLP981){:target="_blank"}
 
-- **Database Lab,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Database Lab, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2019*  
   - [DBLab972](https://github.com/JoyeBright/DBLab){:target="_blank"}
 
-- **Operating System Lab,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Operating System Lab, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2018, SM2 2019*  
   - [OSLab972](https://github.com/JoyeBright/OSLab){:target="_blank"}
 
-- **Computer Workshop,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Computer Workshop, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2017*  
   - [Google Group 961](https://groups.google.com/forum/#!forum/clab961){:target="_blank"}  
   - [Google Group 952](https://groups.google.com/forum/#!forum/clab952){:target="_blank"}
 
 ## Teaching Assistant Experience
 
-- **Natural Language Processing,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Natural Language Processing, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *2019*  
   - Course Instructor: [Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel){:target="_blank"}  
   - Assessed student-implemented sentiment analysis systems.
 
-- **Leading Apprenticeship Programmes,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
+- Leading Apprenticeship Programmes, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *2018*  
   - Course Instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="_blank"}  
   - Focus: Implementing a distributed system using MPI  
@@ -57,25 +57,25 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 ### English Courses
 
-- **IELTS Preparation**  
+- IELTS Preparation  
   *Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017*
 
-- **American English File (AEF) Series**  
+- American English File (AEF) Series  
   *Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017*
 
-- **University Entrance Exam Preparation**  
+- University Entrance Exam Preparation  
   *Dr. Armin and Alborz Foreign Language Institute, Rasht, Iran, 2011-2017*
 
-- **Daily Conversation**  
+- Daily Conversation  
   *Manesh Educational Complex, Golsar, Rasht, Iran, 2018*
 
 ### Computer Courses
 
-- **Web Development Courses**  
+- Web Development Courses  
   *Gilro.co, Rasht, Iran, 2016-2017*
 
-- **PHP Programming Courses**  
+- PHP Programming Courses  
   *Gilro.co, Rasht, Iran, 2016-2017*
 
-- **Fundamentals of Computer Science**  
+- Fundamentals of Computer Science  
   *Fanikaran (Iran TVTO), Rasht, Iran, 2013*
