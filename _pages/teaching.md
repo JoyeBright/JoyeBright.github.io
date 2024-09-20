@@ -13,14 +13,11 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
   *SM1 2022/23, SM2 2023/24*  
   - Supervised over **30 theses** and served as a second reader for **22 others**.  
   - [View a subset of thesis topics](/master_topics)  
-  - Access the [Canvas page](https://tilburguniversity.instructure.com/courses/12764) (login required)
 
 ## Academic Teaching Experience
 
 - **Programming with C/C++,** [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-  *SM1 2021/22, SM1 2022/23*  
-  - [Canvas page for SM1 2021/22](https://tilburguniversity.instructure.com/courses/8665)  
-  - [Canvas page for SM1 2022/23](https://tilburguniversity.instructure.com/courses/11982) (login required)
+  *SM1 2021/22, SM1 2022/23, SM1 2023/24*
 
 - **Principles of Data Mining,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*  
