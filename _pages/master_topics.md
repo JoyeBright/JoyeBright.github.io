@@ -8,8 +8,6 @@ show_title: false
 excerpt: A selection of themes I have supervised for the Data Science & Society Master Thesis program at Tilburg University.
 ---
 
-## Supervised Thesis Topics
-
 Below is a subset of the thesis topics I have supervised:
 
 - Analysis of Cross-Lingual Models for Aspect-Based Sentiment Analysis: A Case Study in Dutch as a Low-Resource Language  
