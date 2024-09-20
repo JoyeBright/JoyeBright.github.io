@@ -9,10 +9,10 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 ## Supervision
 
-- MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-  *SM1 & SM2 2022/23, SM1 & SM2 2023/24, SM1 2024/25*  
-  - Supervised over **30 theses** and served as a second reader for **22 others**.  
-  - [View a subset of thesis topics](/master_topics)
+MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
+*SM1 & SM2 2022/23, SM1 & SM2 2023/24, SM1 2024/25*  
+- Supervised over 30 theses and served as a second reader for 22 others.  
+- [View a subset of thesis topics](/master_topics)
 
 ## Academic Teaching Experience
 
@@ -25,15 +25,15 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 - Natural Language Processing, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 2019*  
-  - [NLP981](https://github.com/JoyeBright/NLP981){:target="_blank"}
+  - Course Repository: [NLP981](https://github.com/JoyeBright/NLP981){:target="_blank"}
 
 - Database Lab, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2019*  
-  - [DBLab972](https://github.com/JoyeBright/DBLab){:target="_blank"}
+  - Course Repository: [DBLab972](https://github.com/JoyeBright/DBLab){:target="_blank"}
 
 - Operating System Lab, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2018, SM2 2019*  
-  - [OSLab972](https://github.com/JoyeBright/OSLab){:target="_blank"}
+  - Course Repository: [OSLab972](https://github.com/JoyeBright/OSLab){:target="_blank"}
 
 - Computer Workshop, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2017*  
@@ -51,7 +51,6 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
   *2018*  
   - Course Instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="_blank"}  
   - Focus: Implementing a distributed system using MPI  
-  - [Report 1](#) | [Report 2](#) (Persian)
 
 ## Non-Academic Teaching Experience
 
