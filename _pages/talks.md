@@ -13,7 +13,7 @@ excerpt: A collection of presentations and talks by Javad PourMostafa.
 - **Date:** September 2024
 - **Event:** [AMTA 2024](https://amtaweb.org/amta-2024-program/)
 - **Format:** Online
-<iframe style="max-width: 75%; max-height: 93%;" src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="max-width: 70%; max-height: 90%;" src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -22,7 +22,7 @@ excerpt: A collection of presentations and talks by Javad PourMostafa.
 - **Event:** [TAISIG Talks #13](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
 - **Location:** Deprez building, Tilburg University, Tilburg, The Netherlands
 - **Slides:** [ResearchGate](https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts)
-<iframe style="max-width: 75%; max-height: 93%;" src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="max-width: 70%; max-height: 90%;" src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
