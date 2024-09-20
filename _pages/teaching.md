@@ -9,10 +9,10 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 ## Supervision
 
-- **MSc Thesis, Data Science & Society (DSS),** [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-  *SM1&SM2 2022/23, SM1&SM2 2023/224, SM1 2024/25*  
+- **MSc Thesis, Data Science & Society (DSS)**, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
+  *SM1&SM2 2022/23, SM1&SM2 2023/24, SM1 2024/25*  
   - Supervised over **30 theses** and served as a second reader for **22 others**.  
-  - [View a subset of thesis topics](/master_topics)  
+  - [View a subset of thesis topics](/master_topics)
 
 ## Academic Teaching Experience
 
@@ -21,36 +21,36 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 - **Principles of Data Mining,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*  
-  - Course Code: :octocat: [800879-B-6](#){:target="_blank"}
+  - Course Code: [800879-B-6](#){:target="_blank"}
 
 - **Natural Language Processing,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 2019*  
-  - :octocat: [NLP981](https://github.com/JoyeBright/NLP981){:target="_blank"}
+  - [NLP981](https://github.com/JoyeBright/NLP981){:target="_blank"}
 
 - **Database Lab,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2019*  
-  - :octocat: [DBLab972](https://github.com/JoyeBright/DBLab){:target="_blank"}
+  - [DBLab972](https://github.com/JoyeBright/DBLab){:target="_blank"}
 
 - **Operating System Lab,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2018, SM2 2019*  
-  - :octocat: [OSLab972](https://github.com/JoyeBright/OSLab){:target="_blank"}
+  - [OSLab972](https://github.com/JoyeBright/OSLab){:target="_blank"}
 
 - **Computer Workshop,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2017*  
-  - <i class="fab fa-google"></i> [Google Group 961](https://groups.google.com/forum/#!forum/clab961){:target="_blank"}  
-  - <i class="fab fa-google"></i> [Google Group 952](https://groups.google.com/forum/#!forum/clab952){:target="_blank"}
+  - [Google Group 961](https://groups.google.com/forum/#!forum/clab961){:target="_blank"}  
+  - [Google Group 952](https://groups.google.com/forum/#!forum/clab952){:target="_blank"}
 
 ## Teaching Assistant Experience
 
 - **Natural Language Processing,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *2019*  
   - Course Instructor: [Dr. S. A. Mirroshandel](https://nlp.guilan.ac.ir/mirroshandel){:target="_blank"}  
-  - Assessed the outputs of sentiment analysis systems implemented by students.
+  - Assessed student-implemented sentiment analysis systems.
 
 - **Leading Apprenticeship Programmes,** [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *2018*  
   - Course Instructor: [Dr. Hamidreza AhmadiFar](https://staff.guilan.ac.ir/ahmadifar/){:target="_blank"}  
-  - Topic: Implementing a distributed system using MPI  
+  - Focus: Implementing a distributed system using MPI  
   - [Report 1](#) | [Report 2](#) (Persian)
 
 ## Non-Academic Teaching Experience
