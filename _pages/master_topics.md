@@ -4,15 +4,19 @@ layout: archive
 classes: wide
 permalink: /master_topics/
 author_profile: true
-excerpt: Discover the themes I've supervised for the Data Science & Society Master Thesis program at Tilburg University.
+excerpt: A selection of themes supervised for the Data Science & Society Master Thesis program at Tilburg University.
 ---
+
+Below is a subset of theses I have supervised:
 
 ## Supervised Thesis Topics
 
 1. **Analysis of Cross-Lingual Models for Aspect-Based Sentiment Analysis: A Case Study in Dutch as a Low-Resource Language**  
-   [View Thesis](https://arno.uvt.nl/show.cgi?fid=172664)
+   *Author: Roxana Cotfas*  
+   [View Thesis](https://tilburguniversity.on.worldcat.org/oclc/1450888417)
 
 2. **Who Wins? Predicting Tennis Match Outcomes Using Machine Learning**  
+   *Author: Maurits Godthelp*  
    [View Thesis](https://arno.uvt.nl/show.cgi?fid=173229)
 
 3. **Performance Comparison of Neural Machine Translation Models for English to Persian Translation**
