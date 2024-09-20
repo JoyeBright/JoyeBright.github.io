@@ -6,6 +6,10 @@ permalink: /talk/
 author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's presentations and talks.
 ---
+*   Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation
+    *   Sep, 2024
+    *   At AMTA 2024
+    *   <iframe width="560" height="315" src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 *   Selecting Parallel In-domain Sentences for Neural Machine Translation
     *   Apr, 2022
     *   At [TAISIG Talks #13](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig)
