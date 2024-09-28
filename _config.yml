@@ -81,8 +81,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-   - title: "ACL Anthology"
-     url: "https://aclanthology.org/people/j/javad-pourmostafa-roshan-sharami/"
 
 # Analytics
 analytics:
@@ -127,6 +125,7 @@ author:
   researchgate     : "Javad_Pourmostafa_Roshan_Sharami"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=xqccd64AAAAJ"
   semanticscholar  : "https://www.semanticscholar.org/author/Javad-Pourmostafa-Roshan-Sharami/1630385856"
+  aclanthology     : "https://aclanthology.org/people/j/javad-pourmostafa-roshan-sharami/"
 
 
 # Reading Files
