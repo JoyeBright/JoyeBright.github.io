@@ -7,7 +7,10 @@ author_profile: true
 excerpt: This page shows a list of Javad PourMostafa's papers and talks.
 ---
 I have published under the name 'Javad Pourmostafa Roshan Sharami,' where 'Roshan Sharami' is a suffix added to my last name.
-
+*   Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation
+    *   AMTA 2024: The 16th Conference of the Association for Machine Translation in the Americas
+    *   October 2024
+    *   [Proceedings of AMTA 2024 (Volume 1: Research Track)](https://aclanthology.org/2024.amta-research.9/){:target="new"}
 *   Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews
     *   IntelliSys 2023: Intelligent Systems and Applications pp 15–35
     *   First online: February 14, 2024
