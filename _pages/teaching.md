@@ -17,7 +17,7 @@ MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilbu
 ## Academic Teaching Experience
 
 - Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-  *SM1 2021/22, SM1 2022/23, SM1 2023/24*
+  *SM1 2021/22, SM1 2022/23, SM1 2023/24, SM1 2024/25*
 
 - Principles of Data Mining, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*  
