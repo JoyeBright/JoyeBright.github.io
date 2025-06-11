@@ -9,11 +9,11 @@ excerpt: A collection of presentations and talks by Javad PourMostafa.
 
 ## Presentations and Talks
 
-### Priming LLMs for Domain-specific MT via ICL and Quality Estimation
+### Priming LLMs for Domain-specific MT via In-context Learning and Quality Estimation
 - **Date:** June 6, 2025
 - **Event:** [NITS 2025](https://nitsnetwork.github.io/index.html)
 - **Location:** DZ4, Tilburg University, Tilburg, the Netherlands
-- **Slides:** https://docs.google.com/presentation/d/1S5iaYM7x_t4kWkZQNnbtSbuTCDw4uTpGBxjS7Y34ExY/edit?usp=sharing
+- **Slides:** [Click here](https://docs.google.com/presentation/d/1S5iaYM7x_t4kWkZQNnbtSbuTCDw4uTpGBxjS7Y34ExY/edit?usp=sharing)
 
 ### Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation
 - **Date:** September 2024
