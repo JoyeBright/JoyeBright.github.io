@@ -10,14 +10,16 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 ## Supervision
 
 MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-*SM1 & SM2 2022/23, SM1 & SM2 2023/24, SM1 & SM2 2024/25*  
+*SM1 & SM2 2022/23, 2023/24, S2024/25, and SM1 2025/26. 
 - Supervised over 61 theses and was the second reader for 23 others.  
 - [View a subset of thesis topics](/master_topics)
 
 ## Academic Teaching Experience
+- RS: Reproducibility & Model Deployment, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}
+  *SM1 2025/26 (Block 1)
 
 - Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-  *SM1 2021/22, SM1 2022/23, SM1 2023/24, SM1 2024/25*
+  *SM1 2021/22, 2022/23, 2023/24, 2024/25, SM1 2025/26*
 
 - Principles of Data Mining, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*  
