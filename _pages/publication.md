@@ -55,12 +55,15 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 ## A Python Tool for Selecting Domain-Specific Data in Machine Translation  
 
 <p style="font-size: 90%;">
-<strong>Venue:</strong> The 1st edition of the Workshop on Open Community-Driven Machine Translation (<a href="https://macocu.eu/workshop">CrowdMT 2023</a>), co-located with EAMT 2023 <br>
+<strong>Venue:</strong> Proceedings of the 1st Workshop on Open Community-Driven Machine Translation (CrowdMT 2023), co-located with EAMT 2023, Tampere, Finland <br>
 <strong>Date:</strong> June 15, 2023 <br>
-<strong>PDF:</strong> <a href="/assets/files/pubs/A Python Tool for Selecting Domain-Specific Data in Machine Translation.pdf">Direct download</a>
+<strong>Pages:</strong> 29–30 <br>
+<strong>PDF:</strong> <a href="https://aclanthology.org/2023.crowdmt-1.4.pdf" target="new">ACL Anthology</a> <br>
+<strong>Code / Tool:</strong> <a href="https://github.com/JoyeBright/domain-adapt-mt" target="new">GitHub: domain-adapt-mt</a>
 </p>
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
+
 
 ## Tailoring Domain Adaptation for Machine Translation Quality Estimation  
 
