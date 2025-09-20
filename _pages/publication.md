@@ -65,12 +65,14 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 ## Tailoring Domain Adaptation for Machine Translation Quality Estimation  
 
 <p style="font-size: 90%;">
-<strong>Venue:</strong> The 24th Annual Conference of the European Association for Machine Translation (<a href="https://events.tuni.fi/eamt23/" target="new">EAMT 2023</a>) <br>
-<strong>Preprint:</strong> <a href="https://arxiv.org/abs/2304.08891" target="new">arXiv</a> (ahead of publication) <br>
-<strong>PDF:</strong> <a href="/assets/files/pubs/Tailroing Domain Adaptation for Machine Translation Quality Estimation.pdf">Direct download</a>
+<strong>Venue:</strong> EAMT 2023: 24th Annual Conference of the European Association for Machine Translation (Tampere, Finland) <br>
+<strong>Date:</strong> June 2023 <br>
+<strong>Pages:</strong> 9–20 <br>
+<strong>Preprint / PDF:</strong> <a href="https://arxiv.org/abs/2304.08891" target="new">arXiv:2304.08891</a>, <a href="https://aclanthology.org/2023.eamt-1.2/" target="new">ACL Anthology PDF</a>
 </p>
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
+
 
 ## A Systematic Analysis of Vocabulary and BPE Settings for Optimal Fine-tuning of NMT: A Case Study of In-domain Translation  
 
