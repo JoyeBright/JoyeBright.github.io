@@ -23,8 +23,7 @@ MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilbu
   *SM1 2021/22, 2022/23, 2023/24, 2024/25, SM1 2025/26*
 
 - Principles of Data Mining, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
-  *SM2 2020*  
-  - Course Code: [800879-B-6](#){:target="_blank"}
+  *SM2 2020*
 
 - Natural Language Processing, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 2019*  
