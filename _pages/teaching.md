@@ -18,7 +18,7 @@ excerpt: Explore Javad Pourmostafa’s academic and non-academic teaching and su
 
 ## 🎓 Academic Teaching Experience
 
-**Reproducibility & Model Deployment (RS)**  
+**RS: Reproducibility & Model Deployment**  
 *Tilburg University — SM1 2025/26 (Block 1)*  
 - [Course page](https://cmry.notion.site/Reproducibility-Model-Deployment-Course-Page-250a9a4bdc13804082c7cacc8e2ab2ae){:target="_blank"}
 
