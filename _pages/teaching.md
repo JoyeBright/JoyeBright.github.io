@@ -17,7 +17,7 @@ MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilbu
 ## Academic Teaching Experience
 - RS: Reproducibility & Model Deployment, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
 *SM1 2025/26 (Block 1)*
-* [Course page](https://cmry.notion.site/Reproducibility-Model-Deployment-Course-Page-250a9a4bdc13804082c7cacc8e2ab2ae){:target="_blank"}
+  - [Course page](https://cmry.notion.site/Reproducibility-Model-Deployment-Course-Page-250a9a4bdc13804082c7cacc8e2ab2ae){:target="_blank"}
 
 - Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
   *SM1 2021/22, 2022/23, 2023/24, 2024/25, SM1 2025/26*
