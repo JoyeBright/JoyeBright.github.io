@@ -17,9 +17,9 @@ main:
     - title: "Talks"
       url: "/talk/"
       
-    # - title: "Blog"
-    #  url: "/blog/"
-    #  description: "The List of posts"
+    - title: "Blog"
+     url: "/blog/"
+     description: "The List of posts"
 
     #- title: "Portfolio"
     #  url: "/portfolio/"
