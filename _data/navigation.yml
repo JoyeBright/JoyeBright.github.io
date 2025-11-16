@@ -1,33 +1,32 @@
 # main links
 main:
-    - title: "Home"
-      url: "/"
+  - title: "Home"
+    url: "/"
 
-   - title: "Blog"
-     url: "/blog/"
-     description: "The List of posts"
+  - title: "Blog"
+    url: "/blog/"
+    description: "The List of posts"
 
-    #- title: "CV"
-    #  url: "/cv/"
+  # - title: "CV"
+  #   url: "/cv/"
     
-    - title: "Teaching"
-      url: "/teaching/"
-      description: "Teaching experiences"
+  - title: "Teaching"
+    url: "/teaching/"
+    description: "Teaching experiences"
 
-    - title: "Publications"
-      url: "/publication/"
-      description: "List of academic publications"
+  - title: "Publications"
+    url: "/publication/"
+    description: "List of academic publications"
       
-    - title: "Talks"
-      url: "/talk/"
+  - title: "Talks"
+    url: "/talk/"
       
+  # - title: "Portfolio"
+  #   url: "/portfolio/"
+  #   description: "The comprehensive list of products"
 
-    #- title: "Portfolio"
-    #  url: "/portfolio/"
-    #  description: "The comprehensive list of products"
+  # - title: "Photos"
+  #   url: "#"
 
-    # - title: "Photos"
-    #  url: #
-
-    - title: "Contact"
-      url: "/contact/"
+  - title: "Contact"
+    url: "/contact/"
