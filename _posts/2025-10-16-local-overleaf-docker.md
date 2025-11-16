@@ -9,7 +9,7 @@ tags:
   - Overlead_docker
 ---
 
-#### You can also view this post on Notion at [HERE](https://j-pourmostafa.notion.site/guide-to-using-overleaf-locally?source=copy_link)
+### You can also view this post on Notion at [HERE](https://j-pourmostafa.notion.site/guide-to-using-overleaf-locally)
 
 ## ℹ️ About this guide
 
