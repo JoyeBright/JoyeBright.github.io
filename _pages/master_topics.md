@@ -4,6 +4,7 @@ layout: archive
 classes: wide
 permalink: /master_topics/
 author_profile: true
+excerpt: A selection of themes I have supervised for the Data Science & Society Master Thesis program at Tilburg University.
 ---
 
 Below is a subset of the thesis topics I have supervised:
