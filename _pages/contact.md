@@ -4,6 +4,7 @@ layout: collection
 permalink: /contact/
 entries_layout: grid
 classes: wide
+excerpt: This page is a way to reach out to Javad Pourmostafa.
 ---
 
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/javad.pourmostafa@gmail.com" method="post">
