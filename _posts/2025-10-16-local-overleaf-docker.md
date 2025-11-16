@@ -1,6 +1,6 @@
 ---
 classes: wide
-title:  "Guide to Using Overleaf Locallys"
+title:  "Guide to Using Overleaf Locally"
 categories:
   - Misc
 tags:
@@ -8,8 +8,6 @@ tags:
   - Local_Overleaf
   - Overlead_Docker
 ---
-
-# Guide to Using Overleaf Locally
 
 #### This page is also available on Notion at: https://j-pourmostafa.notion.site/Guide-to-Using-Overleaf-Locally-2a8cc5b4c1be80658d4aeccf923fbfa9?pvs=74
 
