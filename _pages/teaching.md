@@ -4,6 +4,7 @@ layout: archive
 classes: wide
 permalink: /teaching/
 author_profile: true
+excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experiences.
 ---
 
 ## Supervision
