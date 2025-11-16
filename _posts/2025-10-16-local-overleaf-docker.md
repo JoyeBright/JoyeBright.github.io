@@ -8,7 +8,6 @@ tags:
   - Local_Overleaf
   - Overlead_docker
 ---
-## Guide to Using Overleaf Locall
 
 #### This page is also available on Notion at [HERE](https://j-pourmostafa.notion.site/guide-to-using-overleaf-locally?source=copy_link)
 
