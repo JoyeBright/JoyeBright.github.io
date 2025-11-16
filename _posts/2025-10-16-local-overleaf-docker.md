@@ -11,6 +11,8 @@ tags:
 
 # Guide to Using Overleaf Locally
 
+#### This page is also available on Notion at: https://j-pourmostafa.notion.site/Guide-to-Using-Overleaf-Locally-2a8cc5b4c1be80658d4aeccf923fbfa9?pvs=74
+
 ## ℹ️ About this guide
 
 This guide walks you through installing and running **Overleaf Community Edition (CE)** entirely **offline** on your own computer — with all major LaTeX packages pre-installed and ready to use.
