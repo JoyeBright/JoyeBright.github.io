@@ -4,6 +4,7 @@ layout: archive
 classes: wide
 permalink: /publication/
 author_profile: true
+excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 ---
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
