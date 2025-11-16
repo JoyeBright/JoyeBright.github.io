@@ -2,7 +2,7 @@
 classes: wide
 title:  "Guide to Using Overleaf Locallys"
 categories:
-  - Papers
+  - Misc
 tags:
   - Overleaf
   - Local_Overleaf
