@@ -78,7 +78,7 @@ Then return to [http://localhost:8080](http://localhost:8080/) to log in.
 
 You’ll see **“Welcome to Overleaf Local”** — click on **“Start Using Overleaf”** to enter the editor.
 
-![Screenshot 2025-11-11 at 06.06.43.png](Guide%20to%20Using%20Overleaf%20Locally/Screenshot_2025-11-11_at_06.06.43.png)
+![Screenshot 2025-11-11 at 06.06.43.png](https://javad.pourmostafa.com/assets/images/Screenshot_2025-11-11_at_06.06.43.png)
 
 6️⃣ **Import or Create Your Thesis Project**
 
@@ -86,9 +86,9 @@ Once logged in:
 
 - Click **“Create a new project → Upload Project”** to import your `.zip` or `.tex` project. Example: [DSS Thesis Information](https://tilburguniversity.instructure.com/courses/19187/pages/thesis-template-information?module_item_id=925936) or choose **“**Blank Project**”** to start from scratch.
     
-    ![Screenshot 2025-11-11 at 06.07.54.png](Guide%20to%20Using%20Overleaf%20Locally/Screenshot_2025-11-11_at_06.07.54.png)
+    ![Screenshot 2025-11-11 at 06.07.54.png](https://javad.pourmostafa.com/assets/images/Screenshot_2025-11-11_at_06.07.54.png)
     
-    ![Screenshot 2025-11-11 at 06.21.09.png](Guide%20to%20Using%20Overleaf%20Locally/Screenshot_2025-11-11_at_06.21.09.png)
+    ![Screenshot 2025-11-11 at 06.21.09.png](https://javad.pourmostafa.com/assets/images/Screenshot_2025-11-11_at_06.21.09.png)
     
 
 ---
