@@ -3,7 +3,7 @@ main:
     - title: "Home"
       url: "/"
 
-    - title: "Blog"
+   - title: "Blog"
      url: "/blog/"
      description: "The List of posts"
 
