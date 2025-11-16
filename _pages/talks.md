@@ -4,7 +4,6 @@ layout: archive
 classes: wide
 permalink: /talk/
 author_profile: true
-excerpt: A collection of presentations and talks by Javad PourMostafa.
 ---
 
 ## Presentations and Talks
