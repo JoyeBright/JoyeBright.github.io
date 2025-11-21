@@ -31,9 +31,9 @@ Since Overleaf recently restricted free compilation times, many students struggl
 3. Install and start Docker Desktop.
 4. Verify installation by running:
     
-    ```bash
-    docker --version
-    ```
+```bash
+docker --version
+```
     
 
 ---
