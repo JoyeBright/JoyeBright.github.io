@@ -1,3 +1,4 @@
+@@ -1,57 +1,78 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
@@ -32,10 +33,10 @@ a{
 * {box-sizing: border-box}
 
 .site-title-persian {
-  
+
   font-family:tahoma !important;
   font-weight:normal !important;
-  
+
 }
 .link-with-acl {
   display: inline-flex; /* Align icon and text */
@@ -55,23 +56,3 @@ a{
   margin-right: 8px; /* Space between icon and text */
   vertical-align: middle;
 }
-
-i.link-with-acl {
-  display: inline-block;
-  width: 1.15em;
-  height: 1.15em;
-  background-color: currentColor;
-  mask-image: url("https://joyebright.github.io/assets/images/acl.svg");
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: 100%;
-  -webkit-mask-image: url("https://joyebright.github.io/assets/images/acl.svg");
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  -webkit-mask-size: 100%;
-  vertical-align: -0.15em;
-}
-
-
-
-
