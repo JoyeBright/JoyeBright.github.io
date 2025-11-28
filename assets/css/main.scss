@@ -55,3 +55,24 @@ a{
   margin-right: 8px; /* Space between icon and text */
   vertical-align: middle;
 }
+
+i.link-with-acl {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  mask-image: url("https://aclanthology.org/images/acl-logo.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  /* For WebKit-based browsers */
+  -webkit-mask-image: url("https://aclanthology.org/images/acl-logo.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+
+  vertical-align: -0.15em; /* alignment fix to match icon fonts */
+}
+
+
