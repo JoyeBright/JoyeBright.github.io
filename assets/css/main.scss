@@ -58,21 +58,19 @@ a{
 
 i.link-with-acl {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 1.15em;
+  height: 1.15em;
   background-color: currentColor;
-  mask-image: url("https://aclanthology.org/images/acl-logo.svg");
+  mask-image: url("https://joyebright.github.io/assets/images/acl.svg");
   mask-repeat: no-repeat;
   mask-position: center;
-  mask-size: contain;
-
-  /* For WebKit-based browsers */
-  -webkit-mask-image: url("https://aclanthology.org/images/acl-logo.svg");
+  mask-size: 100%;
+  -webkit-mask-image: url("https://joyebright.github.io/assets/images/acl.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  -webkit-mask-size: contain;
-
-  vertical-align: -0.15em; /* alignment fix to match icon fonts */
+  -webkit-mask-size: 100%;
+  vertical-align: -0.15em;
 }
+
 
 
