@@ -31,6 +31,14 @@ layout: default
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         </header>
+      {% if page.notion_url %}
+        <p class="page__meta page__meta--notion">
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+          <a href="{{ page.notion_url }}" target="_blank" rel="noopener">
+            View on Notion
+          </a>
+        </p>
+      {% endif %}
       {% endunless %}
 
       <section class="page__content" itemprop="text">
@@ -42,16 +50,7 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
-        
-        {% if page.notion_url %}
-          <p class="external-link">
-            🔗 <a href="{{ page.notion_url }}" target="_blank" rel="noopener">
-              View this post on Notion
-            </a>
-          </p>
-        {% endif %}
-        
+        {{ content }}        
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
