@@ -1,6 +1,7 @@
 ---
 classes: wide
 title:  "Transformers – Input Handling"
+notion_url: https://j-pourmostafa.notion.site/transformers-input-handling
 categories:
   - Learning Notes
 tags:
@@ -8,8 +9,6 @@ tags:
   - NLP
   - LLMs
 ---
-
-### You can also view this post on Notion at [HERE](https://j-pourmostafa.notion.site/transformers-input-handling)
 
 # Transformers – Input Handling
 
