@@ -32,14 +32,14 @@ A transformer architecture consists of:
 
 Each stack has two big sub-blocks:
 
-1. **(Multi-head) self-attention**
+1. (Multi-head) self-attention
     - tokens exchange information (“who should I pay attention to?”)
-2. **(Position-wise) feed-forward neural network** **(FFN/MLP)**
+2. (Position-wise) feed-forward neural network (FFN/MLP)
     - Each token is processed independently by the same small neural net (“now that I have context, transform me”)
 
 Therefore, self-attention allows interaction among tokens (n-to-n), thereby providing contextualization. Then, the MLP refines that information per token.
 
-On top of these two sub-blocks are two important components: **Residual connections** (skip connections) and **layer normalization**.
+On top of these two sub-blocks are two important components: Residual connections (skip connections) and layer normalization.
 
 ## 🪓 Tokenization
 
