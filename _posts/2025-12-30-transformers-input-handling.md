@@ -1,7 +1,5 @@
 ---
 classes: wide
-sidebar:
-  nav: false
 title:  "Transformers – Input Handling"
 notion_url: https://j-pourmostafa.notion.site/transformers-input-handling
 excerpt: Part 1 of a short series on transformers, covering the idea of how they handle input through tokenization and positional encoding.
