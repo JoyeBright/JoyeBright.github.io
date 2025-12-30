@@ -175,7 +175,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
+  input: kramdown
   math_engine: mathjax
   hard_wrap: false
   auto_ids: true
