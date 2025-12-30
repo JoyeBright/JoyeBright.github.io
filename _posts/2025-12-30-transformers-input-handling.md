@@ -10,15 +10,9 @@ tags:
   - LLMs
 ---
 
-# Transformers – Input Handling
-
-ℹ️ 
-
-I've drafted a quick, simple blog post on transformers. This post is part 1 of a series I'm putting together. It will give you a rundown of what transformers are and explain input handling—specifically, tokenization and positional encoding.
+ℹ️ I've drafted a quick, simple blog post on transformers. This post is part 1 of a series I'm putting together. It will give you a rundown of what transformers are and explain input handling—specifically, tokenization and positional encoding.
 
 Please note that I wrote this quickly so that it may contain errors and typos. Feel free to drop me a line if you find any. Thanks!
-
-</aside>
 
 ## 🦂 What are Transformers?
 
