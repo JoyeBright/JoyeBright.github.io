@@ -6,10 +6,6 @@ author_profile: true
 excerpt: Notes on NLP, deep learning, and selected topics in computer science.
 ---
 
-<p class="page-intro">
-  Writing about NLP, deep learning, and practical computer science.
-</p>
-
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
