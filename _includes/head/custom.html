@@ -4,19 +4,24 @@
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 {% if page.mathjax or site.mathjax %}
+<!-- MathJax -->
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['\\(', '\\)']],
-      displayMath: [['$$', '$$']],
+      inlineMath: [['\\(','\\)'], ['$', '$']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
       processEscapes: true
     },
     options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
     }
   };
 </script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 {% endif %}
 
 
