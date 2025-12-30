@@ -56,3 +56,28 @@ a{
   vertical-align: middle;
   margin-left: 1px;
 }
+
+/* Blog index */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-item {
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  margin-bottom: 0.3rem;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.post-excerpt {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
