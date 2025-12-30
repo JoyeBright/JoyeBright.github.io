@@ -39,19 +39,15 @@ Each stack has two big sub-blocks:
 
 Therefore, self-attention allows interaction among tokens (n-to-n), thereby providing contextualization. Then, the MLP refines that information per token.
 
-On top of these two sub-blocks, there are two important parts: **Residual connections** (skip connections) and **layer normalization**.
+On top of these two sub-blocks are two important components: **Residual connections** (skip connections) and **layer normalization**.
 
 ## 🪓 Tokenization
 
 Transformer never deals with characters directly. It only sees token IDs. Text to tokens (words/subwords/bytes).
 
-<aside>
-
 ```
 "unbelievable" → ["un", "believ", "able"] → [417, 9821, 211]
 ```
-
-</aside>
 
 ## 📐 Input/Token Embeddings
 
