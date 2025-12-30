@@ -85,5 +85,18 @@ a{
   margin-top: 1.5rem;
   font-size: 0.9rem;
 }
+.page__meta--notion {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.page__meta--notion a {
+  text-decoration: none;
+}
+
+.page__meta--notion a:hover {
+  text-decoration: underline;
+}
+
 
 
