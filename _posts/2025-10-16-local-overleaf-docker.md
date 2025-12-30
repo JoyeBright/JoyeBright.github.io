@@ -2,6 +2,7 @@
 classes: wide
 title:  "Guide to Using Overleaf Locally"
 notion_url: https://j-pourmostafa.notion.site/guide-to-using-overleaf-locally
+Excerpt: A step-by-step guide for installing and running Overleaf locally on your computer.
 categories:
   - Misc
 tags:
