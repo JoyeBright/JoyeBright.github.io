@@ -46,7 +46,7 @@ Transformer never deals with characters directly. It only sees token IDs. Text t
 
 <aside>
 
-```bash
+```
 "unbelievable" → ["un", "believ", "able"] → [417, 9821, 211]
 ```
 
@@ -120,7 +120,7 @@ As `k` increases across dimensions, the denominator grows, producing sine and co
 
 Then, we compute the positional encoding. For example, for position 1, the encoding is:
 
-```notion
+```
 p₁ = [
   sin(1),
   cos(1),
@@ -131,7 +131,7 @@ p₁ = [
 
 We calculate the PE for the other positions and then add it to the embedding vectors. For example, for position 1:
 
-```notion
+```
 e₁ = [0.6, 0.2, 0.5]
 p₁ = [0.84, 0.54, 0.01]
 -------------------------
