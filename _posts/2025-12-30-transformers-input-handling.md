@@ -6,6 +6,7 @@ excerpt: Part 1 of a short series on transformers, covering the idea of how they
 toc: true
 toc_label: "Contents"
 toc_icon: "list"
+mathjax: true
 categories:
   - Learning Notes
 tags:
@@ -115,6 +116,7 @@ You may wonder why the encoding of dimension 0 is `sin(pos)`. This follows direc
 $$
 PE(pos, 0) = \sin\left(\frac{pos}{10000^{0}}\right) = \sin(pos)
 $$
+
 
 As `k` increases across dimensions, the denominator grows, producing sine and cosine waves at different scales, which allows positional information to be encoded at multiple resolutions.
 
