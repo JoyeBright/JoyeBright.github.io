@@ -2,7 +2,7 @@
 classes: wide
 title:  "Transformers – Input Handling"
 notion_url: https://j-pourmostafa.notion.site/transformers-input-handling
-excerpt: Part 1 of a short series on Transformers: covering the idea of how they handle input through tokenization and positional encoding.
+excerpt: Part 1 of a short series on transformers, covering the idea of how they handle input through tokenization and positional encoding.
 categories:
   - Learning Notes
 tags:
@@ -113,9 +113,9 @@ At this point, there is no order. We define:
 
 You may wonder why the encoding of dimension 0 is `sin(pos)`. This follows directly from the sinusoidal positional encoding formula. For dimension 0, the frequency index is `k = 0`, which gives
 
-$$
+$
 PE(pos, 0) = \sin\left(\frac{pos}{10000^{0}}\right) = \sin(pos)
-$$
+$
 
 As `k` increases across dimensions, the denominator grows, producing sine and cosine waves at different scales, which allows positional information to be encoded at multiple resolutions.
 
