@@ -2,7 +2,7 @@
 classes: wide
 title:  "Transformers – Input Handling"
 notion_url: https://j-pourmostafa.notion.site/transformers-input-handling
-excerpt: Part 1 of a short series on Transformers, covering the core idea of attention and how models handle input through tokenization and positional encoding.
+excerpt: Part 1 of a short series on Transformers: covering the idea of how they handle input through tokenization and positional encoding.
 categories:
   - Learning Notes
 tags:
