@@ -37,7 +37,7 @@ A transformer architecture consists of:
 Each stack has two big sub-blocks:
 
 1. (Multi-head) self-attention
-    - tokens exchange information (“who should I pay attention to?”)
+    - Tokens exchange information (“who should I pay attention to?”)
 2. (Position-wise) feed-forward neural network (FFN/MLP)
     - Each token is processed independently by the same small neural net (“now that I have context, transform me”)
 
@@ -130,6 +130,7 @@ p₁ = [
 ]
 ≈ [0.84, 0.54, 0.01]
 ```
+In sinusoidal PE, sine and cosine use radians, not degrees!
 
 We calculate the PE for the other positions and then add it to the embedding vectors. For example, for position 1:
 
