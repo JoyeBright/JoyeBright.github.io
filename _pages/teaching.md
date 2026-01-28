@@ -16,7 +16,7 @@ MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/edu
 *2022/23 — present*  
 - [View a subset of thesis topics](/master_topics)
 
-## 🎓 Academic Teaching Experience
+## Academic Teaching Experience
 
 - **Advanced Programming with CSAI**
 
@@ -52,7 +52,7 @@ MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/edu
   [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM1 & SM2 2017*
 
-## 👨‍🏫 Teaching Assistant Experience
+## Teaching Assistant Experience
 
 - **Natural Language Processing**,  
   [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
