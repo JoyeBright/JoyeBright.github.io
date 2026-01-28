@@ -9,9 +9,11 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 
 ## Supervision
 
-MSc Thesis, Data Science & Society (DSS), [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
-*SM1 & SM2 2022/23, 2023/24, S2024/25, and SM1 2025/26*
-- Supervised over 61 theses and was the second reader for 23 others.  
+MSc Thesis, Cognitive Science and Artificial Intelligence [(CSAI)](https://www.tilburguniversity.edu/education/masters-programs/cognitive-science-and-artificial-intelligence){:target="_blank"}   
+*S2025*
+
+MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society){:target="_blank"}  
+*2022/23—so far*
 - [View a subset of thesis topics](/master_topics)
 
 ## 🎓 Academic Teaching Experience
