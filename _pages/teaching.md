@@ -17,8 +17,9 @@ MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/edu
 - [View a subset of thesis topics](/master_topics)
 
 ## Academic Teaching Experience
-- Advanced Programming with CSAI
-- 
+- Advanced Programming for CSAI, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
+*SM2 2025/26*
+*Co-course Coordinator*
 - RS: Reproducibility & Model Deployment, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
 *SM1 2025/26 (Block 1)*
   - [Course page](https://cmry.notion.site/Reproducibility-Model-Deployment-Course-Page-250a9a4bdc13804082c7cacc8e2ab2ae){:target="_blank"}
