@@ -7,7 +7,7 @@ author_profile: true
 excerpt: Overview of Javad Pourmostafa’s academic and non-academic teaching and supervision experience.
 ---
 
-## 🎓 Supervision
+## Supervision
 
 **MSc Thesis – Cognitive Science and Artificial Intelligence (CSAI)**  
 [Tilburg University](https://www.tilburguniversity.edu/education/masters-programs/cognitive-science-and-artificial-intelligence){:target="_blank"}  
@@ -20,7 +20,7 @@ excerpt: Overview of Javad Pourmostafa’s academic and non-academic teaching an
 
 ---
 
-## 👨‍🏫 Academic Teaching Experience
+## Academic Teaching Experience
 
 **Reproducibility & Model Deployment (RS)**  
 [Tilburg University – Department of Cognitive Science & AI](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
@@ -56,7 +56,7 @@ excerpt: Overview of Javad Pourmostafa’s academic and non-academic teaching an
 
 ---
 
-## 🧑‍💼 Teaching Assistant Experience
+## Teaching Assistant Experience
 
 **Natural Language Processing**  
 [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
@@ -72,7 +72,7 @@ excerpt: Overview of Javad Pourmostafa’s academic and non-academic teaching an
 
 ---
 
-## 🌍 Non-Academic Teaching Experience
+## Non-Academic Teaching Experience
 
 ### English Language Courses
 
