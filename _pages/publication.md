@@ -20,6 +20,18 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
+## Improving Medical Waste Classification with Hybrid Capsule Networks  
+
+<p style="font-size: 90%;">
+<strong>Authors:</strong> Broek, B.v.d., Sharami, J.P.R. <br>
+<strong>Venue:</strong> IntelliSys 2025: Intelligent Systems and Applications <br>
+<strong>Series:</strong> Lecture Notes in Networks and Systems, vol 1660, Springer, Cham <br>
+<strong>Year:</strong> 2026 <br>
+<strong>DOI:</strong> <a href="https://doi.org/10.1007/978-3-032-07109-5_8" target="new">10.1007/978-3-032-07109-5_8</a>
+</p>
+
+<hr style="border: 1px solid #ddd; margin: 2em 0;" />
+
 ## Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction  
 
 <p style="font-size: 90%;">
