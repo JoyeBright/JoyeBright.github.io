@@ -1,7 +1,7 @@
 ---
 title: PhD Thesis
 layout: collection
-permalink: /phd/
+permalink: /phdthesis/
 entries_layout: grid
 classes: wide
 excerpt: Information about my PhD dissertation and upcoming defense.
