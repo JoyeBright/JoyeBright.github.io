@@ -23,8 +23,6 @@ My research focuses on natural language processing and deep learning.
 - In-context Learning in LLMs for translation tasks  
 - Sentiment Analysis  
 
-I am always open to discussing collaborations in NLP and deep learning—feel free to get in touch.
-
 ---
 
 <a class="twitter-timeline" data-lang="en" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/JPourmostafa?ref_src=twsrc%5Etfw">Tweets by JPourmostafa</a>  
