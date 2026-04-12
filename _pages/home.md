@@ -23,7 +23,7 @@ My research focuses on natural language processing and deep learning.
 - In-context Learning in LLMs for translation tasks  
 - Sentiment Analysis  
 
-I am always open to collaborations in NLP and deep learning—feel free to get in touch.
+I am always open to discussing collaborations in NLP and deep learning—feel free to get in touch.
 
 ---
 
