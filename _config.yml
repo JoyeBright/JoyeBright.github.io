@@ -69,7 +69,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "JPourMostafa"
+  # username               : "JPourMostafa"
 facebook:
   username               :
   app_id                 :
