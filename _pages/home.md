@@ -7,7 +7,7 @@ author_profile: true
 
 Hi there! I'm Javad Pourmostafa /'dʒævɒd puːr'moʊs'tae'fɑː/!
 
-I am currently a [lecturer](https://www.tilburguniversity.edu/staff/j-pourmostafa){:target="new"} at the [Department of Intelligent Systems](https://www.tilburguniversity.edu/about/schools/tshd/departments/dis), and affiliated with the [Cognitive Science and Artificial Intelligence (CSAI)](https://csai.nl){:target="new"} research center at [Tilburg University](https://www.tilburguniversity.edu/){:target="new"}.
+I am currently a [lecturer](https://www.tilburguniversity.edu/staff/j-pourmostafa){:target="new"} at the [department of intelligent systems](https://www.tilburguniversity.edu/about/schools/tshd/departments/dis), and affiliated with the [cognitive science and artificial intelligence (CSAI)](https://csai.nl){:target="new"} research center at [Tilburg University](https://www.tilburguniversity.edu/){:target="new"}.
 
 I received my PhD on March 4, 2026, at Tilburg University. During my PhD, I studied how to make machine translation and quality estimation models more domain-specific, improving their robustness in specialized domains. My dissertation is available [here](https://arxiv.org/pdf/2603.24955){:target="new"}. I worked with [Dr. Dimitar Shterionov](https://ilk.uvt.nl/~shterion/){:target="new"} and [Prof. Dr. Ir. Pieter Spronck](https://www.spronck.net/){:target="new"}.
 
