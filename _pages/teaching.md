@@ -10,7 +10,7 @@ excerpt: Explore Javad Pourmostafa's academic and non-academic teaching experien
 ## Supervision
 
 MSc Thesis, Cognitive Science and Artificial Intelligence [(CSAI)](https://www.tilburguniversity.edu/education/masters-programs/cognitive-science-and-artificial-intelligence){:target="_blank"}   
-*S2025*
+*S2026*
 
 MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society){:target="_blank"}  
 *2022/23—so far*
