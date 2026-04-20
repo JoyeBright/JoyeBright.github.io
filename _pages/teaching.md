@@ -13,8 +13,7 @@ MSc Thesis, Cognitive Science and Artificial Intelligence [(CSAI)](https://www.t
 *S2026*
 
 MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society){:target="_blank"}  
-*2022/23—so far*
-- [View a subset of thesis topics](/master_topics)
+*2022/23—Present*
 
 ## Academic Teaching Experience
 - Advanced Programming for CSAI, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
