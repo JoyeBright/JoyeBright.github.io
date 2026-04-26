@@ -108,7 +108,7 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: April 26, 2026, 14:20 UTC</em></p>
+<p class='pub-updated'><em>Last updated: April 26, 2026, 14:28 UTC</em></p>
 
 <div class="pub-metrics">
 <div class="pub-metric-card"><div class="pub-metric-number">88</div><div class="pub-metric-label">Citations</div></div>
@@ -154,7 +154,7 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-card" data-year="2024" data-citations="0">
 <div class="pub-title">Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation</div>
 <div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">arXiv e-prints · 2024</div>
+<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine Translation in the Americas (Volume 1: Research Track) · 2024</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="8">
