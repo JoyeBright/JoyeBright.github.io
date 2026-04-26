@@ -2,7 +2,7 @@ name: Update publications
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -11,6 +11,9 @@ permissions:
 jobs:
   update-publications:
     runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
@@ -24,13 +27,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate publications page
+      - name: Generate publication page
         run: python scripts/update_publications.py
 
-      - name: Commit updated publications page
+      - name: Commit updated publication page
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add publications.md
-          git commit -m "Auto-update publications" || echo "No changes"
+          git add publication.md
+          git diff --cached --quiet && echo "No changes" || git commit -m "Auto-update publications"
           git push
