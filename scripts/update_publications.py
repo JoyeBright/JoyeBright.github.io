@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 from scholarly import scholarly
 import yaml
 import html
+import re
 
 SCHOLAR_ID = "xqccd64AAAAJ"
 
@@ -32,6 +33,33 @@ def get_year(pub):
     return int(year) if str(year).isdigit() else 0
 
 
+def get_citations(pub):
+    citations = pub.get("citations", "")
+    return int(citations) if str(citations).isdigit() else 0
+
+
+def parse_authors_from_citation(citation):
+    """
+    Scholar sometimes puts authors in the first part of a citation string.
+    Example:
+    'J Pourmostafa, A Name - Conference Name, 2024'
+    """
+    if not citation:
+        return ""
+
+    citation = clean_text(citation)
+
+    if " - " in citation:
+        return citation.split(" - ")[0].strip()
+
+    parts = citation.split(",")
+    if len(parts) > 1:
+        possible_authors = ", ".join(parts[:2]).strip()
+        return possible_authors
+
+    return ""
+
+
 def link_button(label, url):
     if not url:
         return ""
@@ -58,19 +86,26 @@ def fetch_scholar_data():
         if not title:
             continue
 
+        citation_text = clean_text(bib.get("citation"))
+
+        authors = clean_text(bib.get("author"))
+        if not authors:
+            authors = parse_authors_from_citation(citation_text)
+
+        venue = clean_text(
+            bib.get("journal")
+            or bib.get("conference")
+            or bib.get("venue")
+            or bib.get("publisher")
+            or citation_text
+        )
+
         publications.append({
             "title": title,
-            "authors": clean_text(bib.get("author")),
-            "venue": clean_text(
-                bib.get("journal")
-                or bib.get("conference")
-                or bib.get("venue")
-                or bib.get("publisher")
-                or bib.get("citation")
-            ),
+            "authors": authors,
+            "venue": venue,
             "year": clean_text(bib.get("pub_year")),
             "citations": clean_text(pub.get("num_citations")),
-            "scholar_url": clean_text(pub.get("author_pub_id")),
         })
 
     publications.sort(key=get_year, reverse=True)
@@ -111,12 +146,31 @@ def build_page(data, notes):
 .pub-metric-number {
   font-size: 1.45rem;
   font-weight: 700;
-  line-height: 1.2;
 }
 .pub-metric-label {
   font-size: 0.8rem;
   color: #64748b;
-  margin-top: 0.25rem;
+}
+.pub-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+.pub-toolbar label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.pub-toolbar select {
+  padding: 0.4rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: white;
 }
 .pub-card {
   padding: 1.15rem 1.25rem;
@@ -171,6 +225,45 @@ def build_page(data, notes):
 </style>
 """
 
+    js = """
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const select = document.getElementById("pub-sort");
+  const list = document.getElementById("pub-list");
+
+  if (!select || !list) return;
+
+  function sortPublications() {
+    const cards = Array.from(list.querySelectorAll(".pub-card"));
+    const mode = select.value;
+
+    cards.sort(function (a, b) {
+      if (mode === "year-desc") {
+        return Number(b.dataset.year || 0) - Number(a.dataset.year || 0);
+      }
+      if (mode === "year-asc") {
+        return Number(a.dataset.year || 0) - Number(b.dataset.year || 0);
+      }
+      if (mode === "citations-desc") {
+        return Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0);
+      }
+      if (mode === "citations-asc") {
+        return Number(a.dataset.citations || 0) - Number(b.dataset.citations || 0);
+      }
+      if (mode === "title-asc") {
+        return a.dataset.title.localeCompare(b.dataset.title);
+      }
+      return 0;
+    });
+
+    cards.forEach(card => list.appendChild(card));
+  }
+
+  select.addEventListener("change", sortPublications);
+});
+</script>
+"""
+
     lines = [
         "---",
         "title: Publications",
@@ -194,9 +287,18 @@ def build_page(data, notes):
         f'<div class="pub-metric-card"><div class="pub-metric-number">{len(publications)}</div><div class="pub-metric-label">Publications</div></div>',
         "</div>",
         "",
-        "<!-- This page is automatically generated. -->",
-        "<!-- Add optional manual details in _data/publication_notes.yml. -->",
+        '<div class="pub-toolbar">',
+        '<label for="pub-sort">Sort publications</label>',
+        '<select id="pub-sort">',
+        '<option value="year-desc">Newest first</option>',
+        '<option value="year-asc">Oldest first</option>',
+        '<option value="citations-desc">Most cited first</option>',
+        '<option value="citations-asc">Least cited first</option>',
+        '<option value="title-asc">Title A–Z</option>',
+        "</select>",
+        "</div>",
         "",
+        '<div id="pub-list">',
     ]
 
     for pub in publications:
@@ -220,11 +322,22 @@ def build_page(data, notes):
         ]
         links = [x for x in links if x]
 
-        lines.append('<div class="pub-card">')
+        year_num = get_year({"year": year})
+        citation_num = get_citations({"citations": citations})
+
+        lines.append(
+            f'<div class="pub-card" '
+            f'data-year="{year_num}" '
+            f'data-citations="{citation_num}" '
+            f'data-title="{safe_html(title.lower())}">'
+        )
+
         lines.append(f'<div class="pub-title">{safe_html(title)}</div>')
 
         if authors:
             lines.append(f'<div class="pub-authors">{safe_html(authors)}</div>')
+        else:
+            lines.append('<div class="pub-authors"><em>Authors not available from Scholar metadata</em></div>')
 
         meta_parts = []
         if venue:
@@ -251,6 +364,9 @@ def build_page(data, notes):
 
         lines.append("</div>")
         lines.append("")
+
+    lines.append("</div>")
+    lines.append(js)
 
     return "\n".join(lines)
 
