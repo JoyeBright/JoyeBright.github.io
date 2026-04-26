@@ -125,7 +125,7 @@ def main():
             lines.append(f"**Venue:** {p['venue']}")
             lines.append("")
         if links:
-            lines.append(" | ".join links)
+            lines.append(" | ".join(links))
             lines.append("")
         if note:
             lines.append(f"**Note:** {note}")
