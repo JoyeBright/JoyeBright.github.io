@@ -16,56 +16,38 @@ def clean_text(value):
     return str(value).replace("\n", " ").strip()
 
 
-def load_notes():
-    if not NOTES_FILE.exists():
-        return {}
-
-    with NOTES_FILE.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
-
-
 def safe_html(value):
     return html.escape(str(value), quote=False)
 
 
-def add_field(lines, label, value):
-    if not value:
-        return
-
-    value = str(value).strip()
-
-    if value.startswith("http"):
-        lines.append(
-            f'<strong>{label}:</strong> '
-            f'<a href="{value}" target="new">Link</a> <br>'
-        )
-    else:
-        lines.append(f"<strong>{label}:</strong> {safe_html(value)} <br>")
+def load_notes():
+    if not NOTES_FILE.exists():
+        return {}
+    with NOTES_FILE.open("r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
 
 
 def get_year(pub):
     year = pub.get("year", "")
-    if str(year).isdigit():
-        return int(year)
-    return 0
+    return int(year) if str(year).isdigit() else 0
+
+
+def link_button(label, url):
+    if not url:
+        return ""
+    return f'<a class="pub-btn" href="{safe_html(url)}" target="_blank">{label}</a>'
 
 
 def fetch_scholar_data():
     print("Fetching Google Scholar profile...")
-
     author = scholarly.search_author_id(SCHOLAR_ID)
 
     print("Fetching citation metrics and publication list...")
-
     author = scholarly.fill(
         author,
         sections=["basics", "indices", "publications"],
         publication_limit=150,
     )
-
-    citedby = author.get("citedby", "")
-    hindex = author.get("hindex", "")
-    i10index = author.get("i10index", "")
 
     publications = []
 
@@ -76,26 +58,27 @@ def fetch_scholar_data():
         if not title:
             continue
 
-        publications.append(
-            {
-                "title": title,
-                "authors": clean_text(bib.get("author")),
-                "venue": clean_text(
-                    bib.get("journal")
-                    or bib.get("conference")
-                    or bib.get("venue")
-                    or bib.get("publisher")
-                ),
-                "year": clean_text(bib.get("pub_year")),
-            }
-        )
+        publications.append({
+            "title": title,
+            "authors": clean_text(bib.get("author")),
+            "venue": clean_text(
+                bib.get("journal")
+                or bib.get("conference")
+                or bib.get("venue")
+                or bib.get("publisher")
+                or bib.get("citation")
+            ),
+            "year": clean_text(bib.get("pub_year")),
+            "citations": clean_text(pub.get("num_citations")),
+            "scholar_url": clean_text(pub.get("author_pub_id")),
+        })
 
     publications.sort(key=get_year, reverse=True)
 
     return {
-        "citedby": citedby,
-        "hindex": hindex,
-        "i10index": i10index,
+        "citedby": author.get("citedby", ""),
+        "hindex": author.get("hindex", ""),
+        "i10index": author.get("i10index", ""),
         "publications": publications,
     }
 
@@ -108,6 +91,86 @@ def build_page(data, notes):
     i10index = data.get("i10index", "")
     publications = data.get("publications", [])
 
+    css = """
+<style>
+.pub-metrics {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.2rem 0 2rem 0;
+}
+.pub-metric-card {
+  flex: 1;
+  min-width: 140px;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f8fafc;
+  text-align: center;
+}
+.pub-metric-number {
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.pub-metric-label {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+.pub-card {
+  padding: 1.15rem 1.25rem;
+  margin: 1.15rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+.pub-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+.pub-authors {
+  font-size: 0.92rem;
+  color: #334155;
+  margin-bottom: 0.35rem;
+}
+.pub-meta {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-bottom: 0.65rem;
+}
+.pub-note {
+  font-size: 0.88rem;
+  color: #334155;
+  background: #f8fafc;
+  border-left: 3px solid #cbd5e1;
+  padding: 0.55rem 0.75rem;
+  margin: 0.7rem 0;
+}
+.pub-links {
+  margin-top: 0.7rem;
+}
+.pub-btn {
+  display: inline-block;
+  padding: 0.28rem 0.62rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.pub-btn:hover {
+  background: #f1f5f9;
+}
+.pub-updated {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+</style>
+"""
+
     lines = [
         "---",
         "title: Publications",
@@ -118,84 +181,75 @@ def build_page(data, notes):
         "excerpt: This page shows a list of Javad Pourmostafa's papers and talks.",
         "---",
         "",
+        css,
+        "",
         "I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.",
         "",
-        f"<p style='font-size: 80%; color: gray;'><em>Last updated: {last_updated}</em></p>",
+        f"<p class='pub-updated'><em>Last updated: {last_updated}</em></p>",
         "",
-        "## Citation Metrics",
+        '<div class="pub-metrics">',
+        f'<div class="pub-metric-card"><div class="pub-metric-number">{safe_html(citedby or "—")}</div><div class="pub-metric-label">Citations</div></div>',
+        f'<div class="pub-metric-card"><div class="pub-metric-number">{safe_html(hindex or "—")}</div><div class="pub-metric-label">h-index</div></div>',
+        f'<div class="pub-metric-card"><div class="pub-metric-number">{safe_html(i10index or "—")}</div><div class="pub-metric-label">i10-index</div></div>',
+        f'<div class="pub-metric-card"><div class="pub-metric-number">{len(publications)}</div><div class="pub-metric-label">Publications</div></div>',
+        "</div>",
         "",
-        '<p style="font-size: 90%;">',
+        "<!-- This page is automatically generated. -->",
+        "<!-- Add optional manual details in _data/publication_notes.yml. -->",
+        "",
     ]
-
-    if citedby:
-        lines.append(f"<strong>Total citations:</strong> {citedby} <br>")
-    if hindex:
-        lines.append(f"<strong>h-index:</strong> {hindex} <br>")
-    if i10index:
-        lines.append(f"<strong>i10-index:</strong> {i10index} <br>")
-
-    lines.extend(
-        [
-            "</p>",
-            "",
-            '<hr style="border: 1px solid #ddd; margin: 2em 0;" />',
-            "",
-            "<!-- This page is automatically generated. -->",
-            "<!-- Add optional manual details in _data/publication_notes.yml. -->",
-            "",
-        ]
-    )
-
-    current_year = None
 
     for pub in publications:
         title = pub["title"]
         extra = notes.get(title, {}) or {}
 
-        year = extra.get("year") or pub.get("year", "")
-
-        if year and year != current_year:
-            lines.append(f"# {year}")
-            lines.append("")
-            current_year = year
-
         authors = extra.get("authors") or pub.get("authors", "")
         venue = extra.get("venue") or pub.get("venue", "")
+        year = extra.get("year") or pub.get("year", "")
+        citations = extra.get("citations") or pub.get("citations", "")
 
-        lines.append(f"## {safe_html(title)}")
-        lines.append("")
-        lines.append('<p style="font-size: 90%;">')
-
-        add_field(lines, "Authors", authors)
-        add_field(lines, "Venue", venue)
-        add_field(lines, "Year", year)
-
-        optional_fields = [
-            ("date", "Date"),
-            ("status", "Status"),
-            ("proceedings", "Proceedings"),
-            ("series", "Series"),
-            ("pages", "Pages"),
-            ("doi", "DOI"),
-            ("arxiv", "arXiv"),
-            ("pdf", "PDF"),
-            ("paper", "Paper"),
-            ("preprint", "Preprint"),
-            ("code", "Code / Tool"),
-            ("slides", "Slides"),
-            ("video", "Video"),
-            ("talk", "Talk"),
-            ("certificate", "Certificate"),
-            ("resources", "Resources"),
-            ("note", "Note"),
+        links = [
+            link_button("Paper", extra.get("paper")),
+            link_button("PDF", extra.get("pdf")),
+            link_button("Preprint", extra.get("preprint")),
+            link_button("Code", extra.get("code")),
+            link_button("Slides", extra.get("slides")),
+            link_button("Video", extra.get("video")),
+            link_button("DOI", extra.get("doi")),
+            link_button("arXiv", extra.get("arxiv")),
         ]
+        links = [x for x in links if x]
 
-        for key, label in optional_fields:
-            add_field(lines, label, extra.get(key))
+        lines.append('<div class="pub-card">')
+        lines.append(f'<div class="pub-title">{safe_html(title)}</div>')
 
-        lines.append("</p>")
-        lines.append("")
-        lines.append('<hr style="border: 1px solid #ddd; margin: 2em 0;" />')
+        if authors:
+            lines.append(f'<div class="pub-authors">{safe_html(authors)}</div>')
+
+        meta_parts = []
+        if venue:
+            meta_parts.append(safe_html(venue))
+        if year:
+            meta_parts.append(safe_html(year))
+        if citations:
+            meta_parts.append(f"{safe_html(citations)} citations")
+
+        if meta_parts:
+            lines.append(f'<div class="pub-meta">{" · ".join(meta_parts)}</div>')
+
+        for field in ["date", "status", "proceedings", "series", "pages"]:
+            if extra.get(field):
+                lines.append(
+                    f'<div class="pub-meta"><strong>{field.capitalize()}:</strong> {safe_html(extra[field])}</div>'
+                )
+
+        if extra.get("note"):
+            lines.append(f'<div class="pub-note">{safe_html(extra["note"])}</div>')
+
+        if links:
+            lines.append('<div class="pub-links">' + " ".join(links) + "</div>")
+
+        lines.append("</div>")
         lines.append("")
 
     return "\n".join(lines)
