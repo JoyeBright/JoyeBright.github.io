@@ -3,7 +3,6 @@ from datetime import datetime, timezone
 from scholarly import scholarly
 import yaml
 import html
-import re
 
 SCHOLAR_ID = "xqccd64AAAAJ"
 
@@ -38,32 +37,40 @@ def get_citations(pub):
     return int(citations) if str(citations).isdigit() else 0
 
 
-def parse_authors_from_citation(citation):
-    """
-    Scholar sometimes puts authors in the first part of a citation string.
-    Example:
-    'J Pourmostafa, A Name - Conference Name, 2024'
-    """
-    if not citation:
-        return ""
-
-    citation = clean_text(citation)
-
-    if " - " in citation:
-        return citation.split(" - ")[0].strip()
-
-    parts = citation.split(",")
-    if len(parts) > 1:
-        possible_authors = ", ".join(parts[:2]).strip()
-        return possible_authors
-
-    return ""
-
-
 def link_button(label, url):
     if not url:
         return ""
     return f'<a class="pub-btn" href="{safe_html(url)}" target="_blank">{label}</a>'
+
+
+def clean_author_field(authors, venue="", year=""):
+    authors = clean_text(authors)
+
+    if not authors:
+        return ""
+
+    bad_patterns = [
+        "Proceedings of",
+        "International Conference",
+        "Conference on",
+        "Journal of",
+        "arXiv",
+        "Springer",
+        "Lecture Notes",
+        "Transactions on",
+        "Association for",
+    ]
+
+    if venue and authors == venue:
+        return ""
+
+    if any(pattern.lower() in authors.lower() for pattern in bad_patterns):
+        return ""
+
+    if year and year in authors and "," in authors:
+        return ""
+
+    return authors
 
 
 def fetch_scholar_data():
@@ -86,11 +93,8 @@ def fetch_scholar_data():
         if not title:
             continue
 
+        year = clean_text(bib.get("pub_year"))
         citation_text = clean_text(bib.get("citation"))
-
-        authors = clean_text(bib.get("author"))
-        if not authors:
-            authors = parse_authors_from_citation(citation_text)
 
         venue = clean_text(
             bib.get("journal")
@@ -100,11 +104,48 @@ def fetch_scholar_data():
             or citation_text
         )
 
+        authors = clean_author_field(
+            bib.get("author"),
+            venue=venue,
+            year=year,
+        )
+
+        # Try richer publication metadata only when authors are missing.
+        # This is slower, but improves author extraction.
+        if not authors:
+            try:
+                print(f"Trying to fetch authors for: {title}")
+                filled_pub = scholarly.fill(pub)
+                filled_bib = filled_pub.get("bib", {})
+
+                filled_venue = clean_text(
+                    filled_bib.get("journal")
+                    or filled_bib.get("conference")
+                    or filled_bib.get("venue")
+                    or filled_bib.get("publisher")
+                    or venue
+                )
+
+                filled_authors = clean_author_field(
+                    filled_bib.get("author"),
+                    venue=filled_venue,
+                    year=year,
+                )
+
+                if filled_authors:
+                    authors = filled_authors
+
+                if filled_venue:
+                    venue = filled_venue
+
+            except Exception as e:
+                print(f"Could not fetch detailed authors for {title}: {e}")
+
         publications.append({
             "title": title,
             "authors": authors,
             "venue": venue,
-            "year": clean_text(bib.get("pub_year")),
+            "year": year,
             "citations": clean_text(pub.get("num_citations")),
         })
 
@@ -247,12 +288,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (mode === "citations-desc") {
         return Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0);
       }
-      if (mode === "citations-asc") {
-        return Number(a.dataset.citations || 0) - Number(b.dataset.citations || 0);
-      }
-      if (mode === "title-asc") {
-        return a.dataset.title.localeCompare(b.dataset.title);
-      }
       return 0;
     });
 
@@ -293,8 +328,6 @@ document.addEventListener("DOMContentLoaded", function () {
         '<option value="year-desc">Newest first</option>',
         '<option value="year-asc">Oldest first</option>',
         '<option value="citations-desc">Most cited first</option>',
-        '<option value="citations-asc">Least cited first</option>',
-        '<option value="title-asc">Title A–Z</option>',
         "</select>",
         "</div>",
         "",
@@ -328,16 +361,13 @@ document.addEventListener("DOMContentLoaded", function () {
         lines.append(
             f'<div class="pub-card" '
             f'data-year="{year_num}" '
-            f'data-citations="{citation_num}" '
-            f'data-title="{safe_html(title.lower())}">'
+            f'data-citations="{citation_num}">'
         )
 
         lines.append(f'<div class="pub-title">{safe_html(title)}</div>')
 
         if authors:
             lines.append(f'<div class="pub-authors">{safe_html(authors)}</div>')
-        else:
-            lines.append('<div class="pub-authors"><em>Authors not available from Scholar metadata</em></div>')
 
         meta_parts = []
         if venue:
