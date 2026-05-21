@@ -108,10 +108,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: May 13, 2026, 08:35 UTC</em></p>
+<p class='pub-updated'><em>Last updated: May 21, 2026, 09:38 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">88</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">89</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">2</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
@@ -133,10 +133,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">arXiv preprint arXiv:2603.24955 · 2026</div>
 </div>
 
-<div class="pub-card" data-year="2025" data-citations="1">
+<div class="pub-card" data-year="2025" data-citations="2">
 <div class="pub-title">Improving Medical Waste Classification with Hybrid Capsule Networks</div>
 <div class="pub-authors">Bennet van den Broek and Javad Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">Intelligent Systems and Applications: Proceedings of the 2025 Intelligent Systems Conference (IntelliSys), Volume 3 · 2025 · 1 citations</div>
+<div class="pub-meta">Intelligent Systems and Applications: Proceedings of the 2025 Intelligent Systems Conference (IntelliSys), Volume 3 · 2025 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="0">
