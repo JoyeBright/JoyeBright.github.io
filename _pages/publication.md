@@ -108,10 +108,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: June 05, 2026, 09:33 UTC</em></p>
+<p class='pub-updated'><em>Last updated: June 17, 2026, 10:27 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">89</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">93</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">2</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
@@ -139,10 +139,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">Intelligent Systems and Applications: Proceedings of the 2025 Intelligent Systems Conference (IntelliSys), Volume 3 · 2025 · 2 citations</div>
 </div>
 
-<div class="pub-card" data-year="2025" data-citations="0">
+<div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Analysis of Vocabulary and Subword Tokenization Settings for Optimal Fine-tuning of MT: A Case Study of In-domain Translation</div>
 <div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing-Natural Language Processing in the Generative AI Era · 2025</div>
+<div class="pub-meta">Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing-Natural Language Processing in the Generative AI Era · 2025 · 1 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="0">
@@ -157,10 +157,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine Translation in the Americas (Volume 1: Research Track) · 2024</div>
 </div>
 
-<div class="pub-card" data-year="2023" data-citations="8">
+<div class="pub-card" data-year="2023" data-citations="9">
 <div class="pub-title">Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews</div>
 <div class="pub-authors">Ali Boluki and Javad Pourmostafa Roshan Sharami and Dimitar Shterionov</div>
-<div class="pub-meta">Springer Nature Switzerland · 2023 · 8 citations</div>
+<div class="pub-meta">Springer Nature Switzerland · 2023 · 9 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="7">
@@ -211,10 +211,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31) · 2021 · 4 citations</div>
 </div>
 
-<div class="pub-card" data-year="2020" data-citations="37">
+<div class="pub-card" data-year="2020" data-citations="39">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
 <div class="pub-authors">Javad PourMostafa Roshan Sharami and Parsa Abbasi Sarabestani and Seyed Abolghasem Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 37 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 39 citations</div>
 </div>
 
 </div>
