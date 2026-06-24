@@ -108,10 +108,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: June 17, 2026, 10:27 UTC</em></p>
+<p class='pub-updated'><em>Last updated: June 24, 2026, 08:54 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">93</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">94</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">2</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
@@ -211,10 +211,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31) · 2021 · 4 citations</div>
 </div>
 
-<div class="pub-card" data-year="2020" data-citations="39">
+<div class="pub-card" data-year="2020" data-citations="40">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
 <div class="pub-authors">Javad PourMostafa Roshan Sharami and Parsa Abbasi Sarabestani and Seyed Abolghasem Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 39 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 40 citations</div>
 </div>
 
 </div>
