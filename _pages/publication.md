@@ -108,10 +108,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: June 24, 2026, 08:54 UTC</em></p>
+<p class='pub-updated'><em>Last updated: July 24, 2026, 08:09 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">94</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">96</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">2</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
@@ -199,10 +199,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 32nd Meeting of Computational Linguistics in The Netherlands · 2022</div>
 </div>
 
-<div class="pub-card" data-year="2021" data-citations="17">
+<div class="pub-card" data-year="2021" data-citations="18">
 <div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
 <div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 17 citations</div>
+<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 18 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="4">
@@ -211,10 +211,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31) · 2021 · 4 citations</div>
 </div>
 
-<div class="pub-card" data-year="2020" data-citations="40">
+<div class="pub-card" data-year="2020" data-citations="41">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
 <div class="pub-authors">Javad PourMostafa Roshan Sharami and Parsa Abbasi Sarabestani and Seyed Abolghasem Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 40 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 41 citations</div>
 </div>
 
 </div>
