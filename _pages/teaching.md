@@ -25,6 +25,7 @@ MSc Thesis, Data Science & Society [(DSS)](https://www.tilburguniversity.edu/edu
 
 - Programming with C/C++, [Tilburg University](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca){:target="_blank"}  
   *2021/22—so far*
+  *Also coordinator*
 
 - Principles of Data Mining, [University of Guilan](http://ce.guilan.ac.ir){:target="_blank"}  
   *SM2 2020*
