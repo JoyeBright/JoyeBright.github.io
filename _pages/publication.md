@@ -108,12 +108,12 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: September 02, 2026, 10:14 UTC</em></p>
+<p class='pub-updated'><em>Last updated: October 14, 2026, 10:53 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">98</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">103</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
-<div class="pub-metric-card"><div class="pub-metric-number">2</div><div class="pub-metric-label">i10-index</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">3</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">17</div><div class="pub-metric-label">Publications</div></div>
 </div>
 
@@ -151,28 +151,28 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">Springer Nature Switzerland · 2025 · 1 citations</div>
 </div>
 
-<div class="pub-card" data-year="2025" data-citations="0">
+<div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Integrating SAINT with Tree-Based Models</div>
 <div class="pub-authors">Adil Derrazi and Javad Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">Springer Nature Switzerland · 2025</div>
+<div class="pub-meta">Springer Nature Switzerland · 2025 · 1 citations</div>
 </div>
 
-<div class="pub-card" data-year="2024" data-citations="0">
+<div class="pub-card" data-year="2024" data-citations="1">
 <div class="pub-title">Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation</div>
 <div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine Translation in the Americas (Volume 1: Research Track) · 2024</div>
+<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine Translation in the Americas (Volume 1: Research Track) · 2024 · 1 citations</div>
+</div>
+
+<div class="pub-card" data-year="2023" data-citations="11">
+<div class="pub-title">Tailoring Domain Adaptation for Machine Translation Quality Estimation</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Frédéric Blain and Eva Vanmassenhove and Mirella De Sisto and Chris Emmery and Pieter Spronck</div>
+<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for Machine Translation · 2023 · 11 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="9">
 <div class="pub-title">Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews</div>
 <div class="pub-authors">Ali Boluki and Javad Pourmostafa Roshan Sharami and Dimitar Shterionov</div>
 <div class="pub-meta">Springer Nature Switzerland · 2023 · 9 citations</div>
-</div>
-
-<div class="pub-card" data-year="2023" data-citations="8">
-<div class="pub-title">Tailoring Domain Adaptation for Machine Translation Quality Estimation</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Frédéric Blain and Eva Vanmassenhove and Mirella De Sisto and Chris Emmery and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for Machine Translation · 2023 · 8 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
