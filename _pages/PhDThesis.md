@@ -1,3 +1,4 @@
+
 ---
 title: PhD Thesis
 layout: collection
@@ -19,7 +20,7 @@ excerpt: Information about my PhD dissertation and defense.
   </p>
 
   <div style="margin: 25px 0; text-align: center;">
-    <a href="https://javad.pourmostafa.com/assets/files/PhD_cover.pdf" target="_blank">
+    <a href="https://javad.pourmostafa.com/assets/images/dissertation_cover_clean.png" target="_blank">
       <img
         src="https://javad.pourmostafa.com/assets/images/dissertation_cover_clean.png"
         alt="PhD dissertation cover"
