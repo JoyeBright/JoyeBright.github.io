@@ -18,14 +18,16 @@ excerpt: Information about my PhD dissertation and defense.
     to specialized domains.
   </p>
 
+  
   <div style="margin: 25px 0; text-align: center;">
     <a href="https://javad.pourmostafa.com/assets/images/dissertation_cover_clean.png" target="_blank">
       <img
         src="https://javad.pourmostafa.com/assets/images/dissertation_cover_clean.png"
         alt="PhD dissertation cover"
-        style="width: 150px; max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
+        style="width: 220px; max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
     </a>
   </div>
+
 
   <p>
     You can read the dissertation on the
