@@ -1,3 +1,4 @@
+
 ---
 title: PhD Thesis
 layout: collection
@@ -12,10 +13,10 @@ excerpt: Information about my PhD dissertation and upcoming defense.
   <h2>PhD Dissertation</h2>
 
   <p>
-    I successfully defended my PhD dissertation,
-    <strong>Toward Domain-Specific Machine Translation and Quality Estimation</strong>,
-    on March 4, 2026, in the Aula at Tilburg University,
-    Tilburg, the Netherlands.
+    I received my PhD on March 4, 2026, at Tilburg University.
+    My dissertation, <strong>Toward Domain-Specific Machine Translation and Quality Estimation</strong>,
+    focuses on adapting machine translation and quality estimation models
+    to specialized domains.
   </p>
 
   <div style="margin: 25px 0;">
@@ -32,40 +33,23 @@ excerpt: Information about my PhD dissertation and upcoming defense.
   </div>
 
   <p>
-    My dissertation focuses on making machine translation and quality
-    estimation models more domain-specific, improving their robustness
-    in specialized domains.
-  </p>
-
-  <p>
-    <strong>Dissertation:</strong>
+    You can read the dissertation on the
     <a href="https://research.tilburguniversity.edu/en/publications/toward-domain-specific-machine-translation-and-quality-estimation/" target="_blank">Tilburg University Research Portal</a>
-    |
-    <a href="https://arxiv.org/pdf/2603.24955" target="_blank">PDF</a>
-  </p>
-
-  <h3>My Research in Plain Language</h3>
-
-  <p>
-    If you are curious about what I worked on during my PhD,
-    but are not familiar with the technical details,
-    Tilburg University published a short, accessible article
-    explaining my research and its real-world applications.
-  </p>
-
-  <p>
-    <strong>Read the article:</strong>
-    <a href="https://www.tilburguniversity.edu/current/news/more-news/fixing-ai-mismatches-better-data-more-important-more-data" target="_blank">Tilburg University News</a>
+    or download the
+    <a href="https://arxiv.org/pdf/2603.24955" target="_blank">PDF</a>.
+    For a less technical introduction to my research, you can also read
+    <a href="https://www.tilburguniversity.edu/current/news/more-news/fixing-ai-mismatches-better-data-more-important-more-data" target="_blank">this article</a>
+    published by Tilburg University.
   </p>
 
   <h3>PhD Defense</h3>
 
   <p>
-    <strong>Defense slides:</strong>
-    <a href="https://javad.pourmostafa.com/assets/files/Layman_s_talk___Javad_s_PhD.pdf" target="_blank">PDF</a>
+    My PhD defense took place on March 4, 2026, in the Aula at
+    Tilburg University, Tilburg, the Netherlands.
+    The presentation slides are available
+    <a href="https://javad.pourmostafa.com/assets/files/Layman_s_talk___Javad_s_PhD.pdf" target="_blank">here</a>.
   </p>
-
-  <h3>PhD Defense Video</h3>
 
   <!-- Replace VIDEO_ID with the actual YouTube video ID -->
   <div style="max-width: 650px; margin: 20px auto;">
