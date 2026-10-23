@@ -20,10 +20,14 @@ excerpt: Information about my PhD dissertation and upcoming defense.
 
   <div style="margin: 25px 0;">
     <a href="https://javad.pourmostafa.com/assets/files/PhD_cover.pdf" target="_blank">
-      <img
-        src="https://javad.pourmostafa.com/assets/images/PhD_cover.png"
-        alt="PhD dissertation cover"
-        style="width: 190px; max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
+      <object
+        data="https://javad.pourmostafa.com/assets/files/PhD_cover.pdf#toolbar=0&navpanes=0"
+        type="application/pdf"
+        width="220"
+        height="320"
+        style="pointer-events: none; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
+        <span>View dissertation cover (PDF)</span>
+      </object>
     </a>
   </div>
 
@@ -39,6 +43,22 @@ excerpt: Information about my PhD dissertation and upcoming defense.
     |
     <a href="https://arxiv.org/pdf/2603.24955" target="_blank">PDF</a>
   </p>
+
+  <h3>My Research in Plain Language</h3>
+
+  <p>
+    If you are curious about what I worked on during my PhD,
+    but are not familiar with the technical details,
+    Tilburg University published a short, accessible article
+    explaining my research and its real-world applications.
+  </p>
+
+  <p>
+    <strong>Read the article:</strong>
+    <a href="https://www.tilburguniversity.edu/current/news/more-news/fixing-ai-mismatches-better-data-more-important-more-data" target="_blank">Tilburg University News</a>
+  </p>
+
+  <h3>PhD Defense</h3>
 
   <p>
     <strong>Defense slides:</strong>
