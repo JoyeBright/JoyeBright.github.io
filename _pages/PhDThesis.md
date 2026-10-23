@@ -1,10 +1,11 @@
+
 ---
 title: PhD Thesis
 layout: collection
 permalink: /phdthesis/
 entries_layout: grid
 classes: wide
-excerpt: Information about my PhD dissertation and upcoming defense.
+excerpt: Information about my PhD dissertation and defense.
 ---
 
 <div style="max-width: 800px; margin: auto; padding: 20px; text-align: center;">
@@ -46,21 +47,35 @@ excerpt: Information about my PhD dissertation and upcoming defense.
   <p>
     My PhD defense took place on March 4, 2026, in the Aula at
     Tilburg University, Tilburg, the Netherlands.
-    The presentation slides are available
-    <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf" target="_blank">here</a>.
   </p>
 
-  <!-- Replace VIDEO_ID with the actual YouTube video ID -->
+  <p>
+    <strong>Defense presentation:</strong>
+    <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf"
+       target="_blank" rel="noopener noreferrer">
+      View presentation slides (PDF)
+    </a>
+  </p>
+
   <div style="max-width: 650px; margin: 20px auto;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID"
+        src="https://www.youtube-nocookie.com/embed/v6C4moLbYrU"
         title="PhD Defense - Javad Pourmostafa"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
       </iframe>
     </div>
   </div>
+
+  <p style="font-size: 90%;">
+    <a href="https://www.youtube.com/watch?v=v6C4moLbYrU"
+       target="_blank" rel="noopener noreferrer">
+      Watch the defense on YouTube
+    </a>
+  </p>
 
 </div>
