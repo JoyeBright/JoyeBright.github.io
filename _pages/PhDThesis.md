@@ -18,16 +18,12 @@ excerpt: Information about my PhD dissertation and defense.
     to specialized domains.
   </p>
 
-  <div style="margin: 25px 0;">
+  <div style="margin: 25px 0; text-align: center;">
     <a href="https://javad.pourmostafa.com/assets/files/PhD_cover.pdf" target="_blank">
-      <object
-        data="https://javad.pourmostafa.com/assets/files/PhD_cover.pdf#toolbar=0&navpanes=0"
-        type="application/pdf"
-        width="220"
-        height="320"
-        style="pointer-events: none; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
-        <span>View dissertation cover (PDF)</span>
-      </object>
+      <img
+        src="https://javad.pourmostafa.com/assets/images/dissertation_cover_clean.png"
+        alt="PhD dissertation cover"
+        style="width: 150px; max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,0.12);">
     </a>
   </div>
 
