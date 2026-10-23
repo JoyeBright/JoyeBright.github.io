@@ -1,5 +1,5 @@
 ---
-title: PhD Thesis
+title: PhD Dissertation
 layout: collection
 permalink: /phdthesis/
 entries_layout: grid
@@ -8,8 +8,6 @@ excerpt: Information about my PhD dissertation and defense.
 ---
 
 <div style="max-width: 800px; margin: auto; padding: 20px; text-align: center;">
-
-  <h2>PhD Dissertation</h2>
 
   <p>
     I received my PhD on March 4, 2026, at Tilburg University.
