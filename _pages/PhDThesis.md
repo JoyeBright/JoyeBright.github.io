@@ -48,7 +48,7 @@ excerpt: Information about my PhD dissertation and upcoming defense.
     My PhD defense took place on March 4, 2026, in the Aula at
     Tilburg University, Tilburg, the Netherlands.
     The presentation slides are available
-    <a href="https://javad.pourmostafa.com/assets/files/Layman_s_talk___Javad_s_PhD.pdf" target="_blank">here</a>.
+    <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf" target="_blank">here</a>.
   </p>
 
   <!-- Replace VIDEO_ID with the actual YouTube video ID -->
