@@ -1,5 +1,5 @@
 ---
-title: Talks
+title: Presentations and Talks
 layout: archive
 classes: wide
 permalink: /talk/
@@ -82,8 +82,6 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 }
 </style>
 
-## Presentations and Talks
-
 <div class="talk-entry" markdown="1">
 
 ## PhD Defense: Toward Domain-Specific Machine Translation and Quality Estimation
@@ -93,7 +91,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 <strong>Event:</strong> PhD Defense, Tilburg University <br>
 <strong>Location:</strong> Aula, Tilburg University, Tilburg, the Netherlands <br>
 <strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf">PDF</a> <br>
-<strong>More information:</strong> <a href="https://javad.pourmostafa.com/phdthesis/">PhD Thesis and Defense Video</a>
+<strong>More information:</strong> <a href="https://javad.pourmostafa.com/phdthesis/">PhD Dissertation and Defense Video</a>
 </p>
 
 </div>
