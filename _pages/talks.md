@@ -58,6 +58,31 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
   border-radius: 5px;
 }
 
+.talk-sort {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.talk-sort select {
+  width: auto;
+  padding: 7px 12px;
+  border: 1px solid #d5dbe1;
+  border-radius: 5px;
+  background: #fff;
+  color: #333;
+  font: inherit;
+  cursor: pointer;
+}
+
+.talk-sort select:focus {
+  outline: 2px solid #8a9bac;
+  outline-offset: 2px;
+}
+
 @media (max-width: 600px) {
   .talk-entry {
     padding: 15px 16px;
@@ -82,136 +107,182 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 }
 </style>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-sort">
+  <label for="talk-sort-select">Sort by:</label>
+  <select id="talk-sort-select" aria-label="Sort presentations and talks">
+    <option value="newest">Newest first</option>
+    <option value="oldest">Oldest first</option>
+    <option value="title">Title (A–Z)</option>
+  </select>
+</div>
 
-## PhD Defense: Toward Domain-Specific Machine Translation and Quality Estimation
+<div id="talks-container">
 
-<p>
-<strong>Date:</strong> March 4, 2026 <br>
-<strong>Event:</strong> PhD Defense, Tilburg University <br>
-<strong>Location:</strong> Aula, Tilburg University, Tilburg, the Netherlands <br>
-<strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf">PDF</a> <br>
-<strong>More information:</strong> <a href="https://javad.pourmostafa.com/phdthesis/">PhD Dissertation and Defense Video</a>
-</p>
+<div class="talk-entry" data-date="2026-03-04">
+
+  <h2>PhD Defense: Toward Domain-Specific Machine Translation and Quality Estimation</h2>
+
+  <p>
+    <strong>Date:</strong> March 4, 2026 <br>
+    <strong>Event:</strong> PhD Defense, Tilburg University <br>
+    <strong>Location:</strong> Aula, Tilburg University, Tilburg, the Netherlands <br>
+    <strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/Layman_JavadPhD.pdf">PDF</a> <br>
+    <strong>More information:</strong> <a href="https://javad.pourmostafa.com/phdthesis/">PhD Dissertation and Defense Video</a>
+  </p>
 
 </div>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-entry" data-date="2025-09-10">
 
-## Analysis of Vocabulary and Subword Tokenization Settings for Optimal Fine-tuning of MT: A Case Study of In-domain Translation
+  <h2>Analysis of Vocabulary and Subword Tokenization Settings for Optimal Fine-tuning of MT: A Case Study of In-domain Translation</h2>
 
-<p>
-<strong>Date:</strong> September 10, 2025 <br>
-<strong>Event:</strong> <a href="https://ranlp.org/ranlp2025/index.php/parallel-session-15/">RANLP 2025</a> <br>
-<strong>Location:</strong> Varna, Bulgaria <br>
-<strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/RANLP_2025___Presentation_latest.pdf">PDF</a>
-</p>
-
-</div>
-
-<div class="talk-entry" markdown="1">
-
-## Priming LLMs for Domain-specific MT via In-context Learning and Quality Estimation
-
-<p>
-<strong>Date:</strong> June 6, 2025 <br>
-<strong>Event:</strong> <a href="https://nitsnetwork.github.io/index.html">NITS 2025</a> <br>
-<strong>Location:</strong> DZ4, Tilburg University, Tilburg, the Netherlands <br>
-<strong>Slides:</strong> <a href="https://docs.google.com/presentation/d/1S5iaYM7x_t4kWkZQNnbtSbuTCDw4uTpGBxjS7Y34ExY/edit?usp=sharing">Google Slides</a>
-</p>
+  <p>
+    <strong>Date:</strong> September 10, 2025 <br>
+    <strong>Event:</strong> <a href="https://ranlp.org/ranlp2025/index.php/parallel-session-15/">RANLP 2025</a> <br>
+    <strong>Location:</strong> Varna, Bulgaria <br>
+    <strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/RANLP_2025___Presentation_latest.pdf">PDF</a>
+  </p>
 
 </div>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-entry" data-date="2025-06-06">
 
-## Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation
+  <h2>Priming LLMs for Domain-specific MT via In-context Learning and Quality Estimation</h2>
 
-<p>
-<strong>Date:</strong> September 2024 <br>
-<strong>Event:</strong> <a href="https://amtaweb.org/amta-2024-program/">AMTA 2024</a> <br>
-<strong>Format:</strong> Online <br>
-<strong>Video:</strong>
-<iframe src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-
-</div>
-
-<div class="talk-entry" markdown="1">
-
-## Selecting Parallel In-domain Sentences for Neural Machine Translation
-
-<p>
-<strong>Date:</strong> April 2022 <br>
-<strong>Event:</strong> <a href="https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig">TAISIG Talks #13</a> <br>
-<strong>Location:</strong> Deprez building, Tilburg University, Tilburg, the Netherlands <br>
-<strong>Slides:</strong> <a href="https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts">ResearchGate</a> <br>
-<strong>Video:</strong>
-<iframe src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+  <p>
+    <strong>Date:</strong> June 6, 2025 <br>
+    <strong>Event:</strong> <a href="https://nitsnetwork.github.io/index.html">NITS 2025</a> <br>
+    <strong>Location:</strong> DZ4, Tilburg University, Tilburg, the Netherlands <br>
+    <strong>Slides:</strong> <a href="https://docs.google.com/presentation/d/1S5iaYM7x_t4kWkZQNnbtSbuTCDw4uTpGBxjS7Y34ExY/edit?usp=sharing">Google Slides</a>
+  </p>
 
 </div>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-entry" data-date="2024-09-01">
 
-## A Deep Persian Sentiment Analysis Framework
+  <h2>Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation</h2>
 
-<p>
-<strong>Date:</strong> November 2019 <br>
-<strong>Event:</strong> 5th National Conference of Computational Linguistics <br>
-<strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.34981.04322">10.13140/RG.2.2.34981.04322</a> <br>
-<strong>Location:</strong> Institute for Humanities and Cultural Studies, Tehran, Iran
-</p>
-
-</div>
-
-<div class="talk-entry" markdown="1">
-
-## Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning
-
-<p>
-<strong>Date:</strong> December 2018 <br>
-<strong>Event:</strong> Guilan Annual Research Week <br>
-<strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.21506.94405">10.13140/RG.2.2.21506.94405</a> <br>
-<strong>Location:</strong> University of Guilan, Rasht, Iran
-</p>
+  <p>
+    <strong>Date:</strong> September 2024 <br>
+    <strong>Event:</strong> <a href="https://amtaweb.org/amta-2024-program/">AMTA 2024</a> <br>
+    <strong>Format:</strong> Online <br>
+    <strong>Video:</strong>
+    <iframe src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </p>
 
 </div>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-entry" data-date="2022-04-01">
 
-## Introduction to Optical Networks
+  <h2>Selecting Parallel In-domain Sentences for Neural Machine Translation</h2>
 
-<p>
-<strong>Date:</strong> December 2017 <br>
-<strong>Event:</strong> Optical Networks Course <br>
-<strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.25477.65767">10.13140/RG.2.2.25477.65767</a> <br>
-<strong>Location:</strong> University of Guilan, Rasht, Iran
-</p>
-
-</div>
-
-<div class="talk-entry" markdown="1">
-
-## Video Transmission Over A Simulated Network by EvalVid
-
-<p>
-<strong>Date:</strong> June 2017 <br>
-<strong>Event:</strong> Computer Performance Evaluation Course <br>
-<strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.30171.77604">10.13140/RG.2.2.30171.77604</a> <br>
-<strong>Location:</strong> University of Guilan, Rasht, Iran
-</p>
+  <p>
+    <strong>Date:</strong> April 2022 <br>
+    <strong>Event:</strong> <a href="https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig">TAISIG Talks #13</a> <br>
+    <strong>Location:</strong> Deprez building, Tilburg University, Tilburg, the Netherlands <br>
+    <strong>Slides:</strong> <a href="https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts">ResearchGate</a> <br>
+    <strong>Video:</strong>
+    <iframe src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
 
 </div>
 
-<div class="talk-entry" markdown="1">
+<div class="talk-entry" data-date="2019-11-01">
 
-## Design Patterns in Cloud Computing
+  <h2>A Deep Persian Sentiment Analysis Framework</h2>
 
-<p>
-<strong>Date:</strong> December 2016 <br>
-<strong>Event:</strong> Advanced Software Engineering Course <br>
-<strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.24112.76805">10.13140/RG.2.2.24112.76805</a> <br>
-<strong>Location:</strong> University of Guilan, Rasht, Iran
-</p>
+  <p>
+    <strong>Date:</strong> November 2019 <br>
+    <strong>Event:</strong> 5th National Conference of Computational Linguistics <br>
+    <strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.34981.04322">10.13140/RG.2.2.34981.04322</a> <br>
+    <strong>Location:</strong> Institute for Humanities and Cultural Studies, Tehran, Iran
+  </p>
 
 </div>
+
+<div class="talk-entry" data-date="2018-12-01">
+
+  <h2>Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning</h2>
+
+  <p>
+    <strong>Date:</strong> December 2018 <br>
+    <strong>Event:</strong> Guilan Annual Research Week <br>
+    <strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.21506.94405">10.13140/RG.2.2.21506.94405</a> <br>
+    <strong>Location:</strong> University of Guilan, Rasht, Iran
+  </p>
+
+</div>
+
+<div class="talk-entry" data-date="2017-12-01">
+
+  <h2>Introduction to Optical Networks</h2>
+
+  <p>
+    <strong>Date:</strong> December 2017 <br>
+    <strong>Event:</strong> Optical Networks Course <br>
+    <strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.25477.65767">10.13140/RG.2.2.25477.65767</a> <br>
+    <strong>Location:</strong> University of Guilan, Rasht, Iran
+  </p>
+
+</div>
+
+<div class="talk-entry" data-date="2017-06-01">
+
+  <h2>Video Transmission Over A Simulated Network by EvalVid</h2>
+
+  <p>
+    <strong>Date:</strong> June 2017 <br>
+    <strong>Event:</strong> Computer Performance Evaluation Course <br>
+    <strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.30171.77604">10.13140/RG.2.2.30171.77604</a> <br>
+    <strong>Location:</strong> University of Guilan, Rasht, Iran
+  </p>
+
+</div>
+
+<div class="talk-entry" data-date="2016-12-01">
+
+  <h2>Design Patterns in Cloud Computing</h2>
+
+  <p>
+    <strong>Date:</strong> December 2016 <br>
+    <strong>Event:</strong> Advanced Software Engineering Course <br>
+    <strong>DOI:</strong> <a href="https://doi.org/10.13140/RG.2.2.24112.76805">10.13140/RG.2.2.24112.76805</a> <br>
+    <strong>Location:</strong> University of Guilan, Rasht, Iran
+  </p>
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.getElementById("talks-container");
+  const dropdown = document.getElementById("talk-sort-select");
+
+  if (!container || !dropdown) return;
+
+  const talks = Array.from(container.querySelectorAll(".talk-entry"));
+
+  dropdown.addEventListener("change", function () {
+    const sorted = [...talks];
+
+    if (this.value === "newest") {
+      sorted.sort((a, b) =>
+        b.dataset.date.localeCompare(a.dataset.date)
+      );
+    } else if (this.value === "oldest") {
+      sorted.sort((a, b) =>
+        a.dataset.date.localeCompare(b.dataset.date)
+      );
+    } else if (this.value === "title") {
+      sorted.sort((a, b) => {
+        const titleA = a.querySelector("h2").textContent.trim();
+        const titleB = b.querySelector("h2").textContent.trim();
+        return titleA.localeCompare(titleB);
+      });
+    }
+
+    sorted.forEach(talk => container.appendChild(talk));
+  });
+});
+</script>
