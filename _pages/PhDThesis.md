@@ -1,4 +1,3 @@
-
 ---
 title: PhD Thesis
 layout: collection
