@@ -9,7 +9,19 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 ## Presentations and Talks
 
-## Analysis of Vocabulary and Subword Tokenization Settings for Optimal Fine-tuning of MT: A Case Study of In-domain Translation  
+## PhD Defense: Toward Domain-Specific Machine Translation and Quality Estimation
+
+<p style="font-size: 90%;">
+<strong>Date:</strong> March 4, 2026 <br>
+<strong>Event:</strong> PhD Defense, Tilburg University <br>
+<strong>Location:</strong> Aula, Tilburg University, Tilburg, the Netherlands <br>
+<strong>Slides:</strong> <a href="https://javad.pourmostafa.com/assets/files/Layman_s_talk___Javad_s_PhD.pdf">PDF</a> <br>
+<strong>More information:</strong> <a href="https://javad.pourmostafa.com/phdthesis/">PhD Thesis and Defense Video</a>
+</p>
+
+<hr style="border: 1px solid #ddd; margin: 2em 0;" />
+
+## Analysis of Vocabulary and Subword Tokenization Settings for Optimal Fine-tuning of MT: A Case Study of In-domain Translation
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> September 10, 2025 <br>
@@ -20,7 +32,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Priming LLMs for Domain-specific MT via In-context Learning and Quality Estimation  
+## Priming LLMs for Domain-specific MT via In-context Learning and Quality Estimation
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> June 6, 2025 <br>
@@ -31,32 +43,32 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation  
+## Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> September 2024 <br>
 <strong>Event:</strong> <a href="https://amtaweb.org/amta-2024-program/">AMTA 2024</a> <br>
 <strong>Format:</strong> Online <br>
-<strong>Video:</strong>  
+<strong>Video:</strong>
 <iframe style="max-width: 70%; max-height: 90%;" src="https://www.youtube.com/embed/CkVs-XV0LW0?si=A79UXVKUwch8RCcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Selecting Parallel In-domain Sentences for Neural Machine Translation  
+## Selecting Parallel In-domain Sentences for Neural Machine Translation
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> April 2022 <br>
 <strong>Event:</strong> <a href="https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig">TAISIG Talks #13</a> <br>
 <strong>Location:</strong> Deprez building, Tilburg University, Tilburg, the Netherlands <br>
 <strong>Slides:</strong> <a href="https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts">ResearchGate</a> <br>
-<strong>Video:</strong>  
+<strong>Video:</strong>
 <iframe style="max-width: 70%; max-height: 90%;" src="https://www.youtube.com/embed/8GDQ124iAao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## A Deep Persian Sentiment Analysis Framework  
+## A Deep Persian Sentiment Analysis Framework
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> November 2019 <br>
@@ -67,7 +79,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning  
+## Sentiment Analysis in Persian Corpus Using LSTM Model in Deep Learning
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> December 2018 <br>
@@ -78,7 +90,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Introduction to Optical Networks  
+## Introduction to Optical Networks
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> December 2017 <br>
@@ -89,7 +101,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Video Transmission Over A Simulated Network by EvalVid  
+## Video Transmission Over A Simulated Network by EvalVid
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> June 2017 <br>
@@ -100,7 +112,7 @@ excerpt: A collection of presentations and talks by Javad Pourmostafa.
 
 <hr style="border: 1px solid #ddd; margin: 2em 0;" />
 
-## Design Patterns in Cloud Computing  
+## Design Patterns in Cloud Computing
 
 <p style="font-size: 90%;">
 <strong>Date:</strong> December 2016 <br>
