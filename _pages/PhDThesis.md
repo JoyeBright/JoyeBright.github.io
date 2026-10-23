@@ -12,7 +12,7 @@ excerpt: "My PhD dissertation on domain-specific machine translation and quality
 <h2>Toward Domain-Specific Machine Translation and Quality Estimation</h2>
 
 <p>
-I successfully defended my PhD dissertation on <strong>March 4, 2026</strong>,
+I defended my PhD dissertation on <strong>March 4, 2026</strong>,
 at Tilburg University, the Netherlands.
 </p>
 
