@@ -13,7 +13,7 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin: 1.2rem 0 2rem 0;
+  margin: 1.2rem 0 2rem;
 }
 .pub-metric-card {
   flex: 1;
@@ -43,10 +43,6 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
   border-radius: 12px;
   background: #f8fafc;
 }
-.pub-toolbar label {
-  font-size: 0.9rem;
-  font-weight: 600;
-}
 .pub-toolbar select {
   padding: 0.4rem 0.65rem;
   border-radius: 8px;
@@ -58,8 +54,8 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
   margin: 1.15rem 0;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  background: white;
+  box-shadow: 0 2px 8px rgba(15,23,42,0.04);
 }
 .pub-title {
   font-size: 1.12rem;
@@ -84,9 +80,6 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
   padding: 0.55rem 0.75rem;
   margin: 0.7rem 0;
 }
-.pub-links {
-  margin-top: 0.7rem;
-}
 .pub-btn {
   display: inline-block;
   padding: 0.28rem 0.62rem;
@@ -108,7 +101,7 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: November 07, 2026, 08:52 UTC</em></p>
+<p class="pub-updated">Last updated: November 07, 2026, 09:23 UTC</p>
 
 <div class="pub-metrics">
 <div class="pub-metric-card"><div class="pub-metric-number">104</div><div class="pub-metric-label">Citations</div></div>
@@ -129,87 +122,107 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div id="pub-list">
 <div class="pub-card" data-year="2026" data-citations="0">
 <div class="pub-title">Proceedings of the 26th Annual Conference of the European Association for Machine Translation (Volume 1)</div>
-<div class="pub-meta">Proceedings of the 26th Annual Conference of the European Association for …, 2026 · 2026</div>
+<div class="pub-authors">Dimitar Shterionov, Eva Vanmassenhove, Mirella De Sisto, Fred Blain, Javad Pourmostafa Roshan Sharami, Lisa Lepp, Chiara Manna, Argentina Anna Rescigno, Alina Karakanta, Ayla Rigouts Terryn, Manuel Lardelli, Natalia Resende, Elena Murgolo, Janiça Hackenbuchner, Anna Zaretskaya, Miquel Esplà-Gomis, Thierry Etchegoyhen, Dagmar Gromann, Rachel Bawden, Barry Haddow, Sara Szoc, Mikel Forcada, Helena Moniz, Dimitar Shterionov, Eva Vanmassenhove, Mirella De Sisto, Fred Blain, Javad Pourmostafa Roshan Sharami, Lisa Lepp, Chiara Manna, Argentina Anna Rescigno, Alina Karakanta, Ayla Rigouts Terryn, Manuel Lardelli, Natalia Resende, Elena Murgolo, Janiça Hackenbuchner, Anna Zaretskaya, Miquel Esplà-Gomis, Thierry Etchegoyhen, Dagmar Gromann, Rachel Bawden, Barry Haddow, Sara Szoc, Mikel L. Forcada, Helena Moniz</div>
+<div class="pub-meta">CINECA IRIS Institutial research information system (University of Pisa) · 2026 · 0 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://aclanthology.org/2026.eamt-1.0/" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://aclanthology.org/2026.eamt-1.0.pdf" target="_blank" rel="noopener noreferrer">PDF</a> <a class="pub-btn" href="https://doi.org/10.26116/9789403901411" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2026" data-citations="0">
 <div class="pub-title">Toward domain-specific machine translation and quality estimation systems</div>
-<div class="pub-meta">arXiv preprint arXiv:2603.24955, 2026 · 2026</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami</div>
+<div class="pub-meta">arXiv (Cornell University) · 2026 · 0 citations</div>
+<div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2603.24955" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://arxiv.org/pdf/2603.24955" target="_blank" rel="noopener noreferrer">PDF</a> <a class="pub-btn" href="https://doi.org/10.26116/tshd.47714582" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2026" data-citations="0">
 <div class="pub-title">Proceedings of the 26th Annual Conference of the European Association for Machine Translation: Volume 2: Products and Projects, Implementations and Case Studies</div>
-<div class="pub-meta">26th Annual Conference of the European Association for Machine Translation, 2026 · 2026</div>
+<div class="pub-meta">2026 · 0 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Analysis of vocabulary and subword tokenization settings for optimal fine-tuning of MT: A case study of in-domain translation</div>
-<div class="pub-meta">Proceedings of the 15th International Conference on Recent Advances in …, 2025 · 2025 · 1 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter Spronck</div>
+<div class="pub-meta">International Conference Recent Advances in Natural Language Processing, Natural Language Processing in the Generative AI Era · 2025 · 1 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://doi.org/10.26615/978-954-452-098-4-111" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://doi.org/10.26615/978-954-452-098-4-111" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Improving Medical Waste Classification with Hybrid Capsule Networks</div>
-<div class="pub-meta">Intelligent Systems Conference, 95-114, 2025 · 2025 · 1 citations</div>
+<div class="pub-authors">Bennet van den Broek, Javad Pourmostafa Roshan Sharami</div>
+<div class="pub-meta">Lecture Notes in Networks and Systems, Intelligent Systems and Applications · 2025 · 1 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://doi.org/10.1007/978-3-032-07109-5_8" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://doi.org/10.1007/978-3-032-07109-5_8" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Integrating SAINT with Tree-Based Models</div>
-<div class="pub-meta">Intelligent Systems Conference, 397-417, 2025 · 2025 · 1 citations</div>
+<div class="pub-meta">2025 · 1 citations</div>
 </div>
 
 <div class="pub-card" data-year="2024" data-citations="2">
 <div class="pub-title">Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation</div>
-<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine …, 2024 · 2024 · 2 citations</div>
+<div class="pub-meta">2024 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="11">
 <div class="pub-title">Tailoring Domain Adaptation for Machine Translation Quality Estimation</div>
-<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for …, 2023 · 2023 · 11 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Frédéric Blain, Eva Vanmassenhove, Mirella De Sisto, Chris Emmery, Pieter H.M. Spronck</div>
+<div class="pub-meta">arXiv (Cornell University) · 2023 · 11 citations</div>
+<div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2304.08891" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://arxiv.org/pdf/2304.08891" target="_blank" rel="noopener noreferrer">PDF</a> <a class="pub-btn" href="https://doi.org/10.48550/arxiv.2304.08891" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="9">
 <div class="pub-title">Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews</div>
-<div class="pub-meta">Intelligent Systems Conference, 15-35, 2023 · 2023 · 9 citations</div>
+<div class="pub-authors">Ali Boluki, Javad Pourmostafa Roshan Sharami, Dimitar Shterionov</div>
+<div class="pub-meta">Lecture Notes in Networks and Systems, Intelligent Systems and Applications · 2023 · 9 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://doi.org/10.1007/978-3-031-47718-8_2" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://doi.org/10.1007/978-3-031-47718-8_2" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
 <div class="pub-title">A Python Tool for Selecting Domain-Specific Data in Machine Translation</div>
-<div class="pub-meta">Proceedings of the 1st Workshop on Open Community-Driven Machine Translation …, 2023 · 2023 · 3 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">Research portal (Tilburg University) · 2023 · 3 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://research.tilburguniversity.edu/files/75655856/A_Python_Tool_for_Selecting_Domain-Specific_Data_in_Machine_Translation.pdf" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
 <div class="pub-title">A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation</div>
-<div class="pub-meta">arXiv preprint arXiv:2303.00722, 2023 · 2023 · 3 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, D. Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">arXiv (Cornell University) · 2023 · 3 citations</div>
+<div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2303.00722" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://arxiv.org/pdf/2303.00722" target="_blank" rel="noopener noreferrer">PDF</a> <a class="pub-btn" href="https://doi.org/10.48550/arxiv.2303.00722" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2022" data-citations="5">
 <div class="pub-title">A Quality Estimation and Quality Evaluation Tool for the Translation Industry</div>
-<div class="pub-meta">Proceedings of the 23rd Annual Conference of the European Association for …, 2022 · 2022 · 5 citations</div>
+<div class="pub-meta">2022 · 5 citations</div>
 </div>
 
 <div class="pub-card" data-year="2022" data-citations="2">
 <div class="pub-title">Quality estimation for the translation industry–data challenges. June</div>
-<div class="pub-meta">The 32nd Meeting of Computational Linguistics in The Netherlands, CLIN, 2022 · 2022 · 2 citations</div>
+<div class="pub-meta">2022 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="18">
 <div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-meta">arXiv preprint arXiv:2112.06096, 2021 · 2021 · 18 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 18 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://doi.org/10.26116/5eav-qz46" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="4">
 <div class="pub-title">A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems</div>
-<div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31), 2021 · 2021 · 4 citations</div>
+<div class="pub-meta">2021 · 4 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="2">
 <div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-meta">arXiv preprint arXiv:2112.06096, 2021 · 2021 · 2 citations</div>
+<div class="pub-authors">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 2 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Paper</a> <a class="pub-btn" href="https://doi.org/10.26116/5eav-qz46" target="_blank" rel="noopener noreferrer">DOI</a></div>
 </div>
 
 <div class="pub-card" data-year="2020" data-citations="42">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 42 citations</div>
+<div class="pub-meta">2020 · 42 citations</div>
 </div>
 
 </div>
@@ -221,26 +234,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!select || !list) return;
 
-  function sortPublications() {
-    const cards = Array.from(list.querySelectorAll(".pub-card"));
+  select.addEventListener("change", function () {
+    const cards = Array.from(
+      list.querySelectorAll(".pub-card")
+    );
+
     const mode = select.value;
 
     cards.sort(function (a, b) {
       if (mode === "year-desc") {
-        return Number(b.dataset.year || 0) - Number(a.dataset.year || 0);
+        return Number(b.dataset.year || 0)
+             - Number(a.dataset.year || 0);
       }
+
       if (mode === "year-asc") {
-        return Number(a.dataset.year || 0) - Number(b.dataset.year || 0);
+        return Number(a.dataset.year || 0)
+             - Number(b.dataset.year || 0);
       }
+
       if (mode === "citations-desc") {
-        return Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0);
+        return Number(b.dataset.citations || 0)
+             - Number(a.dataset.citations || 0);
       }
+
       return 0;
     });
 
     cards.forEach(card => list.appendChild(card));
-  }
-
-  select.addEventListener("change", sortPublications);
+  });
 });
 </script>
