@@ -1,9 +1,10 @@
+
 name: Update publications
 
 on:
   workflow_dispatch:
   schedule:
-    # Monday and Thursday at 06:23 UTC (off the busy top of the hour)
+    # Monday and Thursday, 06:23 UTC
     - cron: '23 6 * * 1,4'
 
 permissions:
@@ -17,34 +18,39 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 12
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - name: Check out repository
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
+
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
-          fi
-          python -m pip install "bibtexparser==1.4.3" "scholarly" "PyYAML"
-          python -c "from scholarly import scholarly; print('scholarly import OK')"
-      - name: Update publications and persistent cache
+
+      - name: Install updater dependency
+        run: python -m pip install 'PyYAML>=6,<7'
+
+      - name: Update publications and cache
         env:
           CROSSREF_CONTACT_EMAIL: ${{ secrets.CROSSREF_CONTACT_EMAIL }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_AUTHOR_ID: ${{ vars.OPENALEX_AUTHOR_ID }}
         run: python scripts/update_publications.py
-      - name: Commit generated files if changed
+
+      - name: Commit updated page and cache
         run: |
-          git add _pages/publication.md _data/publication_cache.json
+          git add _pages/publication.md
+          if [ -f _data/publication_cache.json ]; then
+            git add _data/publication_cache.json
+          fi
           if git diff --cached --quiet; then
-            echo 'No publication changes'
+            echo 'No changes to commit'
             exit 0
           fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update publications and cached Scholar metrics'
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Update publications and citation cache'
           git push
