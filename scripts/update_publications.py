@@ -1,7 +1,6 @@
 
 from pathlib import Path
 from datetime import datetime, timezone
-from scholarly import scholarly
 import yaml
 import html
 import json
@@ -14,12 +13,16 @@ import subprocess
 import traceback
 import unicodedata
 from difflib import SequenceMatcher
-from urllib.parse import urlencode, urlsplit
+from urllib.parse import urlencode, urlsplit, urljoin
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+from html.parser import HTMLParser
 
 MAX_SECONDS = 300
 SCHOLAR_SECONDS = 65
+SCHOLAR_REQUEST_TIMEOUT = 18
+SCHOLAR_MAX_PAGES = 3
+OPENALEX_AUTHOR_ID = os.environ.get("OPENALEX_AUTHOR_ID", "").strip()
 CACHE = Path("_data/publication_cache.json")
 CACHE_VERSION = 1
 MAX_FALLBACK_LOOKUPS = 10
@@ -212,34 +215,117 @@ def recover_metadata(title, year, authors, venue):
     return recovered
 
 
+class ScholarHTML(HTMLParser):
+    """Small DOM tree for public Scholar profile pages (no third-party scraper)."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.root = {"tag": "root", "attrs": {}, "children": [], "text": ""}
+        self.stack = [self.root]
+
+    def handle_starttag(self, tag, attrs):
+        node = {"tag": tag, "attrs": dict(attrs), "children": [], "text": ""}
+        self.stack[-1]["children"].append(node)
+        if tag not in {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}:
+            self.stack.append(node)
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if self.stack[-1]["tag"] == tag:
+            self.stack.pop()
+
+    def handle_endtag(self, tag):
+        for index in range(len(self.stack) - 1, 0, -1):
+            if self.stack[index]["tag"] == tag:
+                del self.stack[index:]
+                break
+
+    def handle_data(self, data):
+        self.stack[-1]["text"] += data
+
+
+def descendants(node):
+    for child in node["children"]:
+        yield child
+        yield from descendants(child)
+
+
+def by_class(node, class_name):
+    return [n for n in descendants(node) if class_name in n["attrs"].get("class", "").split()]
+
+
+def node_text(node):
+    return clean_text(node["text"] + " ".join(node_text(child) for child in node["children"]))
+
+
+def fetch_scholar_page(start):
+    params = {"user": SCHOLAR_ID, "hl": "en", "view_op": "list_works", "sortby": "pubdate", "pagesize": 100, "cstart": start}
+    url = "https://scholar.google.com/citations?" + urlencode(params)
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; academic personal website publication updater)", "Accept": "text/html", "Accept-Language": "en-US,en;q=0.8"})
+    with urlopen(request, timeout=SCHOLAR_REQUEST_TIMEOUT) as response:
+        if response.status != 200:
+            raise RuntimeError(f"Scholar HTTP {response.status}")
+        body = response.read(2_000_001)
+        if len(body) > 2_000_000:
+            raise RuntimeError("Scholar response unexpectedly large")
+        markup = body.decode("utf-8", errors="replace")
+    if any(marker in markup.lower() for marker in ("unusual traffic", "recaptcha", "not a robot", "automated queries")):
+        raise RuntimeError("Scholar presented a traffic challenge; no bypass attempted")
+    parsed = ScholarHTML()
+    parsed.feed(markup)
+    if not by_class(parsed.root, "gsc_a_tr") or not by_class(parsed.root, "gsc_rsb_std"):
+        raise RuntimeError("Scholar did not return a valid public author profile")
+    return parsed.root
+
+
 def fetch_scholar_data():
-    """One bounded Scholar profile fetch; do not trigger fragile per-paper fill()."""
-    print("Fetching Google Scholar profile...", flush=True)
-    author = as_dict(scholarly.search_author_id(SCHOLAR_ID))
-    if not author:
-        raise RuntimeError("Scholar returned no author profile")
-    print("Fetching Scholar publication list and citation indices...", flush=True)
-    author = as_dict(scholarly.fill(author, sections=["basics", "indices", "publications"], publication_limit=150))
-    raw = author.get("publications") or []
-    if not isinstance(raw, list) or not raw:
-        raise RuntimeError("Scholar returned no publications")
+    """Retrieve public profile rows, without fragile per-paper detail requests."""
+    print("Fetching Google Scholar public profile HTML...", flush=True)
     publications = []
-    for entry in raw:
-        pub = as_dict(entry)
-        bib = as_dict(pub.get("bib"))
-        title = clean_text(bib.get("title"))
-        if not title:
-            continue
-        year = clean_text(bib.get("pub_year") or bib.get("year"))
-        venue = clean_text(bib.get("journal") or bib.get("conference") or bib.get("venue") or bib.get("publisher"))
-        publications.append({"title": title, "authors": clean_author_field(bib.get("author"), venue, year),
-                             "venue": venue, "year": year, "citations": clean_text(pub.get("num_citations")),
-                             "url": safe_url(pub.get("pub_url") or bib.get("url"))})
+    seen = set()
+    metrics = []
+    for page_index in range(SCHOLAR_MAX_PAGES):
+        start = page_index * 100
+        root = fetch_scholar_page(start)
+        if page_index == 0:
+            # Google Scholar citation table has All/Since columns; cells for each row alternate all-time and recent-year figures.
+            metric_nodes = by_class(root, "gsc_rsb_std")
+            metrics = [re.sub(r"[^0-9]", "", node_text(n)) for n in metric_nodes]
+            if len(metrics) < 6 or any(not metrics[i].isdigit() for i in (0, 2, 4)):
+                raise RuntimeError("Scholar citation metrics missing or malformed")
+        rows = by_class(root, "gsc_a_tr")
+        print(f"[SCHOLAR] Profile page {page_index + 1}: {len(rows)} rows", flush=True)
+        for row in rows:
+            titles = by_class(row, "gsc_a_at")
+            if not titles:
+                continue
+            title = node_text(titles[0])
+            key = normalized_title(title)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            details = by_class(row, "gs_gray")
+            authors = node_text(details[0]) if details else ""
+            venue = node_text(details[1]) if len(details) > 1 else ""
+            year_cells = by_class(row, "gsc_a_y")
+            year_match = re.search(r"\b(?:19|20)\d{2}\b", node_text(year_cells[0])) if year_cells else None
+            citations_cells = by_class(row, "gsc_a_c")
+            citation_links = by_class(citations_cells[0], "gsc_a_ac") if citations_cells else []
+            citation_text = node_text(citation_links[0]) if citation_links else ""
+            citations = citation_text if citation_text.isdigit() else "0" if not citation_text else ""
+            href = titles[0]["attrs"].get("href", "")
+            # Scholar title links point to the publication detail page, not
+            # necessarily the paper. Don't mislabel them as paper URLs.
+            publications.append({"title": title, "authors": clean_author_field(authors, venue, year_match.group() if year_match else ""),
+                                 "venue": venue, "year": year_match.group() if year_match else "",
+                                 "citations": citations, "url": "", "scholar_url": safe_url(urljoin("https://scholar.google.com", href))})
+        if len(rows) < 100:
+            break
+        time.sleep(1.5)
     if not publications:
-        raise RuntimeError("Scholar returned no valid publication titles")
+        raise RuntimeError("Scholar profile contains no valid publication records")
     publications.sort(key=get_year, reverse=True)
-    return {"citedby": author.get("citedby", ""), "hindex": author.get("hindex", ""),
-            "i10index": author.get("i10index", ""), "publications": publications}
+    print(f"[SCHOLAR] Retrieved {len(publications)} papers and citation indices", flush=True)
+    return {"citedby": metrics[0], "hindex": metrics[2], "i10index": metrics[4], "publications": publications}
 
 
 def load_cache():
@@ -260,11 +346,9 @@ def bootstrap_from_page():
     if not OUT.exists():
         return {}
     source = OUT.read_text(encoding="utf-8")
-    cards = re.findall(r'<div class="pub-card"\b.*?(?=<div class="pub-card"\b|</div>\s*$)', source, re.S | re.M)
-    # Cards contain nested divs, so extract each from its opening tag up to the next card.
-    if not cards:
-        starts = list(re.finditer(r'<div class="pub-card"\b', source))
-        cards = [source[m.start():(starts[i+1].start() if i+1 < len(starts) else source.find('</div>\n', m.start()) if False else len(source))] for i,m in enumerate(starts)]
+    starts = list(re.finditer(r'<div class="pub-card"', source))
+    cards = [source[m.start():(starts[i + 1].start() if i + 1 < len(starts) else len(source))]
+             for i, m in enumerate(starts)]
     pubs = []
     for card in cards:
         title_match = re.search(r'<div class="pub-title"[^>]*>(.*?)</div>', card, re.S)
@@ -304,6 +388,11 @@ def bootstrap_from_page():
 
 def fallback_openalex_publications():
     """Fallback bibliography only. OpenAlex citation counts are deliberately discarded."""
+    if OPENALEX_AUTHOR_ID:
+        author_id = OPENALEX_AUTHOR_ID.rsplit('/', 1)[-1]
+        if not re.fullmatch(r'A\d+', author_id):
+            raise ValueError('Invalid OPENALEX_AUTHOR_ID; expected A followed by digits')
+        return openalex_works_for_author(author_id)
     result = request_json('https://api.openalex.org/authors', {'search': 'Javad Pourmostafa', 'per_page': 10})
     candidates = []
     for author in result.get('results', []):
@@ -314,6 +403,10 @@ def fallback_openalex_publications():
         print('[FALLBACK] OpenAlex author identity is ambiguous; not importing unverified papers', flush=True)
         return []
     author_id = candidates[0]['id'].rsplit('/', 1)[-1]
+    return openalex_works_for_author(author_id)
+
+
+def openalex_works_for_author(author_id):
     response = request_json('https://api.openalex.org/works', {'filter': f'author.id:{author_id}', 'per_page': 100})
     papers = []
     for work in response.get('results', []):
@@ -659,8 +752,8 @@ def main():
                     print(f"[WARNING] OpenAlex fallback failed: {fallback_exc}", flush=True)
                     fallback_papers = []
                 if not fallback_papers:
-                    print("[ERROR] No verified publication list; existing page preserved", flush=True)
-                    return 1
+                    print("[WARNING] No verified publication list; existing page preserved", flush=True)
+                    return 0 if OUT.exists() else 1
                 data = {"citedby": "", "hindex": "", "i10index": "", "publications": fallback_papers}
                 print("[FALLBACK] Bibliography from OpenAlex; Scholar citation metrics unavailable", flush=True)
         if fresh:
