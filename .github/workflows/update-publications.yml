@@ -4,8 +4,7 @@ name: Update publications
 on:
   workflow_dispatch:
   schedule:
-    # Monday and Thursday, 06:23 UTC
-    - cron: '23 6 * * 1,4'
+    - cron: '23 6 * * *'
 
 permissions:
   contents: write
