@@ -6,6 +6,11 @@ import yaml
 import html
 import signal
 import sys
+import json
+import re
+from difflib import SequenceMatcher
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 SCHOLAR_ID = "xqccd64AAAAJ"
 
@@ -28,7 +33,10 @@ def load_notes():
     if not NOTES_FILE.exists():
         return {}
     with NOTES_FILE.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+        notes = yaml.safe_load(f) or {}
+    if not isinstance(notes, dict):
+        raise ValueError("Publication notes must be a YAML mapping keyed by title")
+    return notes
 
 
 def get_year(pub):
@@ -77,13 +85,98 @@ def clean_author_field(authors, venue="", year=""):
     return authors
 
 
+def normalize_title(value):
+    return " ".join(re.findall(r"[a-z0-9]+", clean_text(value).casefold()))
+
+
+def fetch_json(url):
+    request = Request(url, headers={"User-Agent": "AcademicPublicationUpdater/1.0 (metadata lookup)"})
+    with urlopen(request, timeout=8) as response:
+        return json.load(response)
+
+
+def fallback_metadata(title, year="", need_authors=True, need_venue=True, need_year=True):
+    """Crossref first, OpenAlex second; never use their citation counts."""
+    result = {"authors": "", "venue": "", "year": ""}
+    expected = normalize_title(title)
+
+    def matches(candidate_title, candidate_year):
+        actual = normalize_title(candidate_title)
+        return (bool(actual) and
+                SequenceMatcher(None, expected, actual).ratio() >= 0.94 and
+                not (year and candidate_year and str(year) != str(candidate_year)))
+
+    try:
+        query = urlencode({"query.title": title, "rows": 3})
+        payload = fetch_json("https://api.crossref.org/works?" + query)
+        message = payload.get("message") or {} if isinstance(payload, dict) else {}
+        for item in message.get("items") or []:
+            if not isinstance(item, dict):
+                continue
+            titles = item.get("title") or []
+            candidate = titles[0] if isinstance(titles, list) and titles else ""
+            published = item.get("published") or item.get("issued") or {}
+            dates = published.get("date-parts") or [] if isinstance(published, dict) else []
+            candidate_year = str(dates[0][0]) if dates and dates[0] else ""
+            if not matches(candidate, candidate_year):
+                continue
+            people = []
+            for person in item.get("author") or []:
+                if isinstance(person, dict):
+                    name = clean_text(" ".join(filter(None, [person.get("given"), person.get("family")])))
+                    if name:
+                        people.append(name)
+            venues = item.get("container-title") or []
+            if need_authors:
+                result["authors"] = ", ".join(people)
+            if need_venue and isinstance(venues, list) and venues:
+                result["venue"] = clean_text(venues[0])
+            if need_year:
+                result["year"] = candidate_year
+            break
+    except Exception as exc:
+        print(f"[WARNING] Crossref lookup for {title}: {exc}", flush=True)
+
+    if ((need_authors and not result["authors"]) or
+        (need_venue and not result["venue"]) or
+        (need_year and not result["year"])):
+        try:
+            query = urlencode({"search": title, "per-page": 3})
+            payload = fetch_json("https://api.openalex.org/works?" + query)
+            items = payload.get("results") or [] if isinstance(payload, dict) else []
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                candidate_year = str(item.get("publication_year") or "")
+                if not matches(item.get("display_name", ""), candidate_year):
+                    continue
+                if need_authors and not result["authors"]:
+                    people = []
+                    for authorship in item.get("authorships") or []:
+                        person = authorship.get("author") or {} if isinstance(authorship, dict) else {}
+                        if isinstance(person, dict) and person.get("display_name"):
+                            people.append(clean_text(person["display_name"]))
+                    result["authors"] = ", ".join(people)
+                if need_venue and not result["venue"]:
+                    location = item.get("primary_location") or {}
+                    source = location.get("source") or {} if isinstance(location, dict) else {}
+                    if isinstance(source, dict):
+                        result["venue"] = clean_text(source.get("display_name"))
+                if need_year and not result["year"]:
+                    result["year"] = candidate_year
+                break
+        except Exception as exc:
+            print(f"[WARNING] OpenAlex lookup for {title}: {exc}", flush=True)
+    return result
+
+
 def fetch_scholar_data():
-    print("Fetching Google Scholar profile...")
+    print("Fetching Google Scholar profile...", flush=True)
     author = scholarly.search_author_id(SCHOLAR_ID)
     if not isinstance(author, dict):
         raise RuntimeError("Google Scholar returned no valid author profile")
 
-    print("Fetching citation metrics and publication list...")
+    print("Fetching citation metrics and publication list...", flush=True)
     author = scholarly.fill(
         author,
         sections=["basics", "indices", "publications"],
@@ -162,6 +255,20 @@ def fetch_scholar_data():
                     detail_lookup_broken = True
                     print("Scholar detail parser appears broken; skipping further detail requests.")
 
+        # Use external repositories only for fields Scholar could not provide.
+        # Citation text is not a reliable venue; prefer a verified repository venue.
+        has_structured_venue = bool(bib.get("journal") or bib.get("conference") or bib.get("venue") or bib.get("publisher"))
+        if not authors or not year or not has_structured_venue:
+            recovered = fallback_metadata(title, year, not bool(authors), not has_structured_venue, not bool(year))
+            if any(recovered.values()):
+                if not authors:
+                    authors = clean_author_field(recovered.get("authors"), venue=recovered.get("venue", ""), year=year)
+                if not has_structured_venue and recovered.get("venue"):
+                    venue = recovered["venue"]
+                if not year:
+                    year = recovered.get("year", "")
+                print(f"[FALLBACK] Recovered available metadata for: {title}", flush=True)
+
         publications.append({
             "title": title,
             "authors": authors,
@@ -173,6 +280,8 @@ def fetch_scholar_data():
     if not publications:
         raise RuntimeError("No valid publication titles found; refusing to overwrite the page")
 
+    if not publications:
+        raise RuntimeError("No usable publication titles; preserving the existing page")
     publications.sort(key=get_year, reverse=True)
 
     return {
@@ -361,6 +470,8 @@ document.addEventListener("DOMContentLoaded", function () {
     for pub in publications:
         title = pub["title"]
         extra = notes.get(title, {}) or {}
+        if not isinstance(extra, dict):
+            extra = {}
 
         authors = extra.get("authors") or pub.get("authors", "")
         venue = extra.get("venue") or pub.get("venue", "")
@@ -449,13 +560,25 @@ def main():
         signal.alarm(0)
         signal.signal(signal.SIGALRM, previous_handler)
 
-    page = build_page(data, notes)
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    temporary = OUT.with_suffix(OUT.suffix + ".tmp")
-    temporary.write_text(page, encoding="utf-8")
-    temporary.replace(OUT)
+    try:
+        page = build_page(data, notes)
+        OUT.parent.mkdir(parents=True, exist_ok=True)
+        temporary = OUT.with_suffix(OUT.suffix + ".tmp")
+        temporary.write_text(page, encoding="utf-8")
+        temporary.replace(OUT)
+    except Exception as exc:
+        print(f"[ERROR] Could not generate publication page: {exc}", flush=True)
+        return 1
 
-    incomplete = [p["title"] for p in data["publications"] if not p["authors"] or not p["venue"] or not p["year"]]
+    incomplete = []
+    for pub in data["publications"]:
+        override = notes.get(pub["title"], {}) or {}
+        if not isinstance(override, dict):
+            override = {}
+        missing = [field for field in ("authors", "venue", "year")
+                   if not (override.get(field) or pub.get(field))]
+        if missing:
+            incomplete.append((pub["title"], missing))
     print(f"Updated {OUT}")
     print(f"Number of publications: {len(data['publications'])}")
     print(f"Citations: {data.get('citedby', '')}")
@@ -463,9 +586,9 @@ def main():
     print(f"i10-index: {data.get('i10index', '')}")
     if incomplete:
         print(f"[INCOMPLETE] {len(incomplete)} publication(s) missing authors, venue or year in Scholar data:")
-        for title in incomplete:
-            print(f"  - {title}")
-        print("Existing YAML notes may fill these fields when rendering the page.")
+        for title, missing in incomplete:
+            print(f"  - {title}: {', '.join(missing)}")
+        print("Add verified overrides to the optional publication_notes.yml for any remaining gaps.")
     else:
         print("[SUCCESS] All publications have authors, venue and year.")
     return 0
