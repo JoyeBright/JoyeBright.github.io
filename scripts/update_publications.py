@@ -19,6 +19,12 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
 MAX_SECONDS = 300
+SCHOLAR_SECONDS = 65
+CACHE = Path("_data/publication_cache.json")
+CACHE_VERSION = 1
+MAX_FALLBACK_LOOKUPS = 10
+CONTACT_EMAIL = os.environ.get("CROSSREF_CONTACT_EMAIL", "").strip()
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY", "").strip()
 API_TIMEOUT = 9
 MAX_RESULTS = 6
 
@@ -133,8 +139,13 @@ def match_score(requested, candidate, expected_year="", candidate_year=""):
 
 
 def request_json(url, params):
+    params = dict(params)
+    if url.startswith("https://api.crossref.org/") and CONTACT_EMAIL:
+        params["mailto"] = CONTACT_EMAIL
+    if url.startswith("https://api.openalex.org/") and OPENALEX_API_KEY:
+        params["api_key"] = OPENALEX_API_KEY
     full_url = url + "?" + urlencode(params)
-    request = Request(full_url, headers={"User-Agent": "AcademicPublicationsUpdater/1.0 (metadata lookup)", "Accept": "application/json"})
+    request = Request(full_url, headers={"User-Agent": "AcademicPublicationsUpdater/2.0 (personal academic website)", "Accept": "application/json"})
     with urlopen(request, timeout=API_TIMEOUT) as response:
         return json.load(response)
 
@@ -177,7 +188,7 @@ def recover_metadata(title, year, authors, venue):
     missing = {"authors": not bool(authors), "venue": not bool(venue), "year": not bool(year)}
     recovered = {"authors": "", "venue": "", "year": "", "url": ""}
     for source, lookup in (("Crossref", crossref_candidates), ("OpenAlex", openalex_candidates)):
-        if not any(missing[field] and not recovered[field] for field in missing):
+        if not any(missing[field] and not recovered[field] for field in missing) and recovered["url"]:
             break
         try:
             candidates = list(lookup(title))
@@ -201,55 +212,80 @@ def recover_metadata(title, year, authors, venue):
 
 
 def fetch_scholar_data():
+    """One bounded Scholar profile fetch; do not trigger fragile per-paper fill()."""
     print("Fetching Google Scholar profile...", flush=True)
     author = as_dict(scholarly.search_author_id(SCHOLAR_ID))
     if not author:
-        raise RuntimeError("Google Scholar returned no valid author profile")
-    print("Fetching citation metrics and publication list...", flush=True)
+        raise RuntimeError("Scholar returned no author profile")
+    print("Fetching Scholar publication list and citation indices...", flush=True)
     author = as_dict(scholarly.fill(author, sections=["basics", "indices", "publications"], publication_limit=150))
-    if not author:
-        raise RuntimeError("Google Scholar returned no publication profile")
-    raw_pubs = author.get("publications") or []
-    if not isinstance(raw_pubs, list) or not raw_pubs:
-        raise RuntimeError("Google Scholar returned no publications; preserving existing page")
+    raw = author.get("publications") or []
+    if not isinstance(raw, list) or not raw:
+        raise RuntimeError("Scholar returned no publications")
     publications = []
-    detail_broken = False
-    for raw in raw_pubs:
-        pub = as_dict(raw)
+    for entry in raw:
+        pub = as_dict(entry)
         bib = as_dict(pub.get("bib"))
         title = clean_text(bib.get("title"))
         if not title:
             continue
         year = clean_text(bib.get("pub_year") or bib.get("year"))
         venue = clean_text(bib.get("journal") or bib.get("conference") or bib.get("venue") or bib.get("publisher"))
-        # A formatted citation is not necessarily a journal/conference name.
-        authors = clean_author_field(bib.get("author"), venue=venue, year=year)
-        if not authors and not detail_broken:
-            try:
-                print(f"Trying Google Scholar details: {title}", flush=True)
-                detailed = as_dict(scholarly.fill(pub))
-                detailed_bib = as_dict(detailed.get("bib"))
-                detail_venue = clean_text(detailed_bib.get("journal") or detailed_bib.get("conference") or detailed_bib.get("venue") or detailed_bib.get("publisher"))
-                authors = clean_author_field(detailed_bib.get("author"), venue=detail_venue or venue, year=year)
-                venue = venue or detail_venue
-                year = year or clean_text(detailed_bib.get("pub_year") or detailed_bib.get("year"))
-            except Exception as exc:
-                print(f"[WARNING] Scholar details unavailable for {title}: {exc}", flush=True)
-                if isinstance(exc, AttributeError) and "NoneType" in str(exc):
-                    detail_broken = True
-                    print("[WARNING] Scholar detail parser failed; skipping further detail requests", flush=True)
-        paper_url = safe_url(pub.get("pub_url") or bib.get("url"))
-        if not authors or not venue or not year or not paper_url:
-            recovered = recover_metadata(title, year, authors, venue)
-            authors = authors or clean_author_field(recovered["authors"], venue=venue or recovered["venue"], year=year)
-            venue = venue or recovered["venue"]
-            year = year or recovered["year"]
-            paper_url = paper_url or recovered["url"]
-        publications.append({"title": title, "authors": authors, "venue": venue, "year": year, "citations": clean_text(pub.get("num_citations")), "url": paper_url})
+        publications.append({"title": title, "authors": clean_author_field(bib.get("author"), venue, year),
+                             "venue": venue, "year": year, "citations": clean_text(pub.get("num_citations")),
+                             "url": safe_url(pub.get("pub_url") or bib.get("url"))})
     if not publications:
-        raise RuntimeError("No valid publication titles found; preserving existing page")
+        raise RuntimeError("Scholar returned no valid publication titles")
     publications.sort(key=get_year, reverse=True)
-    return {"citedby": author.get("citedby", ""), "hindex": author.get("hindex", ""), "i10index": author.get("i10index", ""), "publications": publications}
+    return {"citedby": author.get("citedby", ""), "hindex": author.get("hindex", ""),
+            "i10index": author.get("i10index", ""), "publications": publications}
+
+
+def load_cache():
+    if not CACHE.exists():
+        return {}
+    try:
+        payload = json.loads(CACHE.read_text(encoding="utf-8"))
+        if payload.get("version") != CACHE_VERSION or payload.get("scholar_id") != SCHOLAR_ID:
+            return {}
+        return payload if isinstance(payload.get("data"), dict) else {}
+    except (OSError, ValueError, AttributeError):
+        return {}
+
+
+def atomic_write(path, content):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(prefix=".publication_", dir=str(path.parent))
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(content)
+        os.replace(tmp, path)
+    finally:
+        if os.path.exists(tmp):
+            os.unlink(tmp)
+
+
+def merge_and_enrich(data, previous, notes):
+    """Never replace known metadata with blanks; never replace Scholar citation values with alternatives."""
+    old = {normalized_title(p.get("title")): p for p in previous.get("publications", []) if isinstance(p, dict)}
+    requests_used = 0
+    for pub in data["publications"]:
+        key = normalized_title(pub["title"])
+        cached = as_dict(old.get(key))
+        for field in ("authors", "venue", "year", "url"):
+            if not pub.get(field) and cached.get(field):
+                pub[field] = cached[field]
+        if not pub.get("citations") and cached.get("citations"):
+            pub["citations"] = cached["citations"]
+        override = as_dict(notes.get(pub["title"]))
+        missing = not all(override.get(field) or pub.get(field) for field in ("authors", "venue", "year")) or not (override.get("paper") or pub.get("url"))
+        if missing and requests_used < MAX_FALLBACK_LOOKUPS:
+            requests_used += 1
+            recovered = recover_metadata(pub["title"], pub.get("year", ""), pub.get("authors", ""), pub.get("venue", ""))
+            for field in ("authors", "venue", "year", "url"):
+                if not pub.get(field) and recovered.get(field):
+                    pub[field] = recovered[field]
+    return data
 
 
 def build_page(data, notes):
@@ -409,7 +445,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "",
         "I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.",
         "",
-        f"<p class='pub-updated'><em>Last updated: {last_updated}</em></p>",
+        f"<p class='pub-updated'><em>Page generated: {last_updated} · Google Scholar metrics retrieved: {safe_html(data.get('scholar_checked_at', 'unknown'))}</em></p>",
         "",
         '<div class="pub-metrics">',
         f'<div class="pub-metric-card"><div class="pub-metric-number">{safe_html(citedby or "—")}</div><div class="pub-metric-label">Citations</div></div>',
@@ -511,62 +547,65 @@ def worker(output_path):
 
 
 def main():
-    # A subprocess gives a true deadline even when scholarly hangs inside a request.
     if len(sys.argv) == 3 and sys.argv[1] == "--worker":
         worker(sys.argv[2])
         return 0
     notes = load_notes()
-    fd, temp_path = tempfile.mkstemp(prefix="scholar_publications_", suffix=".json")
+    cache = load_cache()
+    previous = as_dict(cache.get("data"))
+    fd, result_path = tempfile.mkstemp(prefix="scholar_", suffix=".json")
     os.close(fd)
+    fresh = False
     try:
-        print(f"Starting extraction (hard timeout: {MAX_SECONDS} seconds)...", flush=True)
+        print(f"Starting Scholar fetch (limit {SCHOLAR_SECONDS}s; total budget {MAX_SECONDS}s)...", flush=True)
         try:
-            subprocess.run([sys.executable, str(Path(__file__).resolve()), "--worker", temp_path], timeout=MAX_SECONDS, check=False)
-        except subprocess.TimeoutExpired:
-            print("[TIMEOUT] Google Scholar extraction exceeded 300 seconds; existing page preserved", flush=True)
-            return 124
-        try:
-            result = json.loads(Path(temp_path).read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            print("[ERROR] Extraction produced no usable result; existing page preserved", flush=True)
-            return 1
-        if not result.get("ok"):
-            print("[ERROR] Extraction failed; existing page preserved", flush=True)
-            print(result.get("error", "Unknown error"), flush=True)
-            return 1
-        data = result["data"]
+            result = subprocess.run([sys.executable, str(Path(__file__).resolve()), "--worker", result_path],
+                                    timeout=SCHOLAR_SECONDS, check=False)
+            payload = json.loads(Path(result_path).read_text(encoding="utf-8"))
+            if result.returncode != 0 or not payload.get("ok"):
+                raise RuntimeError(payload.get("error", "Scholar worker failed"))
+            data = payload["data"]
+            fresh = True
+            print("[SCHOLAR] Fresh citation statistics received", flush=True)
+        except (subprocess.TimeoutExpired, RuntimeError, OSError, ValueError, KeyError) as exc:
+            print(f"[WARNING] Google Scholar unavailable: {str(exc)[:300]}", flush=True)
+            if not previous.get("publications"):
+                print("[ERROR] No saved Scholar data; existing page preserved", flush=True)
+                return 1
+            data = previous
+            print("[CACHE] Using last verified Google Scholar publication list and metrics", flush=True)
+        if fresh:
+            # Guard against a transient partial list unexpectedly erasing most cached records.
+            old_count = len(previous.get("publications", []))
+            if old_count and len(data["publications"]) < max(1, int(old_count * 0.75)):
+                print("[WARNING] Scholar returned suspiciously few records; using saved list", flush=True)
+                data = previous
+                fresh = False
+        data = merge_and_enrich(data, previous, notes)
+        # Cache both Scholar metrics and verified metadata, never third-party citation counts.
+        if fresh:
+            checked = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        else:
+            checked = cache.get("scholar_checked_at", "unknown")
+        data["scholar_checked_at"] = checked
         page = build_page(data, notes)
-        OUT.parent.mkdir(parents=True, exist_ok=True)
-        # Atomic write: never leave a partially generated page.
-        fd, page_tmp = tempfile.mkstemp(prefix=".publication_", suffix=".md", dir=str(OUT.parent))
-        try:
-            with os.fdopen(fd, "w", encoding="utf-8") as file:
-                file.write(page)
-            os.replace(page_tmp, OUT)
-        finally:
-            if os.path.exists(page_tmp):
-                os.unlink(page_tmp)
+        atomic_write(OUT, page)
+        atomic_write(CACHE, json.dumps({"version": CACHE_VERSION, "scholar_id": SCHOLAR_ID,
+                                       "scholar_checked_at": checked, "data": data}, ensure_ascii=False, indent=2) + "\n")
         missing = []
         for pub in data["publications"]:
             override = as_dict(notes.get(pub["title"]))
-            fields = [field for field in ("authors", "venue", "year") if not (override.get(field) or pub.get(field))]
+            fields = [f for f in ("authors", "venue", "year") if not (override.get(f) or pub.get(f))]
             if fields:
                 missing.append((pub["title"], fields))
-        print(f"Updated {OUT}")
-        print(f"Number of publications: {len(data['publications'])}")
-        print(f"Citations: {data.get('citedby', '')}")
-        print(f"h-index: {data.get('hindex', '')}")
-        print(f"i10-index: {data.get('i10index', '')}")
-        if missing:
-            print(f"[INCOMPLETE] {len(missing)} publication(s) still missing metadata:")
-            for title, fields in missing:
-                print(f"  - {title}: {', '.join(fields)}")
-            return 0  # Publish the usable page; log accurately that metadata is incomplete.
-        print("[SUCCESS] All publication author, venue and year fields are present")
+        print(f"[{'SUCCESS' if fresh else 'CACHED'}] Updated {OUT} with {len(data['publications'])} publications", flush=True)
+        print(f"Scholar metrics (as of {checked}): citations={data.get('citedby')}, h={data.get('hindex')}, i10={data.get('i10index')}", flush=True)
+        for title, fields in missing:
+            print(f"[INCOMPLETE] {title}: {', '.join(fields)}", flush=True)
         return 0
     finally:
-        if os.path.exists(temp_path):
-            os.unlink(temp_path)
+        if os.path.exists(result_path):
+            os.unlink(result_path)
 
 
 if __name__ == "__main__":
