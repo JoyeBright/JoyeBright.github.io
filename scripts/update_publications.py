@@ -142,10 +142,11 @@ def request_json(url, params):
     params = dict(params)
     if url.startswith("https://api.crossref.org/") and CONTACT_EMAIL:
         params["mailto"] = CONTACT_EMAIL
-    if url.startswith("https://api.openalex.org/") and OPENALEX_API_KEY:
-        params["api_key"] = OPENALEX_API_KEY
     full_url = url + "?" + urlencode(params)
-    request = Request(full_url, headers={"User-Agent": "AcademicPublicationsUpdater/2.0 (personal academic website)", "Accept": "application/json"})
+    headers = {"User-Agent": "AcademicPublicationsUpdater/2.0 (personal academic website)", "Accept": "application/json"}
+    if url.startswith("https://api.openalex.org/") and OPENALEX_API_KEY:
+        headers["Authorization"] = "Bearer " + OPENALEX_API_KEY
+    request = Request(full_url, headers=headers)
     with urlopen(request, timeout=API_TIMEOUT) as response:
         return json.load(response)
 
@@ -253,6 +254,81 @@ def load_cache():
         return {}
 
 
+
+def bootstrap_from_page():
+    """Recover Scholar-labelled values from a previously generated page; never invent metrics."""
+    if not OUT.exists():
+        return {}
+    source = OUT.read_text(encoding="utf-8")
+    cards = re.findall(r'<div class="pub-card"\b.*?(?=<div class="pub-card"\b|</div>\s*$)', source, re.S | re.M)
+    # Cards contain nested divs, so extract each from its opening tag up to the next card.
+    if not cards:
+        starts = list(re.finditer(r'<div class="pub-card"\b', source))
+        cards = [source[m.start():(starts[i+1].start() if i+1 < len(starts) else source.find('</div>\n', m.start()) if False else len(source))] for i,m in enumerate(starts)]
+    pubs = []
+    for card in cards:
+        title_match = re.search(r'<div class="pub-title"[^>]*>(.*?)</div>', card, re.S)
+        if not title_match:
+            continue
+        title = clean_text(html.unescape(re.sub(r'<[^>]+>', '', title_match.group(1))))
+        if not title:
+            continue
+        author_match = re.search(r'<div class="pub-authors"[^>]*title="([^"]*)"', card)
+        meta_match = re.search(r'<div class="pub-meta"[^>]*>(.*?)</div>', card, re.S)
+        url_match = re.search(r'class="pub-title-link"[^>]*href="([^"]+)"', card)
+        if not url_match:
+            url_match = re.search(r'href="([^"]+)"[^>]*class="pub-title-link"', card)
+        meta = html.unescape(re.sub(r'<[^>]+>', '', meta_match.group(1))) if meta_match else ''
+        year_match = re.search(r'\b(?:19|20)\d{2}\b', meta)
+        cite_match = re.search(r'(\d+)\s+citations?\b', meta, re.I)
+        venue = meta.split(' · ')[0] if ' · ' in meta else ''
+        if venue == (year_match.group() if year_match else ''):
+            venue = ''
+        pubs.append({"title": title, "authors": html.unescape(author_match.group(1)) if author_match else '',
+                     "venue": venue, "year": year_match.group() if year_match else '',
+                     "citations": cite_match.group(1) if cite_match else '',
+                     "url": safe_url(html.unescape(url_match.group(1))) if url_match else ''})
+    metric_values = re.findall(r'<div class="pub-metric-number">(.*?)</div>', source, re.S)
+    def metric(i):
+        if i >= len(metric_values):
+            return ''
+        value = html.unescape(re.sub(r'<[^>]+>', '', metric_values[i])).strip()
+        return value if value.isdigit() else ''
+    if not pubs:
+        return {}
+    checked = re.search(r'Google Scholar metrics retrieved:\s*([^<]+)', source)
+    print(f'[BOOTSTRAP] Recovered {len(pubs)} publications from existing page', flush=True)
+    return {"citedby": metric(0), "hindex": metric(1), "i10index": metric(2),
+            "publications": pubs, "scholar_checked_at": checked.group(1).strip() if checked else 'previous page (date unknown)'}
+
+
+def fallback_openalex_publications():
+    """Fallback bibliography only. OpenAlex citation counts are deliberately discarded."""
+    result = request_json('https://api.openalex.org/authors', {'search': 'Javad Pourmostafa', 'per_page': 10})
+    candidates = []
+    for author in result.get('results', []):
+        name = clean_text(author.get('display_name')).lower()
+        if 'javad' in name and 'pourmostafa' in name:
+            candidates.append(author)
+    if len(candidates) != 1:
+        print('[FALLBACK] OpenAlex author identity is ambiguous; not importing unverified papers', flush=True)
+        return []
+    author_id = candidates[0]['id'].rsplit('/', 1)[-1]
+    response = request_json('https://api.openalex.org/works', {'filter': f'author.id:{author_id}', 'per_page': 100})
+    papers = []
+    for work in response.get('results', []):
+        title = clean_text(work.get('display_name') or work.get('title'))
+        if not title:
+            continue
+        names = [clean_text(as_dict(a.get('author')).get('display_name') or a.get('raw_author_name'))
+                 for a in work.get('authorships', [])]
+        source = as_dict(as_dict(work.get('primary_location')).get('source'))
+        papers.append({'title': title, 'authors': ', '.join(n for n in names if n),
+                       'venue': clean_text(source.get('display_name')),
+                       'year': clean_text(work.get('publication_year')), 'citations': '',
+                       'url': safe_url(work.get('doi') or as_dict(work.get('primary_location')).get('landing_page_url'))})
+    return sorted(papers, key=get_year, reverse=True)
+
 def atomic_write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(prefix=".publication_", dir=str(path.parent))
@@ -307,10 +383,10 @@ def build_page(data, notes):
 .pub-metric-card {
   flex: 1;
   min-width: 140px;
-  padding: 1rem;
+  padding: 0.7rem 0.85rem;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  background: #f8fafc;
+  border-radius: 8px;
+  background: transparent;
   text-align: center;
 }
 .pub-metric-number {
@@ -343,21 +419,22 @@ def build_page(data, notes):
   background: white;
 }
 .pub-card {
-  padding: 1.15rem 1.25rem;
-  margin: 1.15rem 0;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  padding: 1rem 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 .pub-title {
-  font-size: 1.12rem;
-  font-weight: 700;
+  font-size: 1.06rem;
+  font-weight: 650;
   margin-bottom: 0.45rem;
 }
 .pub-title-link { color: inherit; text-decoration: none; }
 .pub-title-link:hover { color: #2563eb; text-decoration: underline; }
-.pub-card:hover { border-color: #bfdbfe; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); }
+.pub-card:hover { background: transparent; }
 .pub-authors {
   font-size: 0.92rem;
   color: #334155;
@@ -553,6 +630,8 @@ def main():
     notes = load_notes()
     cache = load_cache()
     previous = as_dict(cache.get("data"))
+    if not previous.get("publications"):
+        previous = bootstrap_from_page()
     fd, result_path = tempfile.mkstemp(prefix="scholar_", suffix=".json")
     os.close(fd)
     fresh = False
@@ -569,11 +648,21 @@ def main():
             print("[SCHOLAR] Fresh citation statistics received", flush=True)
         except (subprocess.TimeoutExpired, RuntimeError, OSError, ValueError, KeyError) as exc:
             print(f"[WARNING] Google Scholar unavailable: {str(exc)[:300]}", flush=True)
-            if not previous.get("publications"):
-                print("[ERROR] No saved Scholar data; existing page preserved", flush=True)
-                return 1
-            data = previous
-            print("[CACHE] Using last verified Google Scholar publication list and metrics", flush=True)
+            if previous.get("publications"):
+                data = previous
+                print("[CACHE] Using previous publication records; only previously verified Scholar metrics are retained", flush=True)
+            else:
+                print("[FALLBACK] No Scholar cache or recoverable page; trying OpenAlex bibliography", flush=True)
+                try:
+                    fallback_papers = fallback_openalex_publications()
+                except (HTTPError, URLError, ValueError, OSError, KeyError) as fallback_exc:
+                    print(f"[WARNING] OpenAlex fallback failed: {fallback_exc}", flush=True)
+                    fallback_papers = []
+                if not fallback_papers:
+                    print("[ERROR] No verified publication list; existing page preserved", flush=True)
+                    return 1
+                data = {"citedby": "", "hindex": "", "i10index": "", "publications": fallback_papers}
+                print("[FALLBACK] Bibliography from OpenAlex; Scholar citation metrics unavailable", flush=True)
         if fresh:
             # Guard against a transient partial list unexpectedly erasing most cached records.
             old_count = len(previous.get("publications", []))
@@ -586,7 +675,7 @@ def main():
         if fresh:
             checked = datetime.now(timezone.utc).isoformat(timespec="seconds")
         else:
-            checked = cache.get("scholar_checked_at", "unknown")
+            checked = cache.get("scholar_checked_at") or previous.get("scholar_checked_at", "unavailable")
         data["scholar_checked_at"] = checked
         page = build_page(data, notes)
         atomic_write(OUT, page)
