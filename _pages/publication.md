@@ -18,10 +18,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 .pub-metric-card {
   flex: 1;
   min-width: 140px;
-  padding: 1rem;
+  padding: 0.7rem 0.85rem;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  background: #f8fafc;
+  border-radius: 8px;
+  background: transparent;
   text-align: center;
 }
 .pub-metric-number {
@@ -54,21 +54,22 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
   background: white;
 }
 .pub-card {
-  padding: 1.15rem 1.25rem;
-  margin: 1.15rem 0;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  padding: 1rem 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 .pub-title {
-  font-size: 1.12rem;
-  font-weight: 700;
+  font-size: 1.06rem;
+  font-weight: 650;
   margin-bottom: 0.45rem;
 }
 .pub-title-link { color: inherit; text-decoration: none; }
 .pub-title-link:hover { color: #2563eb; text-decoration: underline; }
-.pub-card:hover { border-color: #bfdbfe; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); }
+.pub-card:hover { background: transparent; }
 .pub-authors {
   font-size: 0.92rem;
   color: #334155;
@@ -111,7 +112,7 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Page generated: November 07, 2026, 10:08 UTC · Google Scholar metrics retrieved: 2026-11-07T10:08:05+00:00</em></p>
+<p class='pub-updated'><em>Page generated: November 07, 2026, 10:24 UTC · Google Scholar metrics retrieved: 2026-11-07T10:08:05+00:00</em></p>
 
 <div class="pub-metrics">
 <div class="pub-metric-card"><div class="pub-metric-number">104</div><div class="pub-metric-label">Citations</div></div>
@@ -195,8 +196,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
-<div class="pub-title">A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation</div>
-<div class="pub-meta">2023 · 3 citations</div>
+<div class="pub-title"><a class="pub-title-link" href="http://arxiv.org/abs/2303.00722" target="_blank" rel="noopener noreferrer">A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation</a></div>
+<div class="pub-authors" title="Javad Pourmostafa Roshan Sharami, D. Shterionov, Pieter H.M. Spronck">Javad Pourmostafa Roshan Sharami, D. Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">arXiv (Cornell University) · 2023 · 3 citations</div>
+<div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2303.00722" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
 <div class="pub-card" data-year="2022" data-citations="5">
@@ -210,8 +213,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="18">
-<div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-meta">2021 · 18 citations</div>
+<div class="pub-title"><a class="pub-title-link" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</a></div>
+<div class="pub-authors" title="Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 18 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="4">
@@ -220,8 +225,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="2">
-<div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-meta">2021 · 2 citations</div>
+<div class="pub-title"><a class="pub-title-link" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</a></div>
+<div class="pub-authors" title="Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck">Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck</div>
+<div class="pub-meta">Computational Linguistics in the Netherlands Journal · 2021 · 2 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://www.clinjournal.org/index/article/view/137" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
 <div class="pub-card" data-year="2020" data-citations="42">

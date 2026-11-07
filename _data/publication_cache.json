@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "scholar_id": "xqccd64AAAAJ",
+  "scholar_checked_at": "2026-11-07T10:08:05+00:00",
+  "data": {
+    "citedby": "104",
+    "hindex": "5",
+    "i10index": "3",
+    "publications": [
+      {
+        "title": "Proceedings of the 26th Annual Conference of the European Association for Machine Translation (Volume 1)",
+        "authors": "Dimitar Shterionov, Eva Vanmassenhove, Mirella De Sisto, Fred Blain, Javad Pourmostafa Roshan Sharami, Lisa Lepp, Chiara Manna, Argentina Anna Rescigno, Alina Karakanta, Ayla Rigouts Terryn, Manuel Lardelli, Natalia Resende, Elena Murgolo, Janiça Hackenbuchner, Anna Zaretskaya, Miquel Esplà-Gomis, Thierry Etchegoyhen, Dagmar Gromann, Rachel Bawden, Barry Haddow, Sara Szoc, Mikel Forcada, Helena Moniz, Dimitar Shterionov, Eva Vanmassenhove, Mirella De Sisto, Fred Blain, Javad Pourmostafa Roshan Sharami, Lisa Lepp, Chiara Manna, Argentina Anna Rescigno, Alina Karakanta, Ayla Rigouts Terryn, Manuel Lardelli, Natalia Resende, Elena Murgolo, Janiça Hackenbuchner, Anna Zaretskaya, Miquel Esplà-Gomis, Thierry Etchegoyhen, Dagmar Gromann, Rachel Bawden, Barry Haddow, Sara Szoc, Mikel L. Forcada, Helena Moniz",
+        "venue": "CINECA IRIS Institutial research information system (University of Pisa)",
+        "year": "2026",
+        "citations": "",
+        "url": "https://aclanthology.org/2026.eamt-1.0/"
+      },
+      {
+        "title": "Toward domain-specific machine translation and quality estimation systems",
+        "authors": "Javad Pourmostafa Roshan Sharami",
+        "venue": "arXiv (Cornell University)",
+        "year": "2026",
+        "citations": "",
+        "url": "http://arxiv.org/abs/2603.24955"
+      },
+      {
+        "title": "Proceedings of the 26th Annual Conference of the European Association for Machine Translation: Volume 2: Products and Projects, Implementations and Case Studies",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": "",
+        "url": ""
+      },
+      {
+        "title": "Analysis of vocabulary and subword tokenization settings for optimal fine-tuning of MT: A case study of in-domain translation",
+        "authors": "Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck",
+        "venue": "International conference Recent advances in natural language processing",
+        "year": "2025",
+        "citations": "1",
+        "url": "https://doi.org/10.26615/978-954-452-098-4-111"
+      },
+      {
+        "title": "Improving Medical Waste Classification with Hybrid Capsule Networks",
+        "authors": "Bennet van den Broek, Javad Pourmostafa Roshan Sharami",
+        "venue": "Lecture Notes in Networks and Systems",
+        "year": "2025",
+        "citations": "1",
+        "url": "https://doi.org/10.1007/978-3-032-07109-5_8"
+      },
+      {
+        "title": "Integrating SAINT with Tree-Based Models",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": "1",
+        "url": ""
+      },
+      {
+        "title": "Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation",
+        "authors": "",
+        "venue": "",
+        "year": "2024",
+        "citations": "2",
+        "url": ""
+      },
+      {
+        "title": "Tailoring Domain Adaptation for Machine Translation Quality Estimation",
+        "authors": "Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Frédéric Blain, Eva Vanmassenhove, Mirella De Sisto, Chris Emmery, Pieter H.M. Spronck",
+        "venue": "arXiv (Cornell University)",
+        "year": "2023",
+        "citations": "11",
+        "url": "http://arxiv.org/abs/2304.08891"
+      },
+      {
+        "title": "Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews",
+        "authors": "Ali Boluki, Javad Pourmostafa Roshan Sharami, Dimitar Shterionov",
+        "venue": "Lecture Notes in Networks and Systems",
+        "year": "2023",
+        "citations": "9",
+        "url": "https://doi.org/10.1007/978-3-031-47718-8_2"
+      },
+      {
+        "title": "A Python Tool for Selecting Domain-Specific Data in Machine Translation",
+        "authors": "Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck",
+        "venue": "Research portal (Tilburg University)",
+        "year": "2023",
+        "citations": "3",
+        "url": "https://research.tilburguniversity.edu/files/75655856/A_Python_Tool_for_Selecting_Domain-Specific_Data_in_Machine_Translation.pdf"
+      },
+      {
+        "title": "A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation",
+        "authors": "Javad Pourmostafa Roshan Sharami, D. Shterionov, Pieter H.M. Spronck",
+        "venue": "arXiv (Cornell University)",
+        "year": "2023",
+        "citations": "3",
+        "url": "http://arxiv.org/abs/2303.00722"
+      },
+      {
+        "title": "A Quality Estimation and Quality Evaluation Tool for the Translation Industry",
+        "authors": "",
+        "venue": "",
+        "year": "2022",
+        "citations": "5",
+        "url": ""
+      },
+      {
+        "title": "Quality estimation for the translation industry–data challenges. June",
+        "authors": "",
+        "venue": "",
+        "year": "2022",
+        "citations": "2",
+        "url": ""
+      },
+      {
+        "title": "Selecting parallel in-domain sentences for neural machine translation using monolingual texts",
+        "authors": "Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck",
+        "venue": "Computational Linguistics in the Netherlands Journal",
+        "year": "2021",
+        "citations": "18",
+        "url": "https://www.clinjournal.org/index/article/view/137"
+      },
+      {
+        "title": "A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems",
+        "authors": "",
+        "venue": "",
+        "year": "2021",
+        "citations": "4",
+        "url": ""
+      },
+      {
+        "title": "Selecting parallel in-domain sentences for neural machine translation using monolingual texts",
+        "authors": "Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Pieter H.M. Spronck",
+        "venue": "Computational Linguistics in the Netherlands Journal",
+        "year": "2021",
+        "citations": "2",
+        "url": "https://www.clinjournal.org/index/article/view/137"
+      },
+      {
+        "title": "Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus",
+        "authors": "",
+        "venue": "",
+        "year": "2020",
+        "citations": "42",
+        "url": ""
+      }
+    ],
+    "scholar_checked_at": "2026-11-07T10:08:05+00:00"
+  }
+}
