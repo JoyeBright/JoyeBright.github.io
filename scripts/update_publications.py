@@ -15,6 +15,7 @@ import re
 import subprocess
 import sys
 import time
+import traceback
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -82,6 +83,7 @@ def author_field(value):
 
 
 def venue_field(bib):
+    bib = bib if isinstance(bib, dict) else {}
     for field in ("journal", "conference", "booktitle", "venue", "publisher"):
         v = clean(bib.get(field))
         if v:
@@ -90,7 +92,11 @@ def venue_field(bib):
 
 
 def parse_scholar(pub):
+    if not isinstance(pub, dict):
+        raise ValueError(f"Unexpected Scholar publication type: {type(pub).__name__}")
     bib = pub.get("bib") or {}
+    if not isinstance(bib, dict):
+        bib = {}
     return {
         "title": clean(bib.get("title")),
         "authors": author_field(bib.get("author")),
@@ -181,9 +187,37 @@ def apply_notes(pub, notes):
 
 def extract():
     print("Fetching Google Scholar profile...", flush=True)
-    author = scholarly.search_author_id(SCHOLAR_ID)
-    author = scholarly.fill(author, sections=["basics", "indices", "publications"], publication_limit=MAX_PUBLICATIONS)
+    # Scholar may return None or malformed HTML when rate-limited.
+    # Validate every response before accessing its fields.
+    author = None
+    for attempt in range(1, 3):
+        try:
+            candidate = scholarly.search_author_id(SCHOLAR_ID)
+            if not isinstance(candidate, dict):
+                raise RuntimeError(f"Author lookup returned {type(candidate).__name__}, not a profile")
+            author = candidate
+            break
+        except Exception as exc:
+            print(f"[WARNING] Scholar profile lookup attempt {attempt}/2: {type(exc).__name__}: {exc}", flush=True)
+            if attempt < 2:
+                time.sleep(2)
+    if author is None:
+        raise RuntimeError("Google Scholar profile unavailable after 2 attempts (possibly rate-limited)")
+
+    # Preserve a usable original profile if fill() fails or returns None.
+    try:
+        filled = scholarly.fill(author, sections=["basics", "indices", "publications"], publication_limit=MAX_PUBLICATIONS)
+        if not isinstance(filled, dict):
+            raise RuntimeError(f"Scholar profile fill returned {type(filled).__name__}")
+        author = filled
+    except Exception as exc:
+        print(f"[WARNING] Scholar profile fill failed: {type(exc).__name__}: {exc}", flush=True)
+        if not author.get("publications"):
+            raise RuntimeError("Scholar returned no usable publication list; refusing to overwrite page") from exc
+
     raw = author.get("publications") or []
+    if not isinstance(raw, list):
+        raise RuntimeError(f"Unexpected publications type: {type(raw).__name__}")
     if not raw:
         raise RuntimeError("Google Scholar returned no publications")
     print(f"Scholar returned {len(raw)} publications", flush=True)
@@ -328,6 +362,7 @@ def worker():
         return 0
     except Exception as exc:
         print(f"[ERROR] {type(exc).__name__}: {exc}. Existing page preserved.", flush=True)
+        traceback.print_exc()
         return 1
 
 
