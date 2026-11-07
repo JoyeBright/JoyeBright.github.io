@@ -4,11 +4,14 @@ from datetime import datetime, timezone
 from scholarly import scholarly
 import yaml
 import html
+import signal
+import sys
 
 SCHOLAR_ID = "xqccd64AAAAJ"
 
 OUT = Path("_pages/publication.md")
 NOTES_FILE = Path("_data/publication_notes.yml")
+MAX_SECONDS = 300
 
 
 def clean_text(value):
@@ -77,6 +80,8 @@ def clean_author_field(authors, venue="", year=""):
 def fetch_scholar_data():
     print("Fetching Google Scholar profile...")
     author = scholarly.search_author_id(SCHOLAR_ID)
+    if not isinstance(author, dict):
+        raise RuntimeError("Google Scholar returned no valid author profile")
 
     print("Fetching citation metrics and publication list...")
     author = scholarly.fill(
@@ -85,10 +90,20 @@ def fetch_scholar_data():
         publication_limit=150,
     )
 
+    if not isinstance(author, dict):
+        raise RuntimeError("Google Scholar returned invalid profile details")
+    if not isinstance(author.get("publications"), list) or not author["publications"]:
+        raise RuntimeError("Google Scholar returned no publications; refusing to overwrite the page")
+
     publications = []
+    detail_lookup_broken = False
 
     for pub in author.get("publications", []):
-        bib = pub.get("bib", {})
+        if not isinstance(pub, dict):
+            continue
+        bib = pub.get("bib") or {}
+        if not isinstance(bib, dict):
+            bib = {}
 
         title = clean_text(bib.get("title"))
         if not title:
@@ -113,11 +128,13 @@ def fetch_scholar_data():
 
         # Try richer publication metadata only when authors are missing.
         # This is slower, but improves author extraction.
-        if not authors:
+        if not authors and not detail_lookup_broken:
             try:
                 print(f"Trying to fetch authors for: {title}")
                 filled_pub = scholarly.fill(pub)
-                filled_bib = filled_pub.get("bib", {})
+                filled_bib = filled_pub.get("bib") if isinstance(filled_pub, dict) else None
+                if not isinstance(filled_bib, dict):
+                    filled_bib = {}
 
                 filled_venue = clean_text(
                     filled_bib.get("journal")
@@ -141,6 +158,9 @@ def fetch_scholar_data():
 
             except Exception as e:
                 print(f"Could not fetch detailed authors for {title}: {e}")
+                if isinstance(e, (AttributeError, TypeError)):
+                    detail_lookup_broken = True
+                    print("Scholar detail parser appears broken; skipping further detail requests.")
 
         publications.append({
             "title": title,
@@ -149,6 +169,9 @@ def fetch_scholar_data():
             "year": year,
             "citations": clean_text(pub.get("num_citations")),
         })
+
+    if not publications:
+        raise RuntimeError("No valid publication titles found; refusing to overwrite the page")
 
     publications.sort(key=get_year, reverse=True)
 
@@ -402,28 +425,51 @@ document.addEventListener("DOMContentLoaded", function () {
     return "\n".join(lines)
 
 
+class ExtractionTimeout(Exception):
+    pass
+
+
+def timeout_handler(signum, frame):
+    raise ExtractionTimeout(f"Google Scholar extraction exceeded {MAX_SECONDS} seconds")
+
+
 def main():
     notes = load_notes()
-
+    previous_handler = signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(MAX_SECONDS)
     try:
         data = fetch_scholar_data()
+    except ExtractionTimeout as e:
+        print(f"[TIMEOUT] {e}. Existing page preserved.", flush=True)
+        return 124
     except Exception as e:
-        print("Could not fetch from Google Scholar.")
-        print(e)
-        print("Existing publication page will stay unchanged.")
-        return
+        print(f"[ERROR] {type(e).__name__}: {e}. Existing page preserved.", flush=True)
+        return 1
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous_handler)
 
     page = build_page(data, notes)
-
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(page, encoding="utf-8")
+    temporary = OUT.with_suffix(OUT.suffix + ".tmp")
+    temporary.write_text(page, encoding="utf-8")
+    temporary.replace(OUT)
 
+    incomplete = [p["title"] for p in data["publications"] if not p["authors"] or not p["venue"] or not p["year"]]
     print(f"Updated {OUT}")
-    print(f"Number of publications: {len(data.get('publications', []))}")
+    print(f"Number of publications: {len(data['publications'])}")
     print(f"Citations: {data.get('citedby', '')}")
     print(f"h-index: {data.get('hindex', '')}")
     print(f"i10-index: {data.get('i10index', '')}")
+    if incomplete:
+        print(f"[INCOMPLETE] {len(incomplete)} publication(s) missing authors, venue or year in Scholar data:")
+        for title in incomplete:
+            print(f"  - {title}")
+        print("Existing YAML notes may fill these fields when rendering the page.")
+    else:
+        print("[SUCCESS] All publications have authors, venue and year.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
