@@ -108,10 +108,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Last updated: October 16, 2026, 10:22 UTC</em></p>
+<p class='pub-updated'><em>Last updated: November 07, 2026, 08:52 UTC</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">103</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">104</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">3</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">17</div><div class="pub-metric-label">Publications</div></div>
@@ -129,104 +129,87 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div id="pub-list">
 <div class="pub-card" data-year="2026" data-citations="0">
 <div class="pub-title">Proceedings of the 26th Annual Conference of the European Association for Machine Translation (Volume 1)</div>
-<div class="pub-authors">Dimitar Shterionov and Eva Vanmassenhove and Mirella De Sisto and Frédéric Blain and Javad Pourmostafa Roshan Sharami and Lisa Lepp and Chiara Manna and Argentina Anna Rescigno and Alina Karakanta and Ayla Rigouts Terryn and Manuel Lardelli and Natália Resende and Elena Murgolo and Janiça Hackenbuchner and Anna Zaretskaya and Miquel Esplà-Gomis and Thierry Etchegoyhen and Dagmar Gromann and Rachel Bawden and Barry Haddow and Sara Szoc and Mikel L Forcada and Helena Moniz</div>
-<div class="pub-meta">Proceedings of the 26th Annual Conference of the European Association for Machine Translation (Volume 1) · 2026</div>
+<div class="pub-meta">Proceedings of the 26th Annual Conference of the European Association for …, 2026 · 2026</div>
 </div>
 
 <div class="pub-card" data-year="2026" data-citations="0">
 <div class="pub-title">Toward domain-specific machine translation and quality estimation systems</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">arXiv preprint arXiv:2603.24955 · 2026</div>
+<div class="pub-meta">arXiv preprint arXiv:2603.24955, 2026 · 2026</div>
+</div>
+
+<div class="pub-card" data-year="2026" data-citations="0">
+<div class="pub-title">Proceedings of the 26th Annual Conference of the European Association for Machine Translation: Volume 2: Products and Projects, Implementations and Case Studies</div>
+<div class="pub-meta">26th Annual Conference of the European Association for Machine Translation, 2026 · 2026</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Analysis of vocabulary and subword tokenization settings for optimal fine-tuning of MT: A case study of in-domain translation</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing-Natural Language Processing in the Generative AI Era · 2025 · 1 citations</div>
+<div class="pub-meta">Proceedings of the 15th International Conference on Recent Advances in …, 2025 · 2025 · 1 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Improving Medical Waste Classification with Hybrid Capsule Networks</div>
-<div class="pub-authors">Bennet van den Broek and Javad Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">Springer Nature Switzerland · 2025 · 1 citations</div>
+<div class="pub-meta">Intelligent Systems Conference, 95-114, 2025 · 2025 · 1 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title">Integrating SAINT with Tree-Based Models</div>
-<div class="pub-authors">Adil Derrazi and Javad Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">Springer Nature Switzerland · 2025 · 1 citations</div>
+<div class="pub-meta">Intelligent Systems Conference, 397-417, 2025 · 2025 · 1 citations</div>
 </div>
 
-<div class="pub-card" data-year="2024" data-citations="1">
+<div class="pub-card" data-year="2024" data-citations="2">
 <div class="pub-title">Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine Translation in the Americas (Volume 1: Research Track) · 2024 · 1 citations</div>
+<div class="pub-meta">Proceedings of the 16th Conference of the Association for Machine …, 2024 · 2024 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="11">
 <div class="pub-title">Tailoring Domain Adaptation for Machine Translation Quality Estimation</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Frédéric Blain and Eva Vanmassenhove and Mirella De Sisto and Chris Emmery and Pieter Spronck</div>
-<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for Machine Translation · 2023 · 11 citations</div>
+<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for …, 2023 · 2023 · 11 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="9">
 <div class="pub-title">Evaluating the effectiveness of pre-trained language models in predicting the helpfulness of online product reviews</div>
-<div class="pub-authors">Ali Boluki and Javad Pourmostafa Roshan Sharami and Dimitar Shterionov</div>
-<div class="pub-meta">Springer Nature Switzerland · 2023 · 9 citations</div>
+<div class="pub-meta">Intelligent Systems Conference, 15-35, 2023 · 2023 · 9 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
 <div class="pub-title">A Python Tool for Selecting Domain-Specific Data in Machine Translation</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">Universitat d’Alacant · 2023 · 3 citations</div>
+<div class="pub-meta">Proceedings of the 1st Workshop on Open Community-Driven Machine Translation …, 2023 · 2023 · 3 citations</div>
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="3">
 <div class="pub-title">A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation</div>
-<div class="pub-authors">J Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">arXiv preprint arXiv:2303.00722 · 2023 · 3 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2303.00722, 2023 · 2023 · 3 citations</div>
 </div>
 
 <div class="pub-card" data-year="2022" data-citations="5">
 <div class="pub-title">A Quality Estimation and Quality Evaluation Tool for the Translation Industry</div>
-<div class="pub-authors">Elena Murgolo and Javad Pourmostafa Roshan Sharami and Dimitar Shterionov</div>
-<div class="pub-meta">Proceedings of the 23rd Annual Conference of the European Association for Machine Translation · 2022 · 5 citations</div>
+<div class="pub-meta">Proceedings of the 23rd Annual Conference of the European Association for …, 2022 · 2022 · 5 citations</div>
 </div>
 
 <div class="pub-card" data-year="2022" data-citations="2">
 <div class="pub-title">Quality estimation for the translation industry–data challenges. June</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Elena Murgolo and Dimitar Shterionov</div>
-<div class="pub-meta">The 32nd Meeting of Computational Linguistics in The Netherlands, CLIN · 2022 · 2 citations</div>
-</div>
-
-<div class="pub-card" data-year="2022" data-citations="0">
-<div class="pub-title">Quality Estimation for the Translation Industry–Data Challenges</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Elena Murgolo and Dimitar Shterionov</div>
-<div class="pub-meta">The 32nd Meeting of Computational Linguistics in The Netherlands · 2022</div>
+<div class="pub-meta">The 32nd Meeting of Computational Linguistics in The Netherlands, CLIN, 2022 · 2022 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="18">
 <div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">arXiv preprint arXiv:2112.06096 · 2021 · 18 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2112.06096, 2021 · 2021 · 18 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="4">
 <div class="pub-title">A Novel Pipeline for Domain Detection and Selecting In-domain Sentences in Machine Translation Systems</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31) · 2021 · 4 citations</div>
+<div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31), 2021 · 2021 · 4 citations</div>
 </div>
 
 <div class="pub-card" data-year="2021" data-citations="2">
 <div class="pub-title">Selecting parallel in-domain sentences for neural machine translation using monolingual texts</div>
-<div class="pub-authors">Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Pieter Spronck</div>
-<div class="pub-meta">arXiv preprint arXiv:2112.06096 · 2021 · 2 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2112.06096, 2021 · 2021 · 2 citations</div>
 </div>
 
 <div class="pub-card" data-year="2020" data-citations="42">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
-<div class="pub-authors">Javad PourMostafa Roshan Sharami and Parsa Abbasi Sarabestani and Seyed Abolghasem Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328 · 2020 · 42 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 42 citations</div>
 </div>
 
 </div>
