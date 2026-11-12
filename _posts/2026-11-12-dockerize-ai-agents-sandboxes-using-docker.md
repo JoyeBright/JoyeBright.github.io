@@ -25,11 +25,9 @@ It’s good to note that harnesses offer sandboxes themselves, but this is my le
 
 Anyway, I use [Docker Sandboxes](https://docs.docker.com/ai/sandboxes/) to encapsulate my AI agents, i.e., to containerize my agents.
 
-We use local sandboxes for this setup. To get it to work, we need to first install the `sbx` CLI. You can find the installation steps here:
+We use local sandboxes for this setup. To get it to work, we need to first install the `sbx` CLI. You can find the installation steps here: [https://docs.docker.com/ai/sandboxes/install/](https://docs.docker.com/ai/sandboxes/install/)
 
-https://docs.docker.com/ai/sandboxes/install/
-
-Docker Sandboxes currently supports well-known agents such as Claude Code, Codex, Copilot, etc. See the full list here: https://docs.docker.com/ai/sandboxes/agents/
+Docker Sandboxes currently supports well-known agents such as Claude Code, Codex, Copilot, etc. See the full list here: [https://docs.docker.com/ai/sandboxes/agents/](https://docs.docker.com/ai/sandboxes/agents/)
 
 > 💡 I recommend creating a specific workspace somewhere on your system for your future projects. e.g., `~/AgentWorkspace`.
 
