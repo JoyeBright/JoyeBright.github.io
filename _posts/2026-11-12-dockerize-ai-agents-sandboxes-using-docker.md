@@ -12,8 +12,9 @@ tags:
   - Claude_Code
 ---
 
-![Encapsulate AI agents with Docker Sandboxes](/assets/images/docker-sandboxes-cover.jpeg)
-
+<img src="assets/images/claude-sandbox-terminal.png"
+     alt="Claude Code in Docker Sandbox"
+     height="250">
 Hi,
 
 In this post, I would like to quickly show you how to encapsulate your AI agents using sandboxes in Docker.
