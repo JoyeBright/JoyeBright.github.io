@@ -1,9 +1,9 @@
 {
   "version": 1,
   "scholar_id": "xqccd64AAAAJ",
-  "scholar_checked_at": "2026-11-10T14:58:25+00:00",
+  "scholar_checked_at": "2026-11-12T15:21:56+00:00",
   "data": {
-    "citedby": "103",
+    "citedby": "105",
     "hindex": "5",
     "i10index": "3",
     "publications": [
@@ -44,22 +44,22 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:tzM49s52ZIMC"
       },
       {
-        "title": "Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction",
-        "authors": "A Derrazi, J Pourmostafa Roshan Sharami",
-        "venue": "Intelligent Systems Conference, 397-417, 2025",
-        "year": "2025",
-        "citations": "1",
-        "url": "https://doi.org/10.1007/978-3-031-99958-1_27",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:edDO8Oi4QzsC"
-      },
-      {
         "title": "Improving Medical Waste Classification with Hybrid Capsule Networks",
         "authors": "B Broek, JPR Sharami",
         "venue": "Intelligent Systems Conference, 95-114, 2025",
         "year": "2025",
         "citations": "1",
         "url": "https://doi.org/10.1007/978-3-032-07109-5_8",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:vDijr-p_gm4C"
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:ClCfbGk0d_YC"
+      },
+      {
+        "title": "Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction",
+        "authors": "A Derrazi, J Pourmostafa Roshan Sharami",
+        "venue": "Intelligent Systems Conference, 397-417, 2025",
+        "year": "2025",
+        "citations": "2",
+        "url": "https://doi.org/10.1007/978-3-031-99958-1_27",
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:FPJr55Dyh1AC"
       },
       {
         "title": "Guiding In-Context Learning of LLMs through Quality Estimation for Machine Translation",
@@ -89,13 +89,13 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:4OULZ7Gr8RgC"
       },
       {
-        "title": "Tailoring Domain Adaptation for Machine Translation Quality Estimation",
+        "title": "Tailoring domain adaptation for machine translation quality estimation",
         "authors": "JPR Sharami, D Shterionov, F Blain, E Vanmassenhove, M De Sisto, ...",
-        "venue": "Proceedings of the 24th Annual Conference of the European Association for …, 2023",
+        "venue": "Proceedings of the 24th annual conference of the European association for …, 2023",
         "year": "2023",
         "citations": "10",
         "url": "http://arxiv.org/abs/2304.08891",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:rO6llkc54NcC"
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:rmuvC79q63oC"
       },
       {
         "title": "A systematic analysis of vocabulary and BPE settings for optimal fine-tuning of NMT: a case study of in-domain translation",
@@ -149,9 +149,9 @@
         "year": "2020",
         "citations": "42",
         "url": "",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:SpbeaW3--B0C"
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:86PQX7AUzd4C"
       }
     ],
-    "scholar_checked_at": "2026-11-10T14:58:25+00:00"
+    "scholar_checked_at": "2026-11-12T15:21:56+00:00"
   }
 }

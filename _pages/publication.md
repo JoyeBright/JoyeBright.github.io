@@ -112,10 +112,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Page generated: November 11, 2026, 14:29 UTC · Google Scholar metrics retrieved: 2026-11-10T14:58:25+00:00</em></p>
+<p class='pub-updated'><em>Page generated: November 12, 2026, 15:21 UTC · Google Scholar metrics retrieved: 2026-11-12T15:21:56+00:00</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">103</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">105</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">3</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">16</div><div class="pub-metric-label">Publications</div></div>
@@ -159,17 +159,17 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
-<div class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1007/978-3-031-99958-1_27" target="_blank" rel="noopener noreferrer">Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction</a></div>
-<div class="pub-authors" title="A Derrazi, J Pourmostafa Roshan Sharami">A Derrazi, J Pourmostafa Roshan Sharami</div>
-<div class="pub-meta">Intelligent Systems Conference, 397-417, 2025 · 2025 · 1 citations</div>
-<div class="pub-links"><a class="pub-btn" href="https://doi.org/10.1007/978-3-031-99958-1_27" target="_blank" rel="noopener noreferrer">Paper</a></div>
-</div>
-
-<div class="pub-card" data-year="2025" data-citations="1">
 <div class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1007/978-3-032-07109-5_8" target="_blank" rel="noopener noreferrer">Improving Medical Waste Classification with Hybrid Capsule Networks</a></div>
 <div class="pub-authors" title="B Broek, JPR Sharami">B Broek, JPR Sharami</div>
 <div class="pub-meta">Intelligent Systems Conference, 95-114, 2025 · 2025 · 1 citations</div>
 <div class="pub-links"><a class="pub-btn" href="https://doi.org/10.1007/978-3-032-07109-5_8" target="_blank" rel="noopener noreferrer">Paper</a></div>
+</div>
+
+<div class="pub-card" data-year="2025" data-citations="2">
+<div class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1007/978-3-031-99958-1_27" target="_blank" rel="noopener noreferrer">Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction</a></div>
+<div class="pub-authors" title="A Derrazi, J Pourmostafa Roshan Sharami">A Derrazi, J Pourmostafa Roshan Sharami</div>
+<div class="pub-meta">Intelligent Systems Conference, 397-417, 2025 · 2025 · 2 citations</div>
+<div class="pub-links"><a class="pub-btn" href="https://doi.org/10.1007/978-3-031-99958-1_27" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
 <div class="pub-card" data-year="2024" data-citations="2">
@@ -193,9 +193,9 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 </div>
 
 <div class="pub-card" data-year="2023" data-citations="10">
-<div class="pub-title"><a class="pub-title-link" href="http://arxiv.org/abs/2304.08891" target="_blank" rel="noopener noreferrer">Tailoring Domain Adaptation for Machine Translation Quality Estimation</a></div>
+<div class="pub-title"><a class="pub-title-link" href="http://arxiv.org/abs/2304.08891" target="_blank" rel="noopener noreferrer">Tailoring domain adaptation for machine translation quality estimation</a></div>
 <div class="pub-authors" title="JPR Sharami, D Shterionov, F Blain, E Vanmassenhove, M De Sisto, ...">JPR Sharami, D Shterionov, F Blain, E Vanmassenhove, M De Sisto, ...</div>
-<div class="pub-meta">Proceedings of the 24th Annual Conference of the European Association for …, 2023 · 2023 · 10 citations</div>
+<div class="pub-meta">Proceedings of the 24th annual conference of the European association for …, 2023 · 2023 · 10 citations</div>
 <div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2304.08891" target="_blank" rel="noopener noreferrer">Paper</a></div>
 </div>
 
