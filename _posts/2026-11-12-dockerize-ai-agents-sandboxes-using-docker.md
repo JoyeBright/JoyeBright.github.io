@@ -2,7 +2,7 @@
 classes: wide
 title: "Encapsulate AI agents with Docker Sandboxes"
 notion_url: "https://j-pourmostafa.notion.site/Encapsulate-AI-agents-with-Docker-Sandboxes-416cc5b4c1be8036b853c0bab4225c0c"
-excerpt: A quick guide to encapsulating AI agents with local Docker Sandboxes and managing them using the sbx CLI.
+excerpt: A quick guide on encapsulating AI agents with local Docker Sandboxes and managing them using the sbx CLI.
 categories:
   - Misc
 tags:
