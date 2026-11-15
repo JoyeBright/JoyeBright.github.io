@@ -1,9 +1,9 @@
 {
   "version": 1,
   "scholar_id": "xqccd64AAAAJ",
-  "scholar_checked_at": "2026-11-12T15:21:56+00:00",
+  "scholar_checked_at": "2026-11-15T14:00:42+00:00",
   "data": {
-    "citedby": "105",
+    "citedby": "106",
     "hindex": "5",
     "i10index": "3",
     "publications": [
@@ -24,15 +24,6 @@
         "citations": "0",
         "url": "http://arxiv.org/abs/2603.24955",
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:0KyAp5RtaNEC"
-      },
-      {
-        "title": "Proceedings of the 26th Annual Conference of the European Association for Machine Translation: Volume 2: Products and Projects, Implementations and Case Studies",
-        "authors": "D Shterionov, E Vanmassenhove, M De Sisto, F Blain, JPR Sharami, ...",
-        "venue": "26th Annual Conference of the European Association for Machine Translation, 2026",
-        "year": "2026",
-        "citations": "0",
-        "url": "",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:Ug5p-4gJ2f0C"
       },
       {
         "title": "Analysis of vocabulary and subword tokenization settings for optimal fine-tuning of MT: A case study of in-domain translation",
@@ -147,11 +138,11 @@
         "authors": "JPMR Sharami, PA Sarabestani, SA Mirroshandel",
         "venue": "arXiv preprint arXiv:2004.05328, 2020",
         "year": "2020",
-        "citations": "42",
+        "citations": "43",
         "url": "",
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:86PQX7AUzd4C"
       }
     ],
-    "scholar_checked_at": "2026-11-12T15:21:56+00:00"
+    "scholar_checked_at": "2026-11-15T14:00:42+00:00"
   }
 }

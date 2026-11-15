@@ -112,13 +112,13 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Page generated: November 14, 2026, 13:37 UTC · Google Scholar metrics retrieved: 2026-11-12T15:21:56+00:00</em></p>
+<p class='pub-updated'><em>Page generated: November 15, 2026, 14:00 UTC · Google Scholar metrics retrieved: 2026-11-15T14:00:42+00:00</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">105</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">106</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">3</div><div class="pub-metric-label">i10-index</div></div>
-<div class="pub-metric-card"><div class="pub-metric-number">16</div><div class="pub-metric-label">Publications</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
 </div>
 
 <div class="pub-toolbar">
@@ -143,12 +143,6 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-authors" title="JPR Sharami">JPR Sharami</div>
 <div class="pub-meta">arXiv preprint arXiv:2603.24955, 2026 · 2026 · 0 citations</div>
 <div class="pub-links"><a class="pub-btn" href="http://arxiv.org/abs/2603.24955" target="_blank" rel="noopener noreferrer">Paper</a></div>
-</div>
-
-<div class="pub-card" data-year="2026" data-citations="0">
-<div class="pub-title">Proceedings of the 26th Annual Conference of the European Association for Machine Translation: Volume 2: Products and Projects, Implementations and Case Studies</div>
-<div class="pub-authors" title="D Shterionov, E Vanmassenhove, M De Sisto, F Blain, JPR Sharami, ...">D Shterionov, E Vanmassenhove, M De Sisto, F Blain, JPR Sharami, ...</div>
-<div class="pub-meta">26th Annual Conference of the European Association for Machine Translation, 2026 · 2026 · 0 citations</div>
 </div>
 
 <div class="pub-card" data-year="2025" data-citations="1">
@@ -231,10 +225,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31), 2021 · 2021 · 4 citations</div>
 </div>
 
-<div class="pub-card" data-year="2020" data-citations="42">
+<div class="pub-card" data-year="2020" data-citations="43">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
 <div class="pub-authors" title="JPMR Sharami, PA Sarabestani, SA Mirroshandel">JPMR Sharami, PA Sarabestani, SA Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 42 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 43 citations</div>
 </div>
 
 </div>
