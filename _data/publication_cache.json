@@ -1,7 +1,7 @@
 {
   "version": 1,
   "scholar_id": "xqccd64AAAAJ",
-  "scholar_checked_at": "2026-11-15T14:00:42+00:00",
+  "scholar_checked_at": "2026-11-20T15:32:30+00:00",
   "data": {
     "citedby": "106",
     "hindex": "5",
@@ -41,7 +41,7 @@
         "year": "2025",
         "citations": "1",
         "url": "https://doi.org/10.1007/978-3-032-07109-5_8",
-        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:ClCfbGk0d_YC"
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:YohjEiUPhakC"
       },
       {
         "title": "Integrating SAINT with Tree-Based Models: A Case Study in Employee Attrition Prediction",
@@ -143,6 +143,6 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xqccd64AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xqccd64AAAAJ:86PQX7AUzd4C"
       }
     ],
-    "scholar_checked_at": "2026-11-15T14:00:42+00:00"
+    "scholar_checked_at": "2026-11-20T15:32:30+00:00"
   }
 }
