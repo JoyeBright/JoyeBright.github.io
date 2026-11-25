@@ -112,10 +112,10 @@ excerpt: This page shows a list of Javad Pourmostafa's papers and talks.
 
 I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Roshan Sharami* is a suffix added to my last name.
 
-<p class='pub-updated'><em>Page generated: November 24, 2026, 17:53 UTC · Google Scholar metrics retrieved: 2026-11-22T14:40:03+00:00</em></p>
+<p class='pub-updated'><em>Page generated: November 25, 2026, 17:19 UTC · Google Scholar metrics retrieved: 2026-11-25T17:19:38+00:00</em></p>
 
 <div class="pub-metrics">
-<div class="pub-metric-card"><div class="pub-metric-number">106</div><div class="pub-metric-label">Citations</div></div>
+<div class="pub-metric-card"><div class="pub-metric-number">107</div><div class="pub-metric-label">Citations</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">5</div><div class="pub-metric-label">h-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">3</div><div class="pub-metric-label">i10-index</div></div>
 <div class="pub-metric-card"><div class="pub-metric-number">15</div><div class="pub-metric-label">Publications</div></div>
@@ -225,10 +225,10 @@ I have published under the name **Javad Pourmostafa Roshan Sharami**, where *Ros
 <div class="pub-meta">The 31st Meeting of Computational Linguistics in The Netherlands (CLIN 31), 2021 · 2021 · 4 citations</div>
 </div>
 
-<div class="pub-card" data-year="2020" data-citations="43">
+<div class="pub-card" data-year="2020" data-citations="44">
 <div class="pub-title">Deepsentipers: Novel deep learning models trained over proposed augmented persian sentiment corpus</div>
 <div class="pub-authors" title="JPMR Sharami, PA Sarabestani, SA Mirroshandel">JPMR Sharami, PA Sarabestani, SA Mirroshandel</div>
-<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 43 citations</div>
+<div class="pub-meta">arXiv preprint arXiv:2004.05328, 2020 · 2020 · 44 citations</div>
 </div>
 
 </div>
